@@ -1,0 +1,170 @@
+% \documentclass{beamer}
+\documentclass[11pt, aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{bookmark}
+\hypersetup{bookmarksdepth=4,bookmarksnumbered=true,bookmarksopen=true}
+% either
+\usetheme{metropolis}
+% or {
+% \usetheme[compress]{Berlin}
+% \setbeamerfont{section in head/foot}{size=\tiny}
+
+% hyperlinks and math shortcuts
+\usepackage{/home/alal/Templates/boilerplate/lal_default_beamer}
+
+% uncomment to disable all notes
+% \presetkeys{todonotes}{disable}{}
+% docs http://tug.ctan.org/macros/latex/contrib/todonotes/todonotes.pdf
+% add todos using these steps
+% \todo{margin comment}
+% \todo[inline]{inline comment}
+% \missingfigure{description of what should be in figure}
+
+% set universal bibliography (change to point to your master bibfile)
+\bibliographystyle{plainnat}
+% bibliography
+\usepackage[
+  hyperref=true,
+  url=false,
+  isbn=false,
+  backref=true,
+  maxcitenames=3,
+  backend=biber,
+  style=authoryear,
+  citestyle=authoryear,
+  natbib=true]{biblatex}
+\addbibresource{/home/alal/Dropbox/MyLibrary2.bib}
+
+% fonts
+\usepackage[T1]{fontenc}
+
+% \usepackage[no-math]{fontspec}
+% \setsansfont{Fira Sans Condensed}
+% \setmainfont{Fira Sans Condensed}
+
+\usepackage[no-math]{fontspec}
+\setsansfont{IBM Plex Sans Condensed}
+\setmainfont{IBM Plex Sans Condensed}
+
+
+\beamertemplatenavigationsymbolsempty
+
+%Information to be included in the title page:
+\title{Title}
+\subtitle{subtitle}
+\author{Apoorva Lal}
+\institute{Stanford}
+\date{Date}
+
+\begin{document}
+%------------------------------------------------
+\frame{\titlepage}
+
+\begin{frame}{Overview}
+\tableofcontents
+% \tableofcontents[currentsection,subsubsectionstyle=hide] % optional for signposting
+\end{frame}
+%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%------------------------------------------------
+\subsection{Introduction}
+\begin{frame}\frametitle{Introduction}
+Stuff
+\cite{angristMostlyHarmlessEconometrics2008}
+\end{frame}
+%------------------------------------------------
+\subsection{Summary of Results}
+\begin{frame}[t]\frametitle{Summary of Results}
+Upshot
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Theory}
+\tableofcontents[currentsection,subsubsectionstyle=hide]
+%------------------------------------------------
+\subsection{Model}
+\begin{frame}[t]\frametitle{Model}
+\begin{align*}
+\maximise_{c_t,k_{t+1}} &  \sum_{t=1}^{\infty} \beta^t u(c_t)  \\
+  s.t. & \enspace c_{t} + k_{t+1} \leq f(k_t) + (1-\delta)k_t
+\end{align*}
+Everyone does infinite horizon optimisation, right?
+\end{frame}
+%------------------------------------------------
+% another slide here
+%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Empirics}
+
+%------------------------------------------------
+\subsection{Data}
+\begin{frame}[label=data_slide]\frametitle{Main Data}
+
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{wideitemize}
+   \item some text here some text here some text here some text here
+   some text here
+   \item \hyperlink{appendix_end}{\beamergotobutton{Details in appendix}}
+\end{wideitemize}
+\end{column}
+\begin{column}{0.4\textwidth}
+    \begin{center}
+    Picture goes here
+     % \includegraphics[width=1\textwidth]{picture.png}
+     \end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+\subsection{Estimation}
+\begin{frame}\frametitle{Estimation Framework}
+\begin{align*}
+\text{outcome}_{ict} = \alpha_i & + \sum_{k=0}^2 \beta_{t-k}^p
+PPI_{ict-k} + \gamma_{ct} + \epsilon_{ict} \\
+\text{outcome}_{ict} = \alpha_i & + \sum_{k=0}^2 \beta_{t-k}^p PPI_{ict-k} +
+\sum_{k=0}^2 + \beta_{t-k}^m CPI_{ict-k} + \\ & \gamma_{c}\times
+trend_t + \epsilon_{ict}
+\end{align*}
+\end{frame}
+%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion}
+\subsection{Conclusion}
+
+\begin{frame}[t]\frametitle{Summary}
+%
+\begin{itemize}
+\item Upshot
+\item Closing remark
+\end{itemize}
+
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}[t]\frametitle{Bibliography}
+\printbibliography
+\end{frame}
+\begin{frame}[t]\frametitle{End}
+\begin{center}
+\Huge
+Thank you!
+\end{center}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+\begin{frame}[label=appendix_end]{Appendix land}
+  \begin{wideitemize}
+    \item[] Now you can make it clear you've done a shitload of work
+      \begin{itemize}
+      \item[]  without having to show everything! \hyperlink{data_slide}{\beamergotobutton{Back}}
+      \end{itemize}
+    \item[] You label a frame with the \texttt{[label=name]} option, and then point a link to it
+    \item[] You can make an object a link using the \texttt{\textbackslash hyperlink\{label\}\{object\}} command
+  \end{wideitemize}
+\end{frame}
+\end{document}
+%

@@ -1,0 +1,59 @@
+\documentclass[12pt,reqno]{amsart} % add titlepage param for separate title page
+\input{/home/alal/Templates/boilerplate/math_shortcuts}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{mathpazo,fontspec,hyperref,xcolor}
+\usepackage{subfigure}
+\setmainfont{TeX Gyre Pagella}
+\setmonofont{Input Mono Condensed}
+\definecolor{maroon}{rgb}{0.5, 0.0, 0.0}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+             pdfkeywords = {},
+            colorlinks=true,
+            citecolor=maroon,
+            urlcolor=blue,
+            linkcolor=blue,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+% bibliography
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  citestyle=authoryear,
+]{biblatex}
+\addbibresource{/home/alal/Dropbox/MyLibrary2.bib}
+\renewbibmacro{in:}{}
+\setcounter{secnumdepth}{5}
+
+% uncomment to disable all notes
+% \presetkeys{todonotes}{disable}{}
+% docs http://tug.ctan.org/macros/latex/contrib/todonotes/todonotes.pdf
+% add todos using these steps
+% \todo{margin comment}
+% \todo[inline]{inline comment}
+% \missingfigure{description of what should be in figure}
+
+\begin{document}
+\begin{center}
+\large
+\textsc{\textbf{
+    title 
+  }}
+  \vspace{1em} \\
+\normalsize
+Apoorva Lal, \href{apoorval@stanford.edu}{apoorval@stanford.edu}
+\end{center}
+
+\subsection*{Motivation and contribution}
+
+\subsection*{Methods}
+
+% subsection preliminary_results (end)
+
+\clearpage
+
+\printbibliography
+
+\end{document}

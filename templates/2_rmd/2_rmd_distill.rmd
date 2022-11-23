@@ -1,0 +1,168 @@
+---
+title: "article title"
+description: |
+  abstract for writeup here
+author:
+  - name: Apoorva Lal
+    affiliation: Stanford
+    url: http://apoorvalal.github.io/
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    code_download: true
+    self_contained: true
+backend: biber
+bibliography: /home/alal/Dropbox/MyLibrary2.bib
+---
+
+
+<!--- For HTML renders - selection from math_shortcuts.tex --->
+`r if (!knitr:::is_latex_output()) '
+$\\DeclareMathOperator*{\\argmin}{argmin}$
+$\\newcommand{\\var}{\\mathrm{Var}}$
+$\\newcommand{\\epsi}{\\varepsilon}$
+$\\newcommand{\\phii}{\\varphi}$
+$\\newcommand{\\tra}{^{\\top}}$
+$\\newcommand{\\sumin}{\\sum_{i=1}^n}$
+$\\newcommand{\\sumiN}{\\sum_{i=1}^n}$
+$\\newcommand{\\norm}[1]{\\left\\Vert{#1} \\right\\Vert}$
+$\\newcommand\\Bigpar[1]{\\left( #1 \\right )}$
+$\\newcommand\\Bigbr[1]{\\left[ #1 \\right ]}$
+$\\newcommand\\Bigcr[1]{\\left\\{ #1 \\right \\}}$
+$\\newcommand\\SetB[1]{\\left\\{ #1 \\right\\}}$
+$\\newcommand\\Sett[1]{\\mathcal{#1}}$
+$\\newcommand{\\Data}{\\mathcal{D}}$
+$\\newcommand{\\Ubr}[2]{\\underbrace{#1}_{\\text{#2}}}$
+$\\newcommand{\\Obr}[2]{ \\overbrace{#1}^{\\text{#2}}}$
+$\\newcommand{\\sumiN}{\\sum_{i=1}^N}$
+$\\newcommand{\\dydx}[2]{\\frac{\\partial #1}{\\partial #2}}$
+$\\newcommand\\Indic[1]{\\mathds{1}_{#1}}$
+$\\newcommand{\\Realm}[1]{\\mathbb{R}^{#1}}$
+$\\newcommand{\\Exp}[1]{\\mathbb{E}\\left[#1\\right]}$
+$\\newcommand{\\Expt}[2]{\\mathbb{E}_{#1}\\left[#2\\right]}$
+$\\newcommand{\\Var}[1]{\\mathbb{V}\\left[#1\\right]}$
+$\\newcommand{\\Covar}[1]{\\text{Cov}\\left[#1\\right]}$
+$\\newcommand{\\Prob}[1]{\\mathbf{Pr}\\left(#1\\right)}$
+$\\newcommand{\\Supp}[1]{\\text{Supp}\\left[#1\\right]}$
+$\\newcommand{\\doyx}{\\Prob{Y \\, |\\,\\mathsf{do} (X = x)}}$
+$\\newcommand{\\doo}[1]{\\Prob{Y |\\,\\mathsf{do} (#1) }}$
+$\\newcommand{\\R}{\\mathbb{R}}$
+$\\newcommand{\\Z}{\\mathbb{Z}}$
+$\\newcommand{\\wh}[1]{\\widehat{#1}} % Wide hat$
+$\\newcommand{\\wt}[1]{\\widetilde{#1}} % Wide tilde$
+$\\newcommand{\\wb}[1]{\\overline{#1}} % Wide bar$
+$\\newcommand\\Ol[1]{\\overline{#1}}$
+$\\newcommand\\Ul[1]{\\underline{#1}}$
+$\\newcommand\\Str[1]{#1^{*}}$
+$\\newcommand{\\F}{\\mathsf{F}}$
+$\\newcommand{\\ff}{\\mathsf{f}}$
+$\\newcommand{\\Cdf}[1]{\\mathbb{F}\\left(#1\\right)}$
+$\\newcommand{\\Cdff}[2]{\\mathbb{F}_{#1}\\left(#2\\right)}$
+$\\newcommand{\\Pdf}[1]{\\mathsf{f}\\left(#1\\right)}$
+$\\newcommand{\\Pdff}[2]{\\mathsf{f}_{#1}\\left(#2\\right)}$
+$\\newcommand{\\dd}{\\mathsf{d}}$
+$\\newcommand\\Normal[1]{\\mathcal{N} \\left( #1 \\right )}$
+$\\newcommand\\Unif[1]{\\mathsf{U} \\left[ #1 \\right ]}$
+$\\newcommand\\Bern[1]{\\mathsf{Bernoulli} \\left( #1 \\right )}$
+$\\newcommand\\Binom[1]{\\mathsf{Bin} \\left( #1 \\right )}$
+$\\newcommand\\Pois[1]{\\mathsf{Poi} \\left( #1 \\right )}$
+$\\newcommand\\BetaD[1]{\\mathsf{Beta} \\left( #1 \\right )}$
+$\\newcommand\\Diri[1]{\\mathsf{Dir} \\left( #1 \\right )}$
+$\\newcommand\\Gdist[1]{\\mathsf{Gamma} \\left( #1 \\right )}$
+$\\def\\mbf#1{\\mathbf{#1}}$
+$\\def\\mrm#1{\\mathrm{#1}}$
+$\\def\\mbi#1{\\boldsymbol{#1}}$
+$\\def\\ve#1{\\mbi{#1}} % Vector notation$
+$\\def\\vee#1{\\mathbf{#1}} % Vector notation$
+$\\newcommand{\\Mat}[1]{\\mathbf{#1}}$
+$\\newcommand{\\eucN}[1]{\\norm{#1}}$
+$\\newcommand{\\lzero}[1]{\\norm{#1}_0}$
+$\\newcommand{\\lone}[1]{\\norm{#1}_1}$
+$\\newcommand{\\ltwo}[1]{\\norm{#1}_2}$
+$\\newcommand{\\pnorm}[1]{\\norm{#1}_p}$
+'`
+
+
+<!--
+########     ###    ########  ######## ########
+##     ##   ## ##   ##     ## ##       ##     ##
+##     ##  ##   ##  ##     ## ##       ##     ##
+########  ##     ## ########  ######   ########
+##        ######### ##        ##       ##   ##
+##        ##     ## ##        ##       ##    ##
+##        ##     ## ##        ######## ##     ##
+-->
+
+```{r global_options, include=FALSE}
+# %% ####################################################
+rm(list = ls())
+library(LalRUtils)
+LalRUtils::libreq(tidyverse, data.table, stargazer2, knitr, kableExtra,
+  rmarkdown, patchwork, rio, foreach, magrittr, janitor)
+theme_set(lal_plot_theme())
+options(repr.plot.width=12, repr.plot.height=9)
+options(ggplot2.discrete.fill = RColorBrewer::brewer.pal(9, "Set1"))
+options(ggplot2.discrete.colour = RColorBrewer::brewer.pal(9, "Set1"))
+options(ggplot2.continuous.fill = "viridis"); options(ggplot2.continuous.colour = "viridis")
+set.seed(42)
+knitr::opts_chunk$set(fig.width=12, fig.height=8,
+ cache=TRUE, echo=FALSE, warning=FALSE, message=FALSE)
+# %% ####################################################
+```
+
+# Introduction
+
+@leamer1983let
+
+
+$\Exp{Y | \vee{X} = \ve{x}}$
+
+
+Let
+$$
+x = \SetB{1, \dots, 10}
+$$
+
+```{r}
+x = 1:10
+x
+```
+
+The quick brown fox jumped over the lazy dog.
+
+<aside>
+the dog's laziness is a stereotype.
+</aside>
+
+# Figures
+```{r, layout="l-body-outset", fig.width=6, fig.height=1.5}
+library(ggplot2)
+ggplot(diamonds, aes(carat, price)) + geom_smooth() +
+ facet_grid(~ cut)
+```
+
+<aside>
+```{r}
+ggplot(mtcars, aes(hp, mpg)) + geom_point() + geom_smooth()
+```
+
+</aside>
+# Tables
+```{r, layout="l-body-outset"}
+paged_table(mtcars)
+```
+
+# Widgets
+```{r}
+libreq(leaflet)
+leaflet() %>%
+ addTiles() %>% # Add default OpenStreetMap map tiles
+ addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
+```
+
+```{r, layout="l-page", fig.height=3}
+libreq(dygraphs)
+dygraph(ldeaths)
+```

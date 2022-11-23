@@ -1,0 +1,137 @@
+\documentclass[12pt,reqno]{amsart} % add titlepage param for separate title page
+\input{/home/alal/Templates/boilerplate/mpaper_boilerplate}
+
+\usepackage[foot]{amsaddr}
+
+% bibliography
+\usepackage[
+  hyperref=true,
+  url=false,
+  isbn=false,
+  backref=true,
+  maxcitenames=3,
+  backend=biber,
+  style=authoryear,
+  citestyle=authoryear,
+  natbib=true]{biblatex}
+
+% local bibs
+\addbibresource{/home/alal/Dropbox/MyLibrary2.bib}
+% paperpile
+\addbibresource{https://raw.githubusercontent.com/apoorvalal/master_bibfile/main/references.bib}
+
+\renewbibmacro{in:}{}
+\setcounter{secnumdepth}{5}
+
+\usepackage{fontspec}
+\setmainfont{XCharter}
+% \setmainfont{IBM Plex Serif}
+\setmainfont{TeX Gyre Pagella}
+
+\onehalfspacing
+
+% uncomment to disable all notes
+% \presetkeys{todonotes}{disable}{}
+% docs http://tug.ctan.org/macros/latex/contrib/todonotes/todonotes.pdf
+% add todos using these steps
+% \todo{margin comment}
+% \todo[inline]{inline comment}
+% \missingfigure{description of what should be in figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ########     ###    ########  ######## ########
+% ##     ##   ## ##   ##     ## ##       ##     ##
+% ##     ##  ##   ##  ##     ## ##       ##     ##
+% ########  ##     ## ########  ######   ########
+% ##        ######### ##        ##       ##   ##
+% ##        ##     ## ##        ##       ##    ##
+% ##        ##     ## ##        ######## ##     ##
+
+\title{Paper Title}
+
+\author{Apoorva Lal}
+\email{{\href{mailto:apoorval@stanford.edu}{apoorval@stanford.edu}}}
+\address{Stanford University, CA}
+
+\keywords{KW1, KW2}
+\date{\today}
+
+\begin{document}
+
+\begin{abstract} Abstract for a groundbreaking paper.
+\end{abstract}
+
+\maketitle
+
+% \listoftodos
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\linenumbers
+\modulolinenumbers[5]
+% \thepart{}
+\section{Introduction} \label{intro}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Results}
+
+\lipsum[5]
+
+% \begin{figure}
+%     \centering
+%     \begin{subfigure}[b]{.48\linewidth}        %% or \columnwidth
+%         \centering
+%         \includegraphics[width=\linewidth]{../out/figs/dgp_smooth6.pdf}
+%         \caption{Single Realisation}
+%         \label{fig:nu6a}
+%     \end{subfigure}
+%     \hfill
+%     \begin{subfigure}[b]{.48\linewidth}        %% or \columnwidth
+%         \centering
+%         \includegraphics[width=\linewidth]{../out/figs/Res_smooth6.pdf}
+%         \caption{Sampling Distribution}
+%         \label{fig:nu6b}
+%     \end{subfigure}
+%     \caption{Simulation study with $\nu=6$}
+%     \label{fig:nu6sim}
+% \end{figure}
+
+\textcite{sutton2018reinforcement}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\mkbibnamefamily}[1]{\textsc{#1}}
+\printbibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+
+\appendix
+% \part{Online Appendix}
+% \parttoc
+
+\begin{refsection}
+\section{Simulations} % (fold)
+\label{sec:simulations}
+
+\section{Geodata} % (fold)
+\label{sec:geodata}
+\textcite{jordahlGeoPandasPythonTools2014}
+% section geodata (end)
+
+
+% section simulations (end)
+\printbibliography
+\end{refsection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\medskip
+
+\end{document}

@@ -1,0 +1,167 @@
+\input{/home/alal/Templates/boilerplate/math_shortcuts.tex}
+\usecolortheme{beaver} % v stanford
+\setbeamercolor{titlelike}{parent=structure}
+
+\usefonttheme{professionalfonts}
+\usepackage[no-math]{fontspec}
+\setmainfont{IBM Plex Sans Condensed}
+\setsansfont{IBM Plex Sans Condensed}
+\setmonofont{Iosevka}
+
+% \usepackage[english]{babel}
+
+\usepackage[utf8]{inputenc}
+\usepackage{blindtext}
+\usepackage{booktabs}
+\usepackage{braket}
+\usepackage{caption}
+\usepackage{color}
+\usepackage{epsfig}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{url}
+
+% subfigures
+\usepackage{subfigure}
+
+\usepackage{xcolor}
+\definecolor{maroon}{rgb}{0.5, 0.0, 0.0}
+
+\usepackage{hyperref}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Apoorva Lal},
+             pdfkeywords = {},
+            colorlinks=true,
+            citecolor=maroon,
+            urlcolor=blue,
+            linkcolor=blue,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+% Smaller font-size for references
+
+
+% font size presets for dense slides
+\newcommand\Fontsm{\fontsize{6}{7.2}\selectfont}
+\newcommand\Fontmed{\fontsize{8}{9.2}\selectfont}
+\newenvironment{wideitemize}{\itemize\addtolength{\itemsep}{10pt}}{\enditemize}
+
+\newcommand {\framedgraphic}[2] {
+    \begin{frame}{#1}
+        \begin{center}
+            \includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{#2}
+        \end{center}
+    \end{frame}
+}
+
+
+% -----------------------------------------
+% Number the slides
+% -----------------------------------------
+\setbeamertemplate{footline}[frame number]
+
+\setbeamercolor{block body alerted}{bg=alerted text.fg!10}
+\setbeamercolor{block title alerted}{bg=alerted text.fg!20}
+\setbeamercolor{block body}{bg=structure!10}
+\setbeamercolor{block title}{bg=structure!20}
+\setbeamercolor{block body example}{bg=green!10}
+\setbeamercolor{block title example}{bg=green!20}
+
+% -----------------------------------------
+% Get rid of the irritating navigation bar
+% -----------------------------------------
+\setbeamertemplate{navigation symbols}{}
+
+\newcommand{\blue}[1]{\textcolor{blue}{(\bf{#1})}}
+\newcommand{\emaillink}[1]{\textcolor{blue}{\href{mailto:#1}{#1}}}
+\newcommand{\burl}[1]{\textcolor{blue}{\url{#1}}}
+\newcommand{\fix}[1]{\textcolor{red}{\textbf{ (#1)\normalsize}}}
+
+
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\numberwithin{equation}{section}
+
+\let\definition\relax
+\let\Theorem\relax
+\let\fact\relax
+
+
+\setbeamertemplate{frametitle} {
+  \begin{centering}
+  \insertframetitle
+  \par
+  \end{centering}
+}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ % Figures
+
+% \imageframe{img_name} -----------------------------
+% from https://github.com/mattjetwell/cousteau
+\newcommand{\imageframe}[1]{%
+    \begin{frame}[plain]
+        \begin{tikzpicture}[remember picture, overlay]
+            \node[at = (current page.center), xshift = 0cm] (cover) {%
+                \includegraphics[keepaspectratio, width=\paperwidth, height=\paperheight]{#1}
+            };
+        \end{tikzpicture}
+    \end{frame}%
+}
+
+
+% transition frame
+\newenvironment{transitionframe}{
+    \setbeamercolor{background canvas}{bg=ruby!40!black}
+    \begin{frame}\color{ruby!10!white}\LARGE\centering
+}{
+    \end{frame}
+}
+
+\setbeamercolor{block title}{fg = white, bg = accent2}
+\setbeamercolor{block body}{fg = jet, bg = jet!10!white}
+
+% Table Highlighting --------------------------------
+% Create top-left and bottom-right markets in tabular cells with a unique matching id and these commands will outline those cells
+
+\usepackage{array}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+
+% Fix \input with tables
+% \input fails when \\ is at end of external .tex file
+% \makeatletter
+% \let\input\@@input
+% \makeatother
+
+% Tables too narrow
+% \begin{tabularx}{\linewidth}{cols}
+% col-types: X - center, L - left, R -right
+% Relative scale: >{\hsize=.8\hsize}X/L/R
+% \usepackage{tabularx}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+
+\usepackage[beamer,customcolors]{hf-tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{fit,shapes.misc}
+
+% To set the hypothesis highlighting boxes red.
+\newcommand\marktopleft[1]{%
+    \tikz[overlay,remember picture]
+        \node (marker-#1-a) at (0,1.5ex) {};%
+}
+\newcommand\markbottomright[1]{%
+    \tikz[overlay,remember picture]
+        \node (marker-#1-b) at (0,0) {};%
+    \tikz[accent!80!jet, ultra thick, overlay, remember picture, inner sep=4pt]
+        \node[draw, rectangle, fit=(marker-#1-a.center) (marker-#1-b.center)] {};%
+}
+

@@ -1,0 +1,64 @@
+---
+title: "Course Name: HW 1"
+author:  'Apoorva Lal'
+documentclass: amsart
+amsart: true
+date: \today
+output:
+  pdf_document:
+    keep_tex: true
+    toc: false
+    toc_depth : 2
+    fig_width: 5
+    fig_height: 4
+    fig_caption: true
+    dev: cairo_pdf
+    template: /home/alal/Templates/boilerplate/lal-mdpdf.latex
+    latex_engine: xelatex
+fontsize: 12pt
+geometry: margin=2cm
+colorlinks: true
+indent: false
+xetex: true
+mainfont: TeX Gyre Pagella
+monofont: Iosevka
+backend: biber
+bibliography: /home/alal/Dropbox/MyLibrary2.bib
+csl: econometrica.csl
+---
+
+```{r, include=F, echo=F}
+knitr::opts_chunk$set(
+  echo =    F,          # don't show code
+  include = T,          # show output
+  warning = F,       # don't show warnings
+  message = F,       # don't show messages (less serious warnings)
+  cache   = F,       # F unless runtime is very long
+  # root.dir = 'location_of_dependencies'
+  fig.align = "center"
+)
+# preliminaries - clear workspace and load libraries
+# %% ####################################################
+rm(list = ls())
+library(LalRUtils)
+LalRUtils::libreq(tidyverse, data.table, rio, foreach, magrittr, janitor, patchwork)
+theme_set(lal_plot_theme())
+options(repr.plot.width=12, repr.plot.height=9)
+set.seed(42)
+# %% ####################################################
+```
+
+# Problem 1
+
+a) Create a numeric vector that is the sequence of all integers
+between 1 and 1000 and assign this vector the name "vec"
+
+```{r}
+1:10
+```
+
+# Code
+```{r code=readLines(knitr::purl('~/tmp/1_rmd_hw.Rmd', documentation = 0)), echo=T, include=T, eval = FALSE}
+```
+
+# Bibliography

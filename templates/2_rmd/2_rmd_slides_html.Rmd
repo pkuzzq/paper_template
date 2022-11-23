@@ -1,0 +1,295 @@
+---
+title: "Topic"
+subtitle: "subtitle"
+author: Apoorva Lal | Stanford
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css]
+    lib_dir: libs
+    fig_width: 5
+    fig_height: 4
+    nature:
+      ratio: "16:9"
+      highlightStyle: solarized-dark
+      highlightLines: true
+      countIncrementalSlides: false
+    self_contained: true
+---
+
+<!--- For HTML renders - selection from math_shortcuts.tex --->
+`r if (!knitr:::is_latex_output()) '
+$\\DeclareMathOperator*{\\argmin}{argmin}$
+$\\newcommand{\\defeq}{:=}$
+$\\newcommand{\\eqdef}{=:}$
+$\\newcommand{\\var}{\\mathrm{Var}}$
+$\\newcommand{\\epsi}{\\varepsilon}$
+$\\newcommand{\\phii}{\\varphi}$
+$\\newcommand{\\ooN}{\\frac{1}{n}}$
+$\\newcommand\\Bigpar[1]{\\left( #1 \\right )}$
+$\\newcommand\\Bigbr[1]{\\left[ #1 \\right ]}$
+$\\newcommand\\Bigcr[1]{\\left\\{ #1 \\right \\}}$
+$\\newcommand\\SetB[1]{\\left\\{ #1 \\right\\}}$
+$\\newcommand\\Sett[1]{\\mathcal{#1}}$
+$\\newcommand{\\Data}{\\mathcal{D}}$
+$\\newcommand{\\Ubr}[2]{\\underbrace{#1}_{\\text{#2}}}$
+$\\newcommand{\\Obr}[2]{ \\overbrace{#1}^{\\text{#2}}}$
+$\\newcommand{\\sumiN}{\\sum_{i=1}^N}$
+$\\newcommand{\\dydx}[2]{\\frac{\\partial #1}{\\partial #2}}$
+$\\newcommand\\Indic[1]{\\mathds{1}_{#1}}$
+$\\newcommand{\\Realm}[1]{\\mathbb{R}^{#1}}$
+$\\newcommand{\\Exp}[1]{\\mathbb{E}\\left[#1\\right]}$
+$\\newcommand{\\Expt}[2]{\\mathbb{E}_{#1}\\left[#2\\right]}$
+$\\newcommand{\\Var}[1]{\\mathbb{V}\\left[#1\\right]}$
+$\\newcommand{\\Covar}[1]{\\text{Cov}\\left[#1\\right]}$
+$\\newcommand{\\Prob}[1]{\\mathbf{Pr}\\left(#1\\right)}$
+$\\newcommand{\\Supp}[1]{\\text{Supp}\\left[#1\\right]}$
+$\\newcommand{\\doyx}{\\Prob{Y \\, |\\,\\mathsf{do} (X = x)}}$
+$\\newcommand{\\doo}[1]{\\Prob{Y |\\,\\mathsf{do} (#1) }}$
+$\\newcommand{\\R}{\\mathbb{R}}$
+$\\newcommand{\\Z}{\\mathbb{Z}}$
+$\\newcommand{\\wh}[1]{\\widehat{#1}} % Wide hat$
+$\\newcommand{\\wt}[1]{\\widetilde{#1}} % Wide tilde$
+$\\newcommand{\\wb}[1]{\\overline{#1}} % Wide bar$
+$\\newcommand\\Ol[1]{\\overline{#1}}$
+$\\newcommand\\Ul[1]{\\underline{#1}}$
+$\\newcommand\\Str[1]{#1^{*}}$
+$\\newcommand{\\F}{\\mathsf{F}}$
+$\\newcommand{\\ff}{\\mathsf{f}}$
+$\\newcommand{\\Cdf}[1]{\\mathbb{F}\\left(#1\\right)}$
+$\\newcommand{\\Cdff}[2]{\\mathbb{F}_{#1}\\left(#2\\right)}$
+$\\newcommand{\\Pdf}[1]{\\mathsf{f}\\left(#1\\right)}$
+$\\newcommand{\\Pdff}[2]{\\mathsf{f}_{#1}\\left(#2\\right)}$
+$\\newcommand{\\dd}{\\mathsf{d}}$
+$\\newcommand\\Normal[1]{\\mathcal{N} \\left( #1 \\right )}$
+$\\newcommand\\Unif[1]{\\mathsf{U} \\left[ #1 \\right ]}$
+$\\newcommand\\Bern[1]{\\mathsf{Bernoulli} \\left( #1 \\right )}$
+$\\newcommand\\Binom[1]{\\mathsf{Bin} \\left( #1 \\right )}$
+$\\newcommand\\Pois[1]{\\mathsf{Poi} \\left( #1 \\right )}$
+$\\newcommand\\BetaD[1]{\\mathsf{Beta} \\left( #1 \\right )}$
+$\\newcommand\\Diri[1]{\\mathsf{Dir} \\left( #1 \\right )}$
+$\\newcommand\\Gdist[1]{\\mathsf{Gamma} \\left( #1 \\right )}$
+$\\def\\mbf#1{\\mathbf{#1}}$
+$\\def\\mrm#1{\\mathrm{#1}}$
+$\\def\\mbi#1{\\boldsymbol{#1}}$
+$\\def\\ve#1{\\mbi{#1}} % Vector notation$
+$\\def\\vee#1{\\mathbf{#1}} % Vector notation$
+$\\newcommand{\\Mat}[1]{\\mathbf{#1}}$
+$\\newcommand{\\abs}[1]{\\left\\vert {#1} \\right\\vert}$
+$\\newcommand{\\eucN}[1]{\\norm{#1}}$
+$\\newcommand{\\norm}[1]{\\left\\Vert{#1} \\right\\Vert}$
+$\\newcommand{\\lzero}[1]{\\norm{#1}_0}$
+$\\newcommand{\\lone}[1]{\\norm{#1}_1}$
+$\\newcommand{\\ltwo}[1]{\\norm{#1}_2}$
+$\\newcommand{\\pnorm}[1]{\\norm{#1}_p}$
+'`
+
+```{css, echo=FALSE}
+/* custom.css */
+.left-code {
+  color: #777;
+  width: 38%;
+  height: 92%;
+  float: left;
+}
+.right-plot {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+}
+.plot-callout {
+  height: 225px;
+  width: 450px;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+  padding: 0px;
+  z-index: 100;
+}
+.plot-callout img {
+  width: 100%;
+  border: 4px solid #23373B;
+}
+
+.remark-slide-content {
+  padding-top: 1px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-size: 35px
+}
+.remark-slide-content > h1:first-of-type {
+  margin-top: 0px;
+}
+
+.scroll-output {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.panelset {
+  --panel-tab-color: currentColor;
+  --panel-tab-color-active: currentColor;
+  --panel-tab-color-hover: currentColor;
+  --panel-tabs-border-bottom: #ddd;
+  --panel-tab-inactive-opacity: 0.25;
+  --panel-tab-font-family: Roboto;
+}
+
+```
+
+```{r setup, include=FALSE}
+library(LalRUtils)
+libreq(tidyverse, data.table, magrittr, janitor, knitr, gapminder,
+  patchwork,
+  xaringan, xaringanthemer, xaringanExtra)
+
+# knitr stuff
+
+knitr::opts_chunk$set(
+  fig.align="center", dpi=300,
+  cache=T, echo=F, warning=F, mer_timedssage=F,
+  fig.width = 8, fig.height = 4
+  )
+
+theme_set(lal_plot_theme())
+options(ggplot2.discrete.fill = RColorBrewer::brewer.pal(9, "Set1"))
+options(ggplot2.discrete.colour = RColorBrewer::brewer.pal(9, "Set1"))
+options(ggplot2.continuous.fill = "viridis"); options(ggplot2.continuous.colour = "viridis")
+
+# options(repr.plot.width=12, repr.plot.height=9)
+set.seed(42)
+
+# theme stuff
+style_solarized_light(
+  header_font_google = google_font("IBM Plex Sans Condensed"),
+  text_font_google   = google_font("IBM Plex Sans"),
+  code_font_google   = google_font("Fira Mono")
+)
+xaringanExtra::use_xaringan_extra(c("tile_view", "panelset"))
+xaringanExtra::style_panelset(panel_tab_color_active = "red")
+```
+
+# Table of contents
+
+1. [Sec1](#prologue)
+
+2. [Sec2](#syllabus)
+
+
+
+---
+
+class: inverse, center, middle
+name: prologue
+
+# Prologue
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+
+---
+
+# Data
+
++ nonsense here
+--
+
++ more nonsense
+
++ [a hyperlink](https://www.youtube.com/watch?v=Op_MEZ864Ak)
+
+---
+
+class: inverse, center, middle
+name: syllabus
+
+# Finding Highlights
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>
+---
+
+
+```{r}
+g_base <- ggplot(mpg) + aes(hwy, cty, colour = as.factor(cyl)) +
+  geom_point() +
+  labs(x = "Highway MPG", y = "City MPG", title = "Fuel Efficiency", colour = "")
+g_base
+```
+
+---
+
+# Unconstrained optimization
+
+```{css echo=FALSE}
+.panelset {
+  --panel-tab-color: currentColor;
+  --panel-tab-color-active: currentColor;
+  --panel-tab-color-hover: currentColor;
+  --panel-tabs-border-bottom: #ddd;
+  --panel-tab-inactive-opacity: 0.25;
+  --panel-tab-font-family: Roboto;
+}
+```
+
+.panelset[
+
+.panel[.panel-name[Words Details]
+
+We need second-order conditions to guarantee we have found a maximum
+
+
+We need marginal utility to be .b[decreasing] (i.e. utility be concave) at $x^*$
+
+
+This guarantees $x^*$ maximizes $U$ if $x^*$ satisfies the first-order necessary conditions
+
+]
+
+.panel[.panel-name[Math Details]
+
+Approximate $U$ around $x^*$ with a second-order Taylor expansions:
+$$U(x^*+h) = U(x^*) + DU(x^*)h + {1 \over 2} h^TD^2U(x^*)h + O(h^2)$$
+$DU(x^*) = 0$ by definition of $x^*$ so that
+$$U(x^*+h)-U(x^*) = {1\over2} h^T D^2U(x^*)h$$
+$U$ is always decreasing away from $x^*$ if ${1\over2}h^T D^2U(x^*)h < 0$
+
+]
+
+]
+
+
+---
+
+# Some Maths
+
+$$
+y_i = \vee{x}_i ' \ve{\beta} + \epsi_i
+$$
+
+- vanilla OLS
+--
+
+- semiparametric setup: $\Exp{\epsi | \vee{x}_i} = 0$
+
+---
+
+# Multiple Columns
+
+.pull-left[
+- One bullet.
+- Another bullet.
+]
+
+.pull-right[
+![an image](banana.jpg)
+]
+
+---
+
+class: center, middle
+background-size: cover
+# AARGH
+
+---
+
+# Thanks!

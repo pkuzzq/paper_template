@@ -1,0 +1,137 @@
+---
+title: Presentation Topic
+author: Apoorva Lal
+date: \today
+institute: Stanford
+bibliography: /home/alal/Dropbox/MyLibrary2.bib
+biblio-style: authoryear
+toc: true
+theme: metropolis
+# themeoptions: "background=dark"
+classoption: "aspectratio=169"
+mainfont: IBM Plex Sans Condensed
+urlcolor: blue
+output:
+  binb::metropolis:
+    citation_package: biblatex
+    keep_tex: true
+    fig_width: 8
+    fig_height: 7
+    fig_caption: true
+    df_print: kable
+    dev: cairo_pdf
+    latex_engine: xelatex
+header-includes:
+  - \definecolor{cardinal}{RGB}{140,21,21}
+  - \setbeamercolor{frametitle}{bg=cardinal}
+  # - \definecolor{mLightBrown}{HTML}{EB811B}
+  # - \definecolor{mLightGreen}{HTML}{14B03D}
+  # - \setbeamercolor{block body}{bg=mDarkTeal!30}
+  # - \setbeamercolor{frametitle}{bg=mLightBrown}
+---
+
+```{r, echo=FALSE, include=FALSE}
+# %% ####################################################
+rm(list = ls())
+library(LalRUtils)
+LalRUtils::libreq(tidyverse, data.table,
+  rio, magrittr, janitor, knitr, rmarkdown)
+theme_set(lal_plot_theme())
+
+options(repr.plot.width=12, repr.plot.height=9)
+options(ggplot2.discrete.fill = RColorBrewer::brewer.pal(9, "Set2"))
+options(ggplot2.discrete.colour = RColorBrewer::brewer.pal(9, "Set2"))
+options(ggplot2.continuous.fill = "viridis"); options(ggplot2.continuous.colour = "viridis")
+
+set.seed(42)
+# %% ####################################################
+
+opts_chunk$set(echo=F, autodep=TRUE, cache.comments=FALSE,
+               message=FALSE, warning=FALSE)
+```
+
+# Scratch
+
+## Title here
+
+\parencite{leamer1983let}
+
+
+\scriptsize cite but don't read
+
+## Another slide
+
+The theme provides sensible defaults to
+\emph{emphasize} text, \alert{accent} parts
+or show \textbf{bold} results.
+
+$$
+y = \beta_0 + \vee{x}_i' \ve{\beta} + \epsi_i
+$$
+
+Hello, world!
+
+## Mathy slide
+
+\metroset{block=fill}
+\begin{alertblock}{AIPW Estimator}
+$$
+\wh{\tau}_{\text{ipw}}^{\text{ate}} = \ooN \sumin \Bigpar{
+  \underbrace{\frac{Y_iD_i}{\hat{\pi}(\Vect{X}_i)}}_{\Exp{Y_1}} -
+  \underbrace{\frac{Y(1 - D_i)}{(1 - \hat{\pi}(\Vect{X}_i))}}_{\Exp{Y_0}}}
+= \ooN \sumin Y_i \Bigpar{\frac{D_i}{\wh{\pi}(\ve{X}_i)} - \frac{1 -
+D_i}{1 - \wh{\pi} (\ve{X}_i)}}
+$$
+
+\end{alertblock}
+
+Places highest weight for observations with $\wh{\pi} \approx 0.5$
+
+
+
+# Core Presentation Ingredients
+
+## Figure from R
+
+```{r figscatter}
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point()
+```
+
+
+## R Table Example
+
+A simple `knitr::kable` example:
+
+```{r kableEx}
+knitr::kable(mtcars[1:5, 1:8],
+             caption="(Parts of) the mtcars dataset")
+```
+
+## Animation
+
+::: incremental
+
+- this
+- Now this
+- And now this
+:::
+
+## Two Columns
+
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+
+  \bi
+    \item eh?
+    \item bleh
+  \ei
+
+\end{column}
+\begin{column}{0.5\textwidth}
+    \begin{center}
+     \includegraphics[width=1\textwidth]{covid/viz/carpet_plot_xc.png}
+     \end{center}
+\end{column}
+\end{columns}

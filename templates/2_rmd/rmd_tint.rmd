@@ -1,0 +1,199 @@
+---
+title: "Handy Universal Note Template"
+author: "Apoorva Lal"
+abstract: "The quick brown fox jumped over the lazy dog."
+date: "`r Sys.Date()`"
+numbersections: true
+# output: tint::tintPdf
+output:
+  tint::tintHtml:
+    self_contained: true
+bibliography: /home/alal/Dropbox/theoryPapers.bib
+link-citations: yes
+---
+
+<!--- For HTML renders - selection from math_shortcuts.tex --->
+`r if (!knitr:::is_latex_output()) '
+$\\DeclareMathOperator*{\\argmin}{argmin}$
+$\\newcommand{\\var}{\\mathrm{Var}}$
+$\\newcommand{\\epsi}{\\varepsilon}$
+$\\newcommand{\\phii}{\\varphi}$
+$\\newcommand\\Bigpar[1]{\\left( #1 \\right )}$
+$\\newcommand\\Bigbr[1]{\\left[ #1 \\right ]}$
+$\\newcommand\\Bigcr[1]{\\left\\{ #1 \\right \\}}$
+$\\newcommand\\SetB[1]{\\left\\{ #1 \\right\\}}$
+$\\newcommand\\Sett[1]{\\mathcal{#1}}$
+$\\newcommand{\\Data}{\\mathcal{D}}$
+$\\newcommand{\\Ubr}[2]{\\underbrace{#1}_{\\text{#2}}}$
+$\\newcommand{\\Obr}[2]{ \\overbrace{#1}^{\\text{#2}}}$
+$\\newcommand{\\sumiN}{\\ensuremath{\\sum_{i=1}^N}}$
+$\\newcommand{\\dydx}[2]{\\frac{\\partial #1}{\\partial #2}}$
+$\\newcommand\\Indic[1]{\\mathds{1}_{#1}}$
+$\\newcommand{\\Realm}[1]{\\mathbb{R}^{#1}}$
+$\\newcommand{\\Exp}[1]{\\mathbb{E}\\left[#1\\right]}$
+$\\newcommand{\\Expt}[2]{\\mathbb{E}_{#1}\\left[#2\\right]}$
+$\\newcommand{\\Var}[1]{\\mathbb{V}\\left[#1\\right]}$
+$\\newcommand{\\Covar}[1]{\\text{Cov}\\left[#1\\right]}$
+$\\newcommand{\\Prob}[1]{\\mathbf{Pr}\\left(#1\\right)}$
+$\\newcommand{\\Supp}[1]{\\text{Supp}\\left[#1\\right]}$
+$\\newcommand{\\doyx}{\\Prob{Y \\, |\\,\\mathsf{do} (X = x)}}$
+$\\newcommand{\\doo}[1]{\\Prob{Y |\\,\\mathsf{do} (#1) }}$
+$\\newcommand{\\R}{\\ensuremath{\\mathbb{R}}}$
+$\\newcommand{\\Z}{\\ensuremath{\\mathbb{Z}}}$
+$\\newcommand{\\wh}[1]{\\widehat{#1}} % Wide hat$
+$\\newcommand{\\wt}[1]{\\widetilde{#1}} % Wide tilde$
+$\\newcommand{\\wb}[1]{\\overline{#1}} % Wide bar$
+$\\newcommand\\Ol[1]{\\overline{#1}}$
+$\\newcommand\\Ul[1]{\\underline{#1}}$
+$\\newcommand\\Str[1]{#1^{*}}$
+$\\newcommand{\\F}{\\mathsf{F}}$
+$\\newcommand{\\ff}{\\mathsf{f}}$
+$\\newcommand{\\Cdf}[1]{\\mathbb{F}\\left(#1\\right)}$
+$\\newcommand{\\Cdff}[2]{\\mathbb{F}_{#1}\\left(#2\\right)}$
+$\\newcommand{\\Pdf}[1]{\\mathsf{f}\\left(#1\\right)}$
+$\\newcommand{\\Pdff}[2]{\\mathsf{f}_{#1}\\left(#2\\right)}$
+$\\newcommand{\\dd}{\\mathsf{d}}$
+$\\newcommand\\Normal[1]{\\mathcal{N} \\left( #1 \\right )}$
+$\\newcommand\\Unif[1]{\\mathsf{U} \\left[ #1 \\right ]}$
+$\\newcommand\\Bern[1]{\\mathsf{Bernoulli} \\left( #1 \\right )}$
+$\\newcommand\\Binom[1]{\\mathsf{Bin} \\left( #1 \\right )}$
+$\\newcommand\\Pois[1]{\\mathsf{Poi} \\left( #1 \\right )}$
+$\\newcommand\\BetaD[1]{\\mathsf{Beta} \\left( #1 \\right )}$
+$\\newcommand\\Diri[1]{\\mathsf{Dir} \\left( #1 \\right )}$
+$\\newcommand\\Gdist[1]{\\mathsf{Gamma} \\left( #1 \\right )}$
+$\\def\\mbf#1{\\mathbf{#1}}$
+$\\def\\mrm#1{\\mathrm{#1}}$
+$\\def\\mbi#1{\\boldsymbol{#1}}$
+$\\def\\ve#1{\\mbi{#1}} % Vector notation$
+$\\def\\vee#1{\\mathbf{#1}} % Vector notation$
+$\\newcommand{\\Mat}[1]{\\mathbf{#1}}$
+$\\newcommand{\\eucN}[1]{\\norm{#1}}$
+$\\newcommand{\\lzero}[1]{\\norm{#1}_0}$
+$\\newcommand{\\lone}[1]{\\norm{#1}_1}$
+$\\newcommand{\\ltwo}[1]{\\norm{#1}_2}$
+$\\newcommand{\\pnorm}[1]{\\norm{#1}_p}$
+'`
+
+
+
+```{r setup, include=FALSE}
+rm(list = ls())
+library(LalRUtils)
+libreq(data.table, magrittr, tidyverse, janitor, stargazer2, knitr)
+set.seed(42)
+library(tint)
+library(ggplot2)
+theme_set(theme_minimal())
+
+knitr::opts_chunk$set(
+  echo    = F,          # don't show code
+  include = T,          # show output
+  message = F,          # don't show messages (less serious warnings)
+  cache   = T
+)
+
+mtcars$am <- factor(mtcars$am, labels=c("manual", "automatic"))
+```
+
+# Intro
+
+Some text here. cite something [@dessein2002authority]
+
+another cite [@fearon1994domestic]
+
+Basic maths
+
+\begin{align*}
+y_i & = x_i' \beta + \epsilon_i \\
+\epsilon_i & \sim \mathcal{N}(0, \sigma^2)
+\end{align*}
+
+
+
+# Included Code
+
+```{r random-draw, echo = TRUE}
+
+epsilon = rnorm(100, 0, 1)
+
+epsilon %>% head
+
+```
+
+
+# Margin Examples
+
+The margin can be used for arbirtrary 'figure' environments by using
+the `knitr` option `marginfigure` along with standard \LaTeX
+mathematical markup.
+
+```{marginfigure, echo = T}
+We know from _the first fundamental theorem of calculus_ that for $x$
+in $[a, b]$: $$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
+```
+
+We can also add a 'note' using the standard `pandoc` notation of text
+in square brackets following an hat symbol: `^[text here]`.^[This is a
+sidenote that was entered using a footnote.]
+
+here^[another numbered note]
+
+Notes can also be added in-line using an R command and the
+`margin_note()` function. `r margin_note("Some text.")` Note that this
+note is unnumbered.
+
+
+# Margin Figures
+
+
+```{r fig-nocap-margin-second, fig.margin=TRUE, fig.width=4, fig.height=4}
+
+ggplot(mtcars, aes(wt, mpg)) + geom_point(size=3,
+    aes(colour=factor(cyl))) + theme_tint() +
+    theme(legend.position="none") + ggtitle("Margin Figure")
+```
+
+
+# Full Width Figures
+
+Figures can span across the entire page; this is enabled by using the
+chunk option `fig.fullwidth = TRUE`. Using the default them but
+conditioning by number of cylinders:
+
+```{r fig-fullwidth, fig.width = 10, fig.height = 3, fig.fullwidth = TRUE, fig.cap = "A full width figure."}
+
+ggplot(mtcars, aes(wt, mpg)) + geom_point(size=3, aes(colour=am)) +
+    facet_wrap(~ factor(cyl)) + theme(legend.position="bottom") +
+    ggtitle("Full Width Figure")
+```
+
+# Main Column Figures
+
+Besides margin and full width figures, one can of course also include
+figures constrained to the main column. This is the default type of
+figures in the LaTeX/HTML output. A single figure with cylinders in
+color and transmission not controlled for, and once again using
+`theme_tint()`:
+
+```{r fig-main, fig.cap = "A figure in the main column."}
+ggplot(mtcars, aes(wt, mpg)) +
+    geom_point(size=2, aes(colour=factor(cyl))) +
+    theme_tint() + theme(legend.position="none") +
+    ggtitle("Main Column Figure")
+```
+
+
+<!--
+As [knitr](https://github.com/yihui/knitr) \citep{cran:knitr} is
+driving the conversion, many of its options also apply.  See the
+documentation for the [tufte](https://github.com/rstudio/tufte) and
+[knitr](https://github.com/yihui/knitr) for details.
+
+Full documentation is available in the [longer PDF
+vignette](https://eddelbuettel.github.io/tint/tintPDF.pdf), its
+[Lato](https://eddelbuettel.github.io/tint/tintPDFLato.pdf) and
+[Garamond](https://eddelbuettel.github.io/tint/tintPDFGaramond.pdf)
+variants (see below) as well as the [longer HTML
+vignette](https://eddelbuettel.github.io/tint/tintHTML.html). -->
+
+

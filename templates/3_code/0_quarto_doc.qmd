@@ -1,0 +1,89 @@
+---
+title: "Quarto Document"
+author: "Apoorva Lal"
+date: "Oct 10, 2021"
+format:
+  # pdf:
+  #   pdf-engine: xelatex
+  #   toc: true
+  #   number-sections: true
+  #   colorlinks: true
+  #   mainfont: TeX Gyre Pagella
+  #   monofont: Iosevka
+  #   highlight-style: github
+  html:
+    code-fold: true
+    code-background: true
+    code-overflow: wrap
+    code-tools: true
+    code-link: true
+    highlight-style: arrow
+    toc: true
+    max-width: 1600px
+    mainfont: IBM Plex Sans
+    monofont: Iosevka
+    number-sections: true
+    html-math-method: katex
+    colorlinks: true
+    self-contained: true
+    theme:
+      - cyborg
+jupyter: py3main
+execute:
+  cache: true
+---
+
+
+::: {.hidden}
+$$
+ \def\RR{{\bf R}}
+ \def\bold#1{{\bf #1}}
+$$
+:::
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+plt.rcParams.update({
+    "lines.color": "white",
+    "patch.edgecolor": "white",
+    "text.color": "black",
+    "axes.facecolor": "white",
+    "axes.edgecolor": "lightgray",
+    "axes.labelcolor": "white",
+    "xtick.color": "white",
+    "ytick.color": "white",
+    "grid.color": "lightgray",
+    "figure.facecolor": "black",
+    "figure.edgecolor": "black",
+    "savefig.facecolor": "black",
+    "savefig.edgecolor": "black"})
+```
+
+## Polar Axis
+
+For a demonstration of a line plot on a polar axis, see @fig-polar.
+
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+r = np.arange(0, 2, 0.01)
+θ = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(θ, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Cartesian
+
+```{python}
+fig, ax = plt.subplots()
+ax.plot(np.sin(θ), r)
+ax.grid(True)
+plt.show()
+```

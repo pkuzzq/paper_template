@@ -1,0 +1,407 @@
+% pandoc template meant to play nice with amsart
+% \PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+
+
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+
+
+$if(dir)$$if(latex-dir-rtl)$
+\PassOptionsToPackage{RTLdocument}{bidi}
+$endif$$endif$%
+\documentclass[$if(fontsize)$$fontsize$,$endif$ $if(lang)$$babel-lang$,$endif$ $if(papersize)$$papersize$paper,$endif$ $for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+
+\newenvironment{CSLReferences}%
+  {}%
+  {\par}
+
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+
+% Disable indentation
+\setlength{\parindent}{0pt}
+% increase spacing between paragraphs
+\setlength{\parskip}{\baselineskip}
+
+
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+
+\renewenvironment{abstract}
+ {{%
+    \setlength{\leftmargin}{0mm}
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \relax}
+ {\endlist}
+
+$if(linestretch)$
+\usepackage{setspace}
+\setstretch{$linestretch$}
+$endif$
+
+\usepackage{
+  amsfonts,
+  amsmath,
+  amssymb,
+  amsthm,
+  mathtools,
+  setspace,
+  graphics,
+  titling,
+  cancel,
+  booktabs,
+  float
+}
+
+\usepackage{lscape}
+\newcommand{\bland}{\begin{landscape}}
+\newcommand{\eland}{\end{landscape}}
+
+\usepackage[shortlabels]{enumitem}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+$if(mathspec)$
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{unicode-math}
+  \fi
+$else$
+  \usepackage{unicode-math}
+$endif$
+
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+
+$if(fontfamily)$
+% \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
+\usepackage{$fontfamily$}
+$else$
+\usepackage{lmodern}
+$endif$
+
+% $for(fontfamilies)$
+%   \newfontfamily{$fontfamilies.name$}[$fontfamilies.options$]{$fontfamilies.font$}
+% $endfor$
+
+$if(mainfont)$
+    \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
+$endif$
+
+$if(sansfont)$
+    \setsansfont[$for(sansfontoptions)$$sansfontoptions$$sep$,$endfor$]{$sansfont$}
+$endif$
+
+$if(monofont)$
+    \setmonofont[Mapping=tex-ansi$if(monofontoptions)$,$for(monofontoptions)$$monofontoptions$$sep$,$endfor$$endif$]{$monofont$}
+$endif$
+
+$if(mathfont)$
+  $if(mathspec)$
+    \ifxetex
+      \setmathfont(Digits,Latin,Greek)[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+    \else
+      \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+    \fi
+  $else$
+    \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+  $endif$
+$endif$
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \PassOptionsToPackage{hyphens}{url}\usepackage[setpagesize=false,
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \PassOptionsToPackage{hyphens}{url}\usepackage[unicode=true]{hyperref}
+\fi
+}
+
+\@ifpackageloaded{xcolor}{
+    \PassOptionsToPackage{usenames,dvipsnames}{xcolor}
+}{%
+\usepackage[usenames,dvipsnames]{xcolor}
+}
+\makeatother
+
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[$for(microtypeoptions)$$microtypeoptions$$sep$,$endfor$]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+$if(indent)$
+$else$
+  \IfFileExists{parskip.sty}{%
+  \usepackage{parskip}
+  }{% else
+  \setlength{\parindent}{0pt}
+  \setlength{\parskip}{6pt plus 2pt minus 1pt}
+  }
+$endif$
+
+$if(verbatim-in-note)$
+\usepackage{fancyvrb}
+$endif$
+
+\definecolor{maroon}{rgb}{0.5, 0.0, 0.0}
+
+\hypersetup{
+$if(title-meta)$
+            pdftitle={$title-meta$},
+$endif$
+$if(author-meta)$
+            pdfauthor={$author-meta$},
+$endif$
+$if(keywords)$
+            pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
+$endif$
+            breaklinks=true,
+            bookmarks=true,
+            colorlinks=true,
+            citecolor=maroon,
+            urlcolor=blue,
+            linkcolor=blue,
+            pdfborder={0 0 0}
+}
+\urlstyle{same}  % don't use monospace font for urls
+$if(verbatim-in-note)$
+\VerbatimFootnotes % allows verbatim text in footnotes
+$endif$
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$endif$
+
+$if(listings)$
+\usepackage{listings}
+\newcommand{\passthrough}[1]{#1}
+$endif$
+
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+$if(tables)$
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+$endif$
+
+$if(graphics)$
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+$endif$
+
+$if(links-as-notes)$
+% Make links footnotes instead of hotlinks:
+\DeclareRobustCommand{\href}[2]{#2\footnote{\url{#1}}}
+$endif$
+$if(strikeout)$
+\usepackage[normalem]{ulem}
+% avoid problems with \sout in headers with hyperref:
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+$endif$
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+$if(numbersections)$
+\setcounter{secnumdepth}{$if(secnumdepth)$$secnumdepth$$else$5$endif$}
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+
+
+$if(subparagraph)$
+$else$
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+$endif$
+
+$if(pagestyle)$
+\pagestyle{$pagestyle$}
+$endif$
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+$if(lang)$
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,$for(babel-otherlangs)$$babel-otherlangs$,$endfor$main=$babel-lang$]{babel}
+$if(babel-newcommands)$
+  $babel-newcommands$
+$endif$
+\else
+  % load polyglossia as late as possible as it *could* call bidi if RTL lang (e.g. Hebrew or Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[$polyglossia-lang.options$]{$polyglossia-lang.name$}
+$for(polyglossia-otherlangs)$
+  \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
+$endfor$
+\fi
+$endif$
+
+$if(dir)$
+\ifxetex
+  % load bidi as late as possible as it modifies e.g. graphicx
+  \usepackage{bidi}
+\fi
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \TeXXeTstate=1
+  \newcommand{\RL}[1]{\beginR #1\endR}
+  \newcommand{\LR}[1]{\beginL #1\endL}
+  \newenvironment{RTL}{\beginR}{\endR}
+  \newenvironment{LTR}{\beginL}{\endL}
+\fi
+$endif$
+$if(natbib)$
+\usepackage[$natbiboptions$]{natbib}
+\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
+$endif$
+
+$if(biblatex)$
+\usepackage[$if(biblio-style)$style=$biblio-style$,$endif$$for(biblatexoptions)$$biblatexoptions$$sep$,$endfor$]{biblatex}
+
+$for(bibliography)$
+\addbibresource{$bibliography$}
+$endfor$
+$endif$
+
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+
+
+$if(amsart)$
+  \usepackage[foot]{amsaddr}
+  $if(address)$\address{$address$}$endif$
+  $if(email)$\email{$email$}$endif$
+  $if(thanks)$\thanks{$thanks$}$endif$
+$endif$
+
+$if(title)$
+  $if(amsart)$
+    \title{{\Large $title$} $if(subtitle)$ \\ $subtitle$  $endif$}
+    \makeatletter
+    % define new section with boldface
+    \def\section{\@startsection{section}{1}%
+      \z@{.7\linespacing\@plus\linespacing}{.5\linespacing}%
+      {\normalfont\large\bfseries\centering}}% NEW
+    % define new section with boldface + left align
+    \def\sectionL{\@startsection{section}{1}%
+      \z@{.7\linespacing\@plus\linespacing}{.5\linespacing}%
+      {\normalfont\large\bfseries}}% NEW
+    \makeatother
+  $else$
+    \title{{\Huge $title$} $if(subtitle)$ \\ $subtitle$
+      $if(thanks)$\thanks{$thanks$}$endif$  $endif$}
+  $endif$
+$endif$
+
+$if(date)$\date{$date$}$endif$
+
+
+
+\input{/home/alal/Templates/boilerplate/math_shortcuts}
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+\begin{document}
+$if(title)$
+\maketitle
+  $if(abstract)$
+  \begin{abstract}
+      \hbox{\vrule height .2pt width 42pc}
+      \vskip 8.5pt % \small
+      \noindent $abstract$
+      \vskip 8.5pt \noindent
+      \hbox{\vrule height .2pt width 42pc}
+  \end{abstract}
+{}
+  $endif$
+$endif$
+
+$if(extratext)$
+\begin{center}
+$extratext$
+\end{center}
+$endif$
+
+$if(septitle)$
+\newpage
+$endif$
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+    \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$$endif$}
+    \setcounter{tocdepth}{$toc-depth$}
+    \tableofcontents
+$endif$
+
+$if(lot)$
+  \listoftables
+$endif$
+$if(lof)$
+  \listoffigures
+$endif$
+
+$body$
+
+$if(natbib)$
+  $if(bibliography)$
+    $if(biblio-title)$
+      $if(book-class)$
+      \renewcommand\bibname{$biblio-title$}
+      $else$
+      \renewcommand\refname{$biblio-title$}
+      $endif$
+    $endif$
+  \bibliography{$for(bibliography)$$bibliography$$sep$,$endfor$}
+  $endif$
+  $endif$
+
+  $if(biblatex)$
+    \renewcommand{\mkbibnamefamily}[1]{\textsc{#1}}
+    \renewbibmacro{in:}{}
+    \printbibliography$if(biblio-title)$[title=$biblio-title$]
+  $endif$
+
+$endif$
+
+$for(include-after)$
+  $include-after$
+$endfor$
+
+\end{document}

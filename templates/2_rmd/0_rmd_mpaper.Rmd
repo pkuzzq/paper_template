@@ -1,0 +1,110 @@
+---
+title: "Flexible covariate adjustment using high-dimensional regression"
+author:
+  - "Apoorva Lal"
+address:
+  - "PhD Candidate in Political Science, Stanford University, CA"
+email:
+  - "apoorval@stanford.edu"
+abstract: "abstract here"
+thanks: "Acknowledgements: I'd like to thank my mum and dad"
+documentclass: amsart
+amsart: true
+date: \today
+output:
+  pdf_document:
+    keep_tex: true
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
+    df_print: kable
+    dev: cairo_pdf
+    latex_engine: xelatex
+    template: /home/alal/Templates/boilerplate/lal-mdpdf.latex
+  # tint::tintHtml:
+    #   toc: true
+    #   self_contained: true
+    # tint::tintPdf:
+    #   toc: true
+fontsize: 12pt
+colorlinks: true
+indent: true
+# fonts
+xetex: true
+mainfont: TeX Gyre Pagella
+monofont: Iosevka
+mathspec: true
+geometry: margin=2cm
+# embed links in citations
+link-citations: true
+numbersections: true
+# extratext: "Word Count: 9205"
+# separate title page
+septitle: true
+# spacing
+linestretch: 1.5
+# bib stuff
+backend: biber
+bibliography: /home/alal/Dropbox/MyLibrary2.bib
+csl: econometrica.csl
+# extra tex
+header-includes:
+  - \usepackage{lipsum}
+---
+
+```{r, echo=FALSE, include=FALSE}
+# %% ####################################################
+rm(list = ls())
+library(LalRUtils)
+LalRUtils::libreq(tidyverse, data.table, stargazer2, patchwork,
+  rio, foreach, magrittr, janitor, knitr, rmarkdown)
+theme_set(lal_plot_theme())
+options(repr.plot.width=12, repr.plot.height=9)
+options(ggplot2.discrete.fill = RColorBrewer::brewer.pal(9, "Set1"))
+options(ggplot2.discrete.colour = RColorBrewer::brewer.pal(9, "Set1"))
+options(ggplot2.continuous.fill = "viridis"); options(ggplot2.continuous.colour = "viridis")
+set.seed(42)
+# %% ####################################################
+
+opts_chunk$set(echo=F, autodep=TRUE, cache.comments=FALSE,
+               message=FALSE, warning=FALSE)
+
+```
+
+# Introduction
+
+@Deatonanalysishouseholdsurveys1997
+
+# Model
+
+$$
+max_{x} \int_{-\infty}^{\infty} \beta^t U(c_t) dt
+$$
+
+# Data
+
+```{r}
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point()
+```
+
+# Results
+
+```{r}
+lm1 = lm(hwy ~ cyl + factor(class), data=mpg)
+```
+
+```{r, results='asis'}
+stargazer(lm1, header=F, type='latex')
+```
+
+\newpage
+
+
+# References
+
+<div id="refs"></div>
+
+\newpage
+
+# Appendix
