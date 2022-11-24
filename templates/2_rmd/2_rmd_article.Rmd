@@ -21,34 +21,17 @@ monofont: Iosevka
 # mathspec: true
 geometry: margin=2cm
 numbersections: true
-bibliography: /home/alal/Dropbox/MyLibrary2.bib
+# bibliography: /home/alal/Dropbox/MyLibrary2.bib
 # csl: econometrica.csl
 header-includes:
-  - \input{/home/alal/Templates/boilerplate/math_shortcuts}
-  - \usepackage{fancyhdr}
-  - \usepackage{booktabs}
-  - \pagestyle{fancy}
-  - \rhead{Title}
-  - \lhead[CO,LE]{Apoorva Lal}
+  # - \input{/home/alal/Templates/boilerplate/math_shortcuts}
+  # - \usepackage{fancyhdr}
+  # - \usepackage{booktabs}
+  # - \pagestyle{fancy}
+  # - \rhead{Title}
+  # - \lhead[CO,LE]{Apoorva Lal}
   # - \setmainfont{Museo}
 ---
-
-```{r, echo=FALSE, include=FALSE}
-# %% ####################################################
-rm(list = ls())
-library(LalRUtils)
-LalRUtils::libreq(tidyverse, data.table, rio,
-    foreach, magrittr, janitor, knitr, patchwork, stargazer2)
-theme_set(lal_plot_theme())
-options(repr.plot.width=12, repr.plot.height=9)
-options(ggplot2.discrete.fill = RColorBrewer::brewer.pal(9, "Set1"))
-options(ggplot2.discrete.colour = RColorBrewer::brewer.pal(9, "Set1"))
-options(ggplot2.continuous.fill = "viridis"); options(ggplot2.continuous.colour = "viridis")
-set.seed(42)
-# %% ####################################################
-opts_chunk$set(echo=F, autodep=TRUE, cache.comments=FALSE,
-               message=FALSE, warning=FALSE)
-```
 
 # Introduction
 
@@ -73,8 +56,10 @@ ggplot(mpg, aes(displ, hwy, colour = class)) +
 lm1 = lm(hwy ~ cyl + factor(class), data=mpg)
 ```
 
+
 ```{r, results='asis'}
-stargazer(lm1, header=F, type='latex')
+library(stargazer)
+
 ```
 
 # References
@@ -82,3 +67,5 @@ stargazer(lm1, header=F, type='latex')
 <div id="refs"></div>
 
 \newpage
+
+
