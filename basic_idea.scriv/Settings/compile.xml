@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings Template="Yes">
+    <ProjectSettings>
+        <Replacements>
+            <Replacement>
+                <Replace><![CDATA[{StudentID}]]></Replace>
+                <With><![CDATA[YourStudentID]]></With>
+            </Replacement>
+            <Replacement>
+                <Replace><![CDATA[{Supervisor-Surname}]]></Replace>
+                <With><![CDATA[SupervisorSurname]]></With>
+            </Replacement>
+        </Replacements>
+    </ProjectSettings>
+    <FormatSettings>
+        <Format ID="undergraduate-essay">
+            <SectionLayouts>
+                <Type ID="0F28C711-8E83-4903-BA39-0F44714921CA">TEXT-SECTION</Type>
+                <Type ID="2E53D647-37D9-4B0E-83F0-21A72139118D">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
+    </FormatSettings>
+    <CurrentFileType>Print</CurrentFileType>
+    <LastUsedFormats>
+        <Print>undergraduate-essay</Print>
+        <epub3>e-book</epub3>
+    </LastUsedFormats>
+</CompileSettings>
