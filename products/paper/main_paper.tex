@@ -2,7 +2,7 @@
 % 完整编译: xelatex -> biber/bibtex -> xelatex -> xelatex
 \documentclass[lang=cn,a4paper]{elegantpaper}
 
-\title作论文模板}
+\title{作论文模板}
 \author{Zhengqing ZHOU \\ Peking University \and Zhengqing ZHOU \\ PA Technology}
 \institute{\href{https://pe.pku.edu.cn/}{体育教研部}}
 
@@ -37,7 +37,9 @@
 
 \end{titlepage}
 
-
+% 理论、变量、处理手法、基本结论
+	\section{基本材料} \label{sec:text}
+	\input{./sub/raw.tex}
 % Introduction引言
 	\section{引言} \label{sec:introduction}
 	\input{./sub/introduction.tex}
@@ -49,7 +51,7 @@
 	\input{./sub/design.tex}
 % Section方法
     \section{数据来源与数据描述}\label{sec:data}
-	\input{./sub/sample_statistics.tex}
+	\input{./sub/sample.tex}
 % Section实证结果
     \section{研究结果与分析}\label{sec:results}
 	\input{./sub/results.tex}

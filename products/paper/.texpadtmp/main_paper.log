@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.22)  26 NOV 2022 15:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.22)  26 NOV 2022 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -860,23 +860,7 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-))
-./main_paper.tex:5: Undefined control sequence.
-l.5 \title作论文模板
-               }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main_paper.tex:5: Too many }'s.
-l.5 \title作论文模板}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
@@ -920,7 +904,8 @@ Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
- (/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
@@ -1332,12 +1317,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `main_paper.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main_paper.bbl' not found.
-
-No file main_paper.bbl.
+Package biblatex Info: ... file 'main_paper.bbl' found.
+ (/Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/main_paper.bbl
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 53.
+)
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/footmisc/footmisc.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
 \FN@temptoken=\toks51
 \footnotemargin=\dimen366
@@ -1354,25 +1341,12 @@ LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 30.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 30.
-
-
-./main_paper.tex:30: LaTeX Error: No \title given.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \clearpage\maketitle
-                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 30.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
@@ -1388,31 +1362,35 @@ LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 42.
+(Font)              scaled to size 14.4pt on input line 41.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 42.
- (./sub/introduction.tex)
+(Font)              scaled to size 14.4pt on input line 41.
+ (./sub/raw.tex) (./sub/introduction.tex) (./sub/review.tex) (./sub/design.tex) (./sub/sample.tex) (./sub/results.tex) (./sub/conclusion.tex) [1]
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 66.
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 66.
+ [2] (./sub/appendix.tex)
+\Changes@OutFile=\write7
+\openout7 = `main_paper.soc'.
 
-! LaTeX Error: File `./sub/review.tex' not found.
+\tf@loc=\write8
+\openout8 = `main_paper.loc'.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+ [3] (/Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/main_paper.aux)
+Package rerunfilecheck Info: File `main_paper.out' has not changed.
+(rerunfilecheck)             Checksum: 83D2AFF4708EF0F64A45ADF171D36CEC;754.
+Package logreq Info: Writing requests to 'main_paper.run.xml'.
+\openout1 = `main_paper.run.xml'.
 
-Enter file name: 
-./main_paper.tex:46: Emergency stop.
-<read *> 
-         
-l.46 ^^I\input{./sub/review.tex}
-                                ^^M
-*** (cannot \read from terminal in nonstop modes)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 41415 strings out of 475644
- 863455 string characters out of 5796302
- 1733392 words of memory out of 5000000
- 61978 multiletter control sequences out of 15000+600000
- 475442 words of font info for 88 fonts, out of 8000000 for 9000
+ 41743 strings out of 475644
+ 872278 string characters out of 5796302
+ 1735828 words of memory out of 5000000
+ 62272 multiletter control sequences out of 15000+600000
+ 475490 words of font info for 94 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 118i,6n,119p,1135b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on /Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/main_paper.pdf (1 page).
+ 118i,6n,119p,1135b,4753s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on /Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/main_paper.pdf (4 pages).
