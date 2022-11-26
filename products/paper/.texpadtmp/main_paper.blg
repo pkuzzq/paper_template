@@ -1,0 +1,5 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is '/Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/main_paper.blg'
+[71] biber-darwin:340> INFO - === Sat Nov 26, 2022, 15:31:11
+[86] Utils.pm:410> ERROR - /Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/main_paper.bcf is malformed, last biblatex run probably failed. Deleted /Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/main_paper.bbl
+[86] Biber.pm:135> INFO - ERRORS: 1
