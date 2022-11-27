@@ -2349,7 +2349,7 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">reference.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">/Users/zhouzhengqing/Desktop/paper_template/products/paper/reference.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1" nocite="1">*</bcf:citekey>
