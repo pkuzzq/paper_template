@@ -1,0 +1,122 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{en2}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4df39853648cdbcc8d7b8eb4d3115176}{%
+           family={Carlstrom},
+           familyi={C\bibinitperiod},
+           given={Charles\bibnamedelima T},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9b3c23aa4b7753dd26925556d6774df1}{%
+           family={Fuerst},
+           familyi={F\bibinitperiod},
+           given={Timothy\bibnamedelima S},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7ff4e779efc9989a56e60a7115facaa}
+      \strng{fullhash}{b7ff4e779efc9989a56e60a7115facaa}
+      \strng{bibnamehash}{b7ff4e779efc9989a56e60a7115facaa}
+      \strng{authorbibnamehash}{b7ff4e779efc9989a56e60a7115facaa}
+      \strng{authornamehash}{b7ff4e779efc9989a56e60a7115facaa}
+      \strng{authorfullhash}{b7ff4e779efc9989a56e60a7115facaa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{The American Economic Review}
+      \field{title}{{Agency Costs, Net Worth, and Business Fluctuations: A Computable General Equilibrium Analysis}}
+      \field{type}{Journal Article}
+      \field{year}{1997}
+      \field{pages}{893\bibrangedash 910}
+      \range{pages}{18}
+    \endentry
+    \entry{en3}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f495cdda14989886bcfdb65c02b7a19d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=1cf551d9144a2f62273c38d368c23e83}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liwen},
+           giveni={L\bibinitperiod}}}%
+        {{hash=eeb1ba32a79977b191ab560499454e9e}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Publishing Limited}%
+      }
+      \strng{namehash}{6780bc20b00db39ec803e68d01a94d81}
+      \strng{fullhash}{6780bc20b00db39ec803e68d01a94d81}
+      \strng{bibnamehash}{6780bc20b00db39ec803e68d01a94d81}
+      \strng{authorbibnamehash}{6780bc20b00db39ec803e68d01a94d81}
+      \strng{authornamehash}{6780bc20b00db39ec803e68d01a94d81}
+      \strng{authorfullhash}{6780bc20b00db39ec803e68d01a94d81}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{China Finance Review International}
+      \field{number}{3}
+      \field{title}{{The Mechanism and Effectiveness of Credit Scoring of P2P Lending Platform: Evidence from Renrendai.com}}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{pages}{256\bibrangedash 274}
+      \range{pages}{19}
+    \endentry
+    \entry{en1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4cf797d54cc5d85cca19dee896a2d23e}{%
+           family={Quadrini},
+           familyi={Q\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cf797d54cc5d85cca19dee896a2d23e}
+      \strng{fullhash}{4cf797d54cc5d85cca19dee896a2d23e}
+      \strng{bibnamehash}{4cf797d54cc5d85cca19dee896a2d23e}
+      \strng{authorbibnamehash}{4cf797d54cc5d85cca19dee896a2d23e}
+      \strng{authornamehash}{4cf797d54cc5d85cca19dee896a2d23e}
+      \strng{authorfullhash}{4cf797d54cc5d85cca19dee896a2d23e}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{FRB Richmond Economic Quarterly}
+      \field{number}{3}
+      \field{title}{{Financial Frictions in Macroeconomic Fluctuations}}
+      \field{type}{Journal Article}
+      \field{volume}{97}
+      \field{year}{2011}
+      \field{pages}{209\bibrangedash 254}
+      \range{pages}{46}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
