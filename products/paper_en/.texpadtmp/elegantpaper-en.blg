@@ -1,0 +1,9 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is '/Users/zhouzhengqing/Desktop/new/products/paper_en/.texpadtmp/elegantpaper-en.blg'
+[70] biber-darwin:340> INFO - === Thu Dec  1, 2022, 02:06:39
+[84] Biber.pm:418> INFO - Reading '/Users/zhouzhengqing/Desktop/new/products/paper_en/.texpadtmp/elegantpaper-en.bcf'
+[151] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[164] bbl.pm:654> INFO - Writing '/Users/zhouzhengqing/Desktop/new/products/paper_en/.texpadtmp/elegantpaper-en.bbl' with encoding 'UTF-8'
+[164] bbl.pm:757> INFO - Output to /Users/zhouzhengqing/Desktop/new/products/paper_en/.texpadtmp/elegantpaper-en.bbl
+[164] Biber.pm:130> WARN - The file '/Users/zhouzhengqing/Desktop/new/products/paper_en/.texpadtmp/elegantpaper-en.bcf' does not contain any citations!
+[164] Biber.pm:132> INFO - WARNINGS: 1

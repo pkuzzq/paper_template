@@ -1,0 +1,95 @@
+%!TEX program = xelatex
+% 完整编译: xelatex -> biber/bibtex -> xelatex -> xelatex
+\documentclass[lang=cn,a4paper]{elegantpaper}
+
+\title{作论文模板}
+\author{Zhengqing ZHOU \thanks{北京大学} \\ Peking University \and Zhengqing ZHOU \\ PA Technology}
+\institute{\href{https://pe.pku.edu.cn/}{体育教研部}}
+
+\version{0.10}
+\date{\zhtoday}
+
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\setlength{\parskip}{0.125in}%段间距
+\usepackage[autostyle]{csquotes}
+
+% Packages for automated tables
+\usepackage{tabularx}
+\usepackage{standalone}
+\usepackage{pdflscape}
+\usepackage{iftex, fancyhdr, hyperref, enumitem, fancyvrb, hologo, multirow, booktabs, bigstrut, tabularx, tocloft}
+\usepackage{lipsum}
+
+\usepackage{changes} %批注
+\usepackage{bm}
+\hypersetup{colorlinks = true, allcolors = blue}
+\pagestyle{fancy}\fancyhf{}\cfoot{\thepage}
+\renewcommand*{\headrulewidth}{0pt}
+\ctexset{linestretch = {\maxdimen}}
+\setlength{\hfuzz}{3pt}
+\setlist{nolistsep}
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+\addbibresource[location=local]{reference.bib} % 参考文献，不要删除
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+\clearpage\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+本文为的说明文档。此模板基于 \LaTeX{} 的 article 类，专为工作论文写作而设计。设计这个模板的初衷是让作者不用关心工作论文的格式，专心写作，从而有更加舒心的写作体验。如果你有其他问题、建议或者报告 bug，可以在 \href{https://github.com/ElegantLaTeX/ElegantPaper/issues}{GitHub::ElegantPaper/issues} 留言。如果你想了解更多 Elegant\LaTeX{} 项目组设计的模板，请访问 \href{https://github.com/ElegantLaTeX/}{GitHub::ElegantLaTeX}。
+\keywords{Elegant\LaTeX{}，工作论文，模板}
+\end{abstract}
+
+\end{titlepage}
+    \thispagestyle{empty}
+	\newpage
+    \phantomsection\addcontentsline{toc}{section}{摘要}\tolerance=500 %将摘要放进目录
+    \tableofcontents
+    \setcounter{page}{1}
+	\newpage
+
+% 理论、变量、处理手法、基本结论
+	\section{基本材料} \label{sec:text}
+	\input{./sub/raw.tex}
+% Introduction引言
+	\section{引言} \label{sec:introduction}
+	\input{./sub/introduction.tex}
+% Section文献综述
+	\section{文献回顾} \label{sec:review}
+	\input{./sub/review.tex}
+% Section文献综述
+	\section{研究设计} \label{sec:design}
+	\input{./sub/design.tex}
+% Section方法
+    \section{数据来源与数据描述}\label{sec:data}
+	\input{./sub/sample.tex}
+% Section实证结果
+    \section{研究结果与分析}\label{sec:results}
+	\input{./sub/results.tex}
+% Conclusion
+	\section{结论} \label{sec:conclusion}
+	\input{./sub/conclusion.tex}
+% References
+	\newpage
+%	\bibliographystyle{apa}
+%	\bibliography{}
+	\nocite{*}
+	\printbibliography[heading=bibintoc, title=\ebibname]
+% Appendix
+	\newpage
+	\appendix
+	\section{附录} \label{sec:appendix}
+	\input{./sub/appendix.tex}
+	\addappheadtotoc
+
+\end{document}

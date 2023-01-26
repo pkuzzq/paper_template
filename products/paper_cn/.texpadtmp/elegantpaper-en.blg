@@ -1,0 +1,15 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is '/Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/elegantpaper-en.blg'
+[92] biber-darwin:340> INFO - === Thu Dec  1, 2022, 01:29:46
+[112] Biber.pm:418> INFO - Reading '/Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/elegantpaper-en.bcf'
+[206] Biber.pm:978> INFO - Found 3 citekeys in bib section 0
+[221] Biber.pm:4401> INFO - Processing section 0
+[233] Biber.pm:4592> INFO - Looking for bibtex file '/Users/zhouzhengqing/Desktop/new/products/paper/reference.bib' for section 0
+[235] bibtex.pm:1713> INFO - LaTeX decoding ...
+[245] bibtex.pm:1518> INFO - Found BibTeX data source '/Users/zhouzhengqing/Desktop/new/products/paper/reference.bib'
+[291] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[291] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[291] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[291] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[295] bbl.pm:654> INFO - Writing '/Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/elegantpaper-en.bbl' with encoding 'UTF-8'
+[297] bbl.pm:757> INFO - Output to /Users/zhouzhengqing/Desktop/new/products/paper/.texpadtmp/elegantpaper-en.bbl

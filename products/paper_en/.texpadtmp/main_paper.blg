@@ -1,0 +1,4 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is '/Users/zhouzhengqing/Desktop/new/products/paper_en/.texpadtmp/main_paper.blg'
+[87] biber-darwin:340> INFO - === Thu Dec  1, 2022, 01:57:39
+[103] Biber.pm:418> INFO - Reading '/Users/zhouzhengqing/Desktop/new/products/paper_en/.texpadtmp/main_paper.bcf'
