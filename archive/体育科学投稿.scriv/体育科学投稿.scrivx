@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="5651ADFF-7F0E-4EC3-861A-F03D511DE5EB" Version="2.0" Creator="SCRMAC-3.2.3-14869" Device="zhouzhengqingdeMacBook-Pro" Author="Zhou Zhengqing" Modified="2022-10-17 10:50:28 +0800" ModID="499A5784-A41F-42C5-B2C4-B6069FBA1217">
+    <Binder>
+        <BinderItem UUID="3FA74D50-2B26-46FC-A9A8-9661879F8971" Type="DraftFolder" Created="2006-11-05 00:27:29 +0800" Modified="2022-10-06 10:46:09 +0800">
+            <Title>体育经济学教学课程：从感性到理性经济学的途径</Title>
+            <CorkboardAndOutliner>
+                <SelectedSubdocumentUUIDs></SelectedSubdocumentUUIDs>
+                <CorkboardSettings>
+                    <Arrangement>Freeform</Arrangement>
+                    <FreeformCorkboardDocuments>
+                        <IndexCardBinderUUID Position="1.15,0.11" TimeStamp="2021-02-17 16:51:24 +0800">B243567F-DB02-44BA-AD71-3BBE7F805ABB</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="0.07,0.086667" TimeStamp="2021-03-15 00:14:13 +0800">1E29EF5F-92CF-4E35-B788-DBA837A7607B</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="0.143333,0.809933" TimeStamp="2021-02-17 16:51:24 +0800">23A8E21E-EB62-4040-9177-6F3824F8AD61</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="2.133333,0.073333" TimeStamp="2021-02-17 16:51:24 +0800">B417D41A-F2A9-44B1-A836-938BAE95CBBD</IndexCardBinderUUID>
+                        <IndexCardBinderUUID Position="0.053333,0.073333" TimeStamp="2021-02-17 16:51:24 +0800">F0ABADB3-7727-4C5F-82A9-37C3F65AC8A5</IndexCardBinderUUID>
+                    </FreeformCorkboardDocuments>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem UUID="2654FEE1-D90D-4E70-9B94-F29BD099BE5E" Type="Folder" Created="2022-09-05 11:24:54 +0800" Modified="2022-10-11 00:37:38 +0800">
+                    <Title>构思与框架</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="AB6B2ABF-FF8A-4497-8A55-808DDF2C699A" Type="Text" Created="2022-09-10 02:50:37 +0800" Modified="2022-10-11 00:37:14 +0800">
+                            <Title>引言</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>449,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="6CDBFB64-00A8-4C5D-BB71-DCBB02B5AE01" Type="Text" Created="2022-09-24 01:38:05 +0800" Modified="2022-10-11 00:37:14 +0800">
+                            <Title>主要挑战
+主要挑战</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>12,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="AD6B888D-32E6-4056-B380-AF31B236D0B6" Type="Text" Created="2022-09-17 23:55:27 +0800" Modified="2022-10-11 00:37:15 +0800">
+                            <Title>应对挑战</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>140,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="9D7C35CD-D5BA-412D-B7E0-717B1CF22114" Type="Text" Created="2022-09-27 01:25:06 +0800" Modified="2022-10-11 00:37:15 +0800">
+                            <Title>案例分类</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>625,6</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="37E30341-08E5-42B8-A3E7-2D7618FDE211" Type="Text" Created="2022-09-29 14:14:53 +0800" Modified="2022-10-11 00:37:15 +0800">
+                                    <Title>教学案例1：理论型问题讲授</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>2338,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="A445D815-71D9-451E-89BF-A2F73B54A366" Type="Text" Created="2022-09-29 14:15:34 +0800" Modified="2022-10-11 00:37:14 +0800">
+                                    <Title>教学案例2：实践型问题讲授</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>39,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem UUID="FCED55A4-3D67-4750-9F7E-7B828BFA9810" Type="Text" Created="2022-10-08 19:41:42 +0800" Modified="2022-10-11 00:37:15 +0800">
+                                            <Title>1.媒体对联盟收入的贡献</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>22,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem UUID="36C136D5-0316-4CA6-96F1-0406955925E5" Type="Text" Created="2022-10-08 19:40:08 +0800" Modified="2022-10-11 00:37:14 +0800">
+                                            <Title>2.联盟间的差异与共性</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>1276,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="C55549E6-6261-4828-B1D4-D76FEA5670D8" Type="Text" Created="2022-09-27 01:25:26 +0800" Modified="2022-10-11 00:37:15 +0800">
+                            <Title>通过案例教学的优势</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>749,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="B2F9F202-0D45-47AB-9F61-C2AD3CAFE7C0" Type="Text" Created="2022-09-28 16:22:57 +0800" Modified="2022-10-11 00:37:15 +0800">
+                            <Title>以发表为目标的教学</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>459,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="F0ABADB3-7727-4C5F-82A9-37C3F65AC8A5" Type="Folder" Created="2021-01-02 23:30:10 +0800" Modified="2021-03-21 07:23:18 +0800">
+                    <Title>研究动机</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="94828BB7-D8CA-4410-99EF-F17C0561D1E0" Type="Text" Created="2021-02-20 18:00:09 +0800" Modified="2021-06-02 07:03:15 +0800">
+                            <Title>承上启下第一段？ </Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>796,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="F64495A4-9FE7-45C3-8139-CAB8FB54E616" Type="Text" Created="2021-02-20 18:01:31 +0800" Modified="2021-06-02 07:03:18 +0800">
+                            <Title>研究目的？</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>112,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="1BEB4139-FF36-445B-9E7C-6F0D60EB536E" Type="Text" Created="2021-02-20 18:02:20 +0800" Modified="2021-03-21 05:37:42 +0800">
+                            <Title>理论</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>94,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="39E86B71-79AC-4F59-80FD-D74DC0D30C1D" Type="Text" Created="2021-02-20 18:03:21 +0800" Modified="2021-03-21 05:37:42 +0800">
+                            <Title>研究目标</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>27,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="B243567F-DB02-44BA-AD71-3BBE7F805ABB" Type="Folder" Created="2021-01-02 23:26:39 +0800" Modified="2021-05-27 02:47:13 +0800">
+                    <Title>理论准备（基本完成）</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <SelectedSubdocumentUUIDs>2213416D-495B-465E-9371-5E10A250EA02</SelectedSubdocumentUUIDs>
+                    </CorkboardAndOutliner>
+                    <Children>
+                        <BinderItem UUID="45F50DE8-69EC-430B-BC4F-E9E7085B7A3B" Type="Text" Created="2021-02-17 16:52:53 +0800" Modified="2021-06-02 07:02:44 +0800">
+                            <Title>基于循证策略使用结构方程模型√</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="85B89DBD-7171-4C2A-BAE9-541EAF41E9EE" Type="Text" Created="2021-05-06 01:53:49 +0800" Modified="2021-05-06 01:58:21 +0800">
+                                    <Title>为什么基于循证策略</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>651,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="8C51D8FA-C28A-4A4F-B07E-50081AEE74AB" Type="Text" Created="2021-03-21 07:16:58 +0800" Modified="2021-05-06 01:58:30 +0800">
+                                    <Title>结构方程模型的优势</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>74,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="2213416D-495B-465E-9371-5E10A250EA02" Type="Text" Created="2021-01-02 23:29:07 +0800" Modified="2021-05-06 01:59:46 +0800">
+                                    <Title>中介效应和调节效应</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>87,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="F3E5D1B9-57AA-41D4-BFC0-84621935CC78" Type="Text" Created="2021-05-04 03:34:29 +0800" Modified="2021-06-02 07:02:57 +0800">
+                            <Title>模型评价√</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="3F523852-6B55-4041-9910-55D9C126648F" Type="Text" Created="2021-05-06 02:01:02 +0800" Modified="2021-05-06 02:01:26 +0800">
+                                    <Title>测量模型的因子载荷</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>208,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="2BDDC644-C1F8-467B-97B3-D439E6063F56" Type="Text" Created="2021-05-04 03:36:08 +0800" Modified="2021-06-20 21:42:13 +0800">
+                                    <Title>结构模型评价指标</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>319,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="9932D431-DD56-4891-AF2F-1142EB164255" Type="Text" Created="2021-05-04 03:39:12 +0800" Modified="2021-05-24 06:07:40 +0800">
+                                    <Title>中介效应的检验方法</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>422,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="55AA35EE-A9AA-4FD1-9071-EE8298AB5FC9" Type="Text" Created="2021-05-24 06:09:25 +0800" Modified="2021-05-25 02:54:29 +0800">
+                                    <Title>中介效应的分析流程</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>126,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="F9BBA6F2-2FF5-436C-AB4B-97A4E552E561" Type="Text" Created="2021-05-04 03:38:34 +0800" Modified="2021-06-02 07:03:05 +0800">
+                            <Title>模型设定？</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>118,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="240709C7-A389-469A-9BDD-3547D220E038" Type="Text" Created="2021-05-04 03:39:30 +0800" Modified="2021-05-04 03:39:44 +0800">
+                            <Title>性别异质性的模型及其检验方法</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="B417D41A-F2A9-44B1-A836-938BAE95CBBD" Type="Folder" Created="2021-01-02 23:26:53 +0800" Modified="2021-06-02 06:26:00 +0800">
+                    <Title>资料处理与研究设计 √</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="B94301FF-B8BB-4169-81C8-5CF26F09EECD" Type="Text" Created="2021-01-02 23:29:15 +0800" Modified="2021-06-02 06:26:16 +0800">
+                            <Title>资料来源与样本√</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>923,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="D1107282-1ED5-4A6B-A998-902D9D0E1F16" Type="Text" Created="2021-03-23 04:22:53 +0800" Modified="2021-05-04 03:07:04 +0800">
+                                    <Title>EASS介绍</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>272,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="5E58F4BC-8320-41C7-9D84-6B7AB41AD1F0" Type="Text" Created="2021-01-02 23:29:22 +0800" Modified="2021-06-02 06:27:46 +0800">
+                            <Title>变量选取与编码√</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="5441C398-8A9B-44E3-81AA-444C09ADAE68" Type="Text" Created="2021-05-31 07:13:47 +0800" Modified="2021-05-31 10:58:48 +0800">
+                                    <Title>因变量：自评健康下降</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>538,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="33B44408-C8B9-4E9B-B0EE-1E99618FDA04" Type="Text" Created="2021-05-31 10:21:41 +0800" Modified="2021-06-02 06:08:02 +0800">
+                                    <Title>自变量 ：住房劣势感知</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>87,25</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="E7F1BBCC-EC8A-4B3C-A022-9F5DDDAA1C2E" Type="Text" Created="2021-06-02 05:25:00 +0800" Modified="2021-06-06 23:34:44 +0800">
+                                    <Title>中介变量：运动频率与医疗服务获得</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>102,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="5876BB89-0446-4D2A-A41E-CE8FBF77D7CA" Type="Text" Created="2021-06-02 06:15:27 +0800" Modified="2021-06-02 06:27:57 +0800">
+                                    <Title>控制变量：个体特质</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>240,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="4E091F61-FC7E-4E81-8CD4-B0C6B0C3CD31" Type="Text" Created="2021-05-31 07:14:39 +0800" Modified="2021-05-31 07:15:08 +0800">
+                                    <Title>描述统计表格</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>154,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="5952941E-28B1-4AAD-B949-3A0991202F26" Type="Text" Created="2021-01-02 23:29:35 +0800" Modified="2021-06-08 05:14:58 +0800">
+                            <Title>分析步骤？</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="666AED0C-DEB0-4139-B157-0D6D65A2203D" Type="Text" Created="2021-06-04 03:12:12 +0800" Modified="2021-06-18 16:40:45 +0800">
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>2401,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="E728340E-6D6A-424F-B594-79CDA533951D" Type="Text" Created="2021-06-04 03:13:57 +0800" Modified="2021-06-06 15:18:53 +0800">
+                                    <Title>三个步骤
+本文进行了三个步骤的分析。
+首先，用χ 2检验比较了四个国家及地区的受访者中老年基本人口统计学因素。
+第二，使用χ 2检验，检查每个国家及地区的住房劣势因素和社会经济因素在不同等级自评健康的个人比例上（一个按照原始编码，一个重新编码后的自评健康）的差异。
+第三，为了实证检验居住环境是否通过健康行为路径影响老人的健康状况，本文构建结构方程模型进行分析，包括了台湾地区与其他东亚社会的比较分析。
+
+每个地区的结构方程模型都是单独拟合的，以探索住房劣势因素和社会经济因素对老年人健康影响的地区间差异。数据清洗使用R语言，数据分析使用R语言的Mplus模块进行。本章节所有分析均使用无权重来描述整个CGSS统计数据。结构方程模型的参数估计方法是最大似然法（maximum likelihood，ML）[1]。显著性水平以0.05进行估计，精确度以95%的置信区间（CI）进行估计。另外，本研究的备选模型[2]是使用逻辑回归的广义结构模型（generalized structural equation model，GSEM）中来预测报告健康状况不佳或良好风险。调整后的几率与95%的置信区间（OR，95%CI）表明自变量与健康良好与健康优秀的关系（表3）或与健康不良与健康优秀的关系（表4）。
+
+
+在双变量分析中，流感疫苗接种覆盖率按高危健康状况进行分层，并对人口统计学变量、社会经济（SES）因素以及医疗态度和行为进行估计。采用双面Pearson's x 2独立性检验来评估大多数变量结论的显著性；对于年龄、教育程度、健康检查、担心无力支付医疗费用和担心大流行性流感菌株等序数变量，采用双面Cochran-Armitage检验来评估趋势的显著性。
+
+ 多变量逻辑回归模型包括高风险健康状况、医疗态度和行为以及混杂因素（性别、年龄、教育、职业、城市化和流感流行地区）。在敏感性分析中，由于担心高危健康状况和疫苗接种之间的关系可能会受到这些因素的影响，因此在不考虑医疗态度和行为的情况下运行了一个逻辑回归模型。与本文提出的模型相比，该模型没有显示出实质性的不同系数估计。同样的模型，但按高危健康状况进行了分层，见补充数据。
+
+ 
+
+￼
+[1] 从严格意义上讲，最大似然估计要求全部变量必须服从联合正泰分布，包括显变量在内{阳义南, 2021 #881}。此时ML参数估计值是渐进无偏（asymptotically unbiased）、一致（consistent）和渐进有效的（asymptotically efficient），并服从渐进正态分布，且不受指标变量的量纲影响。然而实际中的数据（特别是人口调查数据）大都违反正态分布假定，虽然ML估计仍是一致的，但不再是渐进有效的。当在大样本下，ML会是渐进有效的。
+[2] EASS的个人自评健康是五等分量表，取值1-5。之所以将广义结构模型设定为备选模型是因为在经验做法中，如果取值超过5中，采用ML方法估计依然可以得到精确估计，故而可以当作连续型变量处理{Yu, 1989 #886}。在大样本下，ML估计和GLS（广义最小二乘）估计相当接近。{温忠麟, 2020 #882}</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>177,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="0CDE63D9-E1D8-4E4A-90F9-10327A4C431C" Type="Text" Created="2021-06-04 03:12:52 +0800" Modified="2021-06-08 10:43:19 +0800">
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>4,1</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="23A8E21E-EB62-4040-9177-6F3824F8AD61" Type="Folder" Created="2020-08-17 22:39:59 +0800" Modified="2021-06-02 07:03:23 +0800">
+                    <Title>实证结果与分析？</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="37B41F1E-EA90-43EE-AC43-9B9934D47B7D" Type="Text" Created="2021-06-02 05:31:20 +0800" Modified="2021-07-01 03:40:37 +0800">
+                            <Title>本节大纲</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>223,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="32FB17C5-3120-471B-B9C5-2D50753ED901" Type="Text" Created="2021-06-18 16:46:47 +0800" Modified="2021-07-01 21:57:07 +0800">
+                            <Title>第一阶段：CFA</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>815,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="963401C7-5EB2-4AE8-81BE-BB475FE678CB" Type="Text" Created="2021-07-01 03:41:16 +0800" Modified="2021-07-01 03:41:31 +0800">
+                                    <Title>阶段一：已验证的测量模型的信度与效度检验</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>282,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="62A597CD-10D2-4358-A8D9-34B9F160BCAB" Type="Text" Created="2021-06-18 16:47:14 +0800" Modified="2021-07-01 03:42:06 +0800">
+                            <Title>第二阶段：路径分析</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>115,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="DD8C64E6-B64A-4ECE-B685-8491F70196BF" Type="Text" Created="2021-05-03 17:49:02 +0800" Modified="2021-05-03 17:49:04 +0800">
+                            <Title>建成环境与居民健康的关系描述</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="7656D224-6E78-42A0-BF2C-E4C0358FC5DE" Type="Text" Created="2021-03-25 03:09:34 +0800" Modified="2021-03-25 03:09:40 +0800">
+                            <Title>Social participation（Y）</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="D0CB1531-80D7-49F0-BEBD-E43DB36D3BAA" Type="Text" Created="2021-03-22 06:14:58 +0800" Modified="2021-03-25 03:10:25 +0800">
+                            <Title>居住劣势X</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="F681E9DA-D004-4D64-8EA8-8F9987DD7404" Type="Text" Created="2021-02-24 03:03:49 +0800" Modified="2021-07-01 03:40:37 +0800">
+                            <Title>Factors relating to social participation （Y）</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="B382FEEF-2120-41AF-ACAE-8F583E8C0094" Type="Text" Created="2021-03-22 06:13:51 +0800" Modified="2021-03-22 06:14:07 +0800">
+                                    <Title>台湾地区结果</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="8EFF73C9-5067-4601-B437-B69AB22B0351" Type="Text" Created="2021-03-22 06:14:08 +0800" Modified="2021-03-22 06:14:22 +0800">
+                                    <Title>其他东亚社会结果</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="F5E70076-2D00-457E-822C-91329D0227C3" Type="Text" Created="2021-03-22 06:11:40 +0800" Modified="2021-03-22 06:11:48 +0800">
+                            <Title>影响老年人健康因素的性别差异</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="41007319-6877-4B53-8984-04C531F9430E" Type="Folder" Created="2021-03-22 06:11:53 +0800" Modified="2021-03-22 06:12:06 +0800">
+                    <Title>进一步讨论</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="EBA3C3D7-CD58-48A2-83DC-3FF3E1FE819E" Type="Text" Created="2021-03-22 06:12:00 +0800" Modified="2021-03-22 06:12:20 +0800">
+                            <Title>居住劣势 X1 和个体属性 X2 对健康直接影响效应</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="704941F5-2CF4-484A-86DE-1C0EA629637B" Type="Text" Created="2021-03-22 06:12:22 +0800" Modified="2021-03-22 06:12:40 +0800">
+                            <Title>体力活动 M 在居住劣势 X1、个体属性 X2 与健康间的中介作用</Title>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="DDAF0E3C-6D8B-4155-A7CA-3C6147C4B2FD" Type="Text" Created="2021-03-22 06:12:48 +0800" Modified="2021-03-22 06:12:58 +0800">
+                            <Title>对健康影响的性别差异</Title>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="9881FBF7-5043-4D01-850D-A46FED5A555C" Type="Folder" Created="2022-09-05 11:25:34 +0800" Modified="2022-09-05 11:25:36 +0800">
+                    <Title>结论</Title>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="1D7280B2-69A8-428B-9868-E1A4D92BC76B" Type="Text" Created="2021-03-15 04:43:27 +0800" Modified="2021-03-15 04:44:19 +0800">
+            <Title>研究不足</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>212,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="BA61EE3A-C7EA-47E2-A722-ABDC2F19AE37" Type="Text" Created="2021-02-19 00:10:58 +0800" Modified="2021-02-19 00:47:00 +0800">
+            <Title>Bibliography</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>396,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="E683CB63-AE18-404F-B233-CC8825D76E0D" Type="Folder" Created="2014-05-11 07:45:48 +0800" Modified="2014-05-11 07:46:06 +0800">
+            <Title>Front Matter</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Front Matter</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <Arrangement>Freeform</Arrangement>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem UUID="0677725D-2DC3-4BE8-9C6B-8AECD0CF4148" Type="Text" Created="2015-09-24 08:40:00 +0800" Modified="2021-03-20 23:26:01 +0800">
+                    <Title>Title Page</Title>
+                    <MetaData>
+                        <SectionType>0EEF043A-9757-41E4-838C-FADA756FA2B9</SectionType>
+                        <StatusID>6</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>145,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="10F8E55A-B584-4B82-A308-C7D44200A058" Type="Text" Created="2011-07-08 00:49:22 +0800" Modified="2011-07-08 01:31:19 +0800">
+                    <Title>Foreword</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <CorkboardSettings>
+                            <Arrangement>Freeform</Arrangement>
+                        </CorkboardSettings>
+                    </CorkboardAndOutliner>
+                </BinderItem>
+                <BinderItem UUID="D1E1A0C5-717C-4AD5-95E2-B886C7C0677B" Type="Text" Created="2011-07-08 00:58:53 +0800" Modified="2014-06-12 13:22:58 +0800">
+                    <Title>Contents</Title>
+                    <MetaData>
+                        <SectionType>0EEF043A-9757-41E4-838C-FADA756FA2B9</SectionType>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>21,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <CorkboardSettings>
+                            <Arrangement>Freeform</Arrangement>
+                        </CorkboardSettings>
+                    </CorkboardAndOutliner>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="1EA4671A-226E-4DFC-B501-6A0E7FDA5205" Type="Folder" Created="2010-10-30 01:50:27 +0800" Modified="2010-10-30 02:14:27 +0800">
+            <Title>Notes</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Notes (Blue Notepad).png</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <Arrangement>Freeform</Arrangement>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem UUID="3F1CD016-8569-4F97-A7D8-D5F5A527790C" Type="Text" Created="2021-01-02 23:51:07 +0800" Modified="2021-01-02 23:53:08 +0800">
+                    <Title>居住相关题目</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>2,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="F4841BA9-6538-44DF-852B-FDC64A5FAF3B" Type="Text" Created="2021-01-02 23:52:39 +0800" Modified="2021-01-02 23:53:56 +0800">
+                    <Title>医保相关</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>4,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D003BEB6-0958-4A20-A4EB-054B7FD99A88" Type="Text" Created="2021-01-02 23:54:18 +0800" Modified="2021-01-02 23:57:44 +0800">
+                    <Title>健康状况</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>19,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="02011838-4DAE-425E-B345-9DF0BEA36B52" Type="Text" Created="2021-01-02 23:58:17 +0800" Modified="2021-01-03 00:01:11 +0800">
+                    <Title>个人社会经济</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>26,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="706A390A-E60C-4849-B6D4-01DDA547FE05" Type="Text" Created="2022-09-14 01:21:03 +0800" Modified="2022-10-01 12:27:19 +0800">
+                    <Title>
+体育课程的经济学也比其他班级更有可能为其他部门创造溢出。这样的阶级本质上必定是跨学科的，并结合了各种经济学子场。该课程的学生可以品尝到工业组织，公共经济学和劳动经济学等标准课程。
+
+体育经济学教学一直是研究者和政策制定者必须要重视的环节。随着经济全球化，体育经济吸引了越来越多的投资者和消费者，很多赛事影响力已经远远超越了本地本国的界限，成为全球性关注的焦点。一方面，经济学理论的发展为体育经济研究提供更多理论土壤；另一方面，体育经济的包容性随着重大赛事、数字媒体和科技的发展，延伸到了更多领域中。
+
+
+
+国家战略引导+人民消费观念+新时代经济发展需求。。。。。。据统计,2015 年,我国居民经常参加运动健身的人数达3.6亿，而运动健身休闲产业总计达8千亿元。国务院在 2014-2016年间下达了一系列关于发展全民运动健身的文件，包括《全民健身计划(2016-2020年）»和《关于加快发展健身休闲产业的指导意见》，提倡以全民运动健身来提高国民健康水平。在政府的大力倡导与推动下，到2025 年， 我国居民经常参加运动健身的人数预计达到3.6亿,而运动健身休闲的产业规模将增长三倍， 达到3 万亿元。2014 年10月20日下发的《国务院关于加快发展体育产业促进体育消费的若干意见》提出了由计划体制向市场化转变，初步尝试体育竞赛与经营活动结合，鼓励企业加盟,实现产业社会化的号召。随着市场化的发展，体育运动包括全民体育健身所带来的商业活动，,包括电视转播、旅游、广告、服务产业、体育用品，如球队文化产品、体育运动器材和相关健身设备,在我国整体经济中将会占到很大的份额。
+
+</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>650,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="19BEE850-C255-43AE-AA55-969394F2328C" Type="Text" Created="2022-09-10 02:44:54 +0800" Modified="2022-09-24 01:40:47 +0800">
+                    <Title>2022年09月10日</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>223,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="88A3D282-054B-4F0F-89D8-71E5927FCC13" Type="Text" Created="2022-10-09 14:35:17 +0800" Modified="2022-10-09 14:36:20 +0800">
+                    <Title>NACC</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>444,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="E4D250BF-8047-4F88-BE3A-F9D65F8DA7E9" Type="Folder" Created="2010-10-30 02:14:01 +0800" Modified="2010-10-30 02:14:04 +0800">
+            <Title>Ideas</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Light Bulb.png</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="68E110DC-6EA1-4D67-850C-DA34361599AB" Type="Text" Created="2021-03-24 01:17:33 +0800" Modified="2021-04-01 19:56:45 +0800">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>19,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="DECA906D-8610-46E0-A41A-0CFE732EE94D" Type="Text" Created="2021-02-17 17:20:47 +0800" Modified="2021-03-21 07:22:15 +0800">
+                    <Title>多群组分析与跨国比较研究</Title>
+                    <TextSettings>
+                        <TextSelection>3,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9CA14B35-D616-47CC-B06B-8FC82CEC94AA" Type="Text" Created="2021-02-17 16:52:48 +0800" Modified="2021-02-21 17:09:46 +0800">
+                    <Title>一些框架</Title>
+                    <TextSettings>
+                        <TextSelection>8,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="C47FA271-BA8E-473C-ABB8-35DBE26C70EA" Type="Text" Created="2021-02-17 17:27:16 +0800" Modified="2021-02-24 02:48:17 +0800">
+                    <Title>涉及概念</Title>
+                    <TextSettings>
+                        <TextSelection>468,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="89491C59-BBFC-4A32-8C42-371D9DC8897E" Type="ResearchFolder" Created="2006-11-05 00:27:29 +0800" Modified="2006-11-05 00:27:29 +0800">
+            <Title>Research</Title>
+            <Children>
+                <BinderItem UUID="0DE825EB-3332-4E5E-B7DF-387DC78312DD" Type="PDF" Created="2014-05-13 15:59:47 +0800" Modified="2014-05-13 16:16:31 +0800">
+                    <Title>Sample MS</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>pdf</FileExtension>
+                    </MetaData>
+                    <MediaSettings>
+                        <CurrentPDFPage>13</CurrentPDFPage>
+                    </MediaSettings>
+                    <CorkboardAndOutliner>
+                        <CorkboardSettings>
+                            <Arrangement>Freeform</Arrangement>
+                        </CorkboardSettings>
+                    </CorkboardAndOutliner>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="4BBDD91D-1155-4B22-97DD-D74FBA80A27D" Type="TrashFolder" Created="2006-11-05 00:27:29 +0800" Modified="2006-11-05 00:27:29 +0800">
+            <Title>Trash</Title>
+            <CorkboardAndOutliner>
+                <SelectedSubdocumentUUIDs>B54AB68B-D933-459B-84CD-FEA95A47B22C</SelectedSubdocumentUUIDs>
+                <CorkboardSettings>
+                    <Arrangement>Freeform</Arrangement>
+                    <FreeformCorkboardDocuments>
+                        <IndexCardBinderUUID Position="0.153333,0.123333" TimeStamp="2021-02-17 16:54:47 +0800">B54AB68B-D933-459B-84CD-FEA95A47B22C</IndexCardBinderUUID>
+                    </FreeformCorkboardDocuments>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem UUID="EC02A8D9-4726-4633-80DD-A264084D0F0D" Type="Text" Created="2022-09-05 11:26:09 +0800" Modified="2022-10-13 22:36:18 +0800">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1315,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="0E804D2D-A3E2-40DD-856B-3E889E57F710" Type="Text" Created="2007-03-26 04:48:19 +0800" Modified="2022-09-05 11:27:09 +0800">
+                    <Title>Non-Fiction Format</Title>
+                    <MetaData>
+                        <LabelID>5</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Information.png</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>177,0</TextSelection>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <CorkboardSettings>
+                            <Arrangement>Freeform</Arrangement>
+                        </CorkboardSettings>
+                    </CorkboardAndOutliner>
+                </BinderItem>
+                <BinderItem UUID="BC5A2EB2-9703-4CD4-8FAA-E1FB6517679A" Type="Text" Created="2022-09-18 17:40:31 +0800" Modified="2022-09-19 23:04:51 +0800">
+                    <Title>双奥之城未来体育发展</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>99,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="79C3C909-997D-49B6-B191-A27FB259C947" Type="Text" Created="2022-10-08 19:40:27 +0800" Modified="2022-10-08 21:22:24 +0800">
+                    <Title>1.了解历史</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="48DE1CBF-217F-4B94-944D-6D8C97396DCF" Color="0.17693 0.154573 0.133367">
+            <Title>活页夹</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="2655DDF6-4AB8-42CB-A433-1CD76FC351D2" Color="0.17693 0.175159 0.133367">
+            <Title>搜索结果</Title>
+            <SearchSettings Operator="Exact" Type="All" CaseSensitive="No" IgnoreDiacritics="No">non-fiction format</SearchSettings>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="89C0A984-3C09-4210-B156-1D6797F279F3">Chapter Heading</Type>
+            <Type ID="74B681B0-FED3-4211-B200-1EF0E3E46C91">Section</Type>
+            <Type ID="7F2B69AC-DB81-4C8D-ABE4-674AEECDDBA4">Chapter</Type>
+            <Type ID="5275F7E1-D22B-440B-8042-94C4C655B8C6">Heading</Type>
+            <Type ID="740F011C-A843-47F1-A3CC-C66755527426">Headed Section</Type>
+            <Type ID="D03F0C01-9162-4A7B-B1B8-A4DA36F67ECA">Sub-Heading</Type>
+            <Type ID="8B88AC37-8359-401E-80D7-2D13BF9EBEDE">Front Matter</Type>
+            <Type ID="9B7CC6A5-14B4-4916-84BB-57D48011B8A4">Contents Page</Type>
+            <Type ID="A1EF6DAC-41B2-4516-ABB7-6342AB8CF038">Endnotes Holder</Type>
+            <Type ID="8EA6121D-9568-4C30-9618-479A443FEF77">N/A</Type>
+            <Type ID="0EEF043A-9757-41E4-838C-FADA756FA2B9">不适用</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>8EA6121D-9568-4C30-9618-479A443FEF77</Type>
+                <Type>89C0A984-3C09-4210-B156-1D6797F279F3</Type>
+            </Folders>
+            <Containers>
+                <Type>D03F0C01-9162-4A7B-B1B8-A4DA36F67ECA</Type>
+            </Containers>
+            <Files>
+                <Type>740F011C-A843-47F1-A3CC-C66755527426</Type>
+                <Type>740F011C-A843-47F1-A3CC-C66755527426</Type>
+                <Type>74B681B0-FED3-4211-B200-1EF0E3E46C91</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="1" Color="0.952941 0.917647 0.329412">Idea</Label>
+            <Label ID="5" Color="0.894118 0.529412 0.219608">Notes</Label>
+            <Label ID="6" Color="0.913725 0.098039 0.184314">Research</Label>
+            <Label ID="2" Color="0.282353 0.701961 0.0">Chapter</Label>
+            <Label ID="4" Color="0.27451 0.556863 1.0">Sub-Section</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="1">To Do</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="6">Title Page</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Characters" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-04-12 20:24:39 +0800" IgnoreDeadline="Yes">15000</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" NextResetDate="2022-10-18 00:00:00 +0800" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">50</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2022-10-17 10:50:24 +0800"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2022-10-17 00:00:00 +0800">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" ReverseOrder="No" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>

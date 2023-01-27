@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="C47FA271-BA8E-473C-ABB8-35DBE26C70EA">
+            <Title>涉及概念</Title>
+            <Text>结构模型的多组比较：本文主要是基于TW的跨地区比较
+
+#
+
+#
+
+结构方程模型（structural equation modeling，SEM）
+#
+
+#
+
+#
+卡方对样本敏感，样本大于200，极其不容易不显著，
+选择主流适配指数，
+
+使用LISREL 8.8（Jöreskog和Sörbom，2001），我们估计了最能代表我们概念模型的结构模型。在我们的概念模型中没有确定的effects没有被估计，被设置为零。此外，由于SAGE数据集和人口普查中的指标是在不同的时刻收集的，因此，与指标的时间顺序不一致的effects同样没有被估计，并设置为零。选取了三个良好度量方法来评估估计的SEM模型与输入相关矩阵的fit：渐进残差均方和平方根（RMSEA）、比较fit指数（CFI）和调整后的良好度指数（AGFI）。对于一个好的模型，RMSEA应低于0.05，CFI和AGFI应高于0.95。
+RMSEA = 0 是完美适配。根据自己领域选取临界值。
+CFI，比较适配指数
+TLI，
+
+AIC和BIC更用于增长模型，纵贯数据模型。
+
+#
+
+
+#
+
+#
+
+</Text>
+        </Document>
+        <Document ID="D1107282-1ED5-4A6B-A998-902D9D0E1F16">
+            <Title>EASS介绍</Title>
+            <Text>
+CGSS
+JGSS
+KGSS
+TSCS
+调查名称
+中国综合社会调查
+日本综合社会调查
+韩国综合社会调查
+台湾社会变迁调查
+实地考察日期
+2010年7-12月
+2010年2-4月
+2010年6-8月
+2011年7-11月；2012年2-4月
+实地调查机构
+中国人民大学中国调查与数据中心
+中央调查社
+成均馆大学调查研究中心
+中央研究院调查研究专题中心
+调查对象
+18岁以上
+20-89岁
+韩国户籍的18岁以上的成年公民
+登记在册人口
+抽样方法
+三阶段分层抽样
+两阶段分层随机抽样；按区域区块和人口规模分层
+多阶段区域概率抽样
+三阶段分层PPS抽样，(1)PSU=乡镇，(2)村(乡镇下的行政单位，(3)个人。
+初始样本量
+5370
+4500
+2500
+4424
+受访者数量
+3866
+2496
+1576
+2199
+有效回复率
+71.99%
+62.1% (JGSS官方公布)；55.5% (按受访者除以初始样本量计算)
+63.00%
+49.71% (按受访者除以初始样本量计算)
+是否加权
+Yes
+Yes
+No
+Yes
+</Text>
+        </Document>
+        <Document ID="2213416D-495B-465E-9371-5E10A250EA02">
+            <Title>中介效应和调节效应</Title>
+            <Text>为了在住房劣势和居民健康之间建立更为直观联系且便于分析不同因素的影响机制，分析某些因素的中介效应或调节效应是开展该领域循证研究较为可靠的途径。
+
+中介效应通常是为了检验因变量Y和自变量X之间的关系，它们不一定是真实的因果关系，而是通过已有理论、文献或经验尝试合理建构的X影响Y的机制，在此基础上讨论中介变量（mediator）。简单概括，如果自变量X通过变量M来影响因变量Y，则M就是中介变量。另外，在研究变量之间关系和影响作用时，通常会关注变量之间的主效应（main effect），及X变化如何引起Y变化，或者Y的变化在多大程度上可由除X外的变量来解释，特别是社会科学研究领域，经常会遇到交互作用的问题，这就是调节效应。简单概括，如果X和Y的关系是变量M的函数，则变量M称之为调节变量{Baron, 1986 #884}。也就是说，X与Y之间的关系受到M的影响。调节变量M可以是定性的（如分类变量），也可以是定量（如连续变量）的，M可以影响X与Y关系的方向或者强弱。交互效应（interaction effect）和调节效应在不同语境下有不同含义，既可以是同义词{Klein, 2000 #883}，又可以代表不同概念{温忠麟, 2020 #882}。通常认为交互效应中的两个变量是对称的，任何一个都作为解释变量；也可以是不对称的，其中一个起到调节变量作用，交互效应就存在。但在调节效应中，何为自变量X、何为调节变量M是明确的，在同一模型中不能够互换{温忠麟, 2020 #882}。
+
+本文为了验证住房劣势对老人自评健康的影响，特别是检验锻炼行为的中介作用时，选择使用结构方程模型作为基本研究方法，是因为回归分析研究重点是显变量（manifest variable）间关系，显变量是可以直接测量（可观测变量，observed variable）；若不可直接测量，只能设计题目（item）间接测量感兴趣的变量，这是题目成为潜变量（latent variable）的指标（indicator）。回归分析的思路是“化潜为显”，但不足之处在于潜变量当做显变量会存在解释变量的测量误差（measurement error in explanatory variable）或遗漏变量（omitted variables），进而产生内生性问题（endogeneity）和有偏估计量（biased estimator）{Wooldridge, 2019 #885}, p. 798。另外，结构方程模型检验复杂模型时更为容易，且可以检验模型适配度（goodness of fit），用以指示理论模型与实际数据的一致性程度。
+
+
+
+</Text>
+        </Document>
+        <Document ID="E683CB63-AE18-404F-B233-CC8825D76E0D">
+            <Title>Front Matter</Title>
+        </Document>
+        <Document ID="B382FEEF-2120-41AF-ACAE-8F583E8C0094">
+            <Title>台湾地区结果</Title>
+        </Document>
+        <Document ID="DD8C64E6-B64A-4ECE-B685-8491F70196BF">
+            <Title>建成环境与居民健康的关系描述</Title>
+        </Document>
+        <Document ID="1BEB4139-FF36-445B-9E7C-6F0D60EB536E">
+            <Title>理论</Title>
+            <Text>Person-Environment Fit Theory
+Press-Competence Model
+Model of Residential Mobility
+Environmental Characteristics &amp; Physical Well-Being
+Environmental Characteristics &amp; Global Assessment of Community
+Environmental Characteristics &amp; Aging-in-Place</Text>
+        </Document>
+        <Document ID="9D7C35CD-D5BA-412D-B7E0-717B1CF22114">
+            <Title>案例分类</Title>
+            <Text>（个人的理解+文章背景）
+Neale（1964）[1]在QJE（Quarterly Journal of Economics）上发表文章《职业体育的特殊经济学》中指出了竞争均衡问题的对于球队、联盟的重要性，并且从产业组织理论和制度经济学的角度，剖析了产生竞争失衡问题根源在于如何正确定位职业体育中竞争主体——“企业”（也就是作者认为职业体育经济的“特殊之处”）的概念。作者将竞争失衡问题用“路易斯-施梅因的悖论”（Louis–Schmelling paradox）[2]来刻画，说明在职业体育中一支球队（一般意义上企业）垄断行为并不能存在，各支球队需要竞争者才能成功。击败越强大的竞争对手，意味着越有价值的胜利；相反，若是像拳王路易斯那样，由于失去了竞争对手，最终会毫无收入。
+Neale认为，之所以“路易斯-施梅因悖论”[3]存在，根本在于人们对于职业体育竞争主体的认识出现了问题。作者明确指出，“体育世界里法律意义上企业的概念并非经济学意义上的企业概念”,影响球队收入的因素源自于“企业”内部、球队之间的“体育竞争”层面，而非“商业竞争”层面。简单来说，职业体育中的企业是一个球队联盟或者联赛整体，必须包含着所有参与者。究其原因，一个完整意义上的企业必须是“利益与决策”相统一的经济单位，但职业体育中的企业，“利益获得”（profit-taking）和“制定决策”（making-decision）两者是分开的，即：各支球队获得利益，而联赛制定决策。[4]Neale将这种“企业”的特征描述为“多企业的工厂”。也就是说，在职业体育中的产出（包括比赛的胜负）[5]是由具有该种特征的“企业”所生产获得。这样，理解竞争失衡问题的产生根源就不再局限到某一支球队，而是整个职业体育联盟内在原因。
+
+
+[1] Neale（1964）文章使用“联赛排名效应”（league standing effect ）的概念来说明竞争均衡对于球队收入的重要性，同时作者还关注了职业体育联盟的性质及其组织、生产的特性。
+[2] 
+[3]之所以被称之为悖论，是因为在经济学意义上，竞争导致垄断，而垄断会有超额利润获取；但是体育经济中，“路易斯-施梅因”事件说明了一个竞争主体的过于强大，会导致收入为零。
+[4] 作者借用Robert Dorfman教授的分析，将体育联盟比作一种贸易联盟，特别将“东部铁路联合会”（Eastern Railway Conference）为例。
+[5] 作者认为职业体育的产出产品是一系列复合的、不可分割的效用流集（一场比赛的胜负结果、联赛排名、球迷热情、电视观众的效用、新闻界利益等）。
+</Text>
+        </Document>
+        <Document ID="79C3C909-997D-49B6-B191-A27FB259C947">
+            <Title>1.了解历史</Title>
+        </Document>
+        <Document ID="FCED55A4-3D67-4750-9F7E-7B828BFA9810">
+            <Title>1.媒体对联盟收入的贡献</Title>
+            <Text>
+
+#
+
+无线广播和有线电视转播收入是NFL资金来源基础。上世纪80年代中期有线电视用户群扩大到三分之二的电视家庭，使得有线电视作为球队收入来源变得更加重要。
+反垄断豁免成为媒体收入的积极因素。1961年美国国会通过《体育广播法》（Sports Broadcasting Act），该法案允许体育职业联盟以卡特尔身份与电视网络公司谈判，大大增加了职业联盟的讨价还价能力。目前，NFL一半左右收入是媒体类收入，其余一半由门票和其他类别收入贡献。NFL年度广播收入从2007-13年的年均19亿美元上升到2014-22年的近31亿美元（Futterman等，2011）；此外从2014年开始NFL与ESPN和DirecTV电视总收入每年达到60亿美元。之所以广播电视公司为体育版权支付更多，是因为长期以来球迷兴趣不断上升。甚至，无线与有线电视对转播权的竞争一度引发了价格竞标战（La Pointe ，1989）。总体而言，与媒体相关的体育收入占全球 1000 亿美元市体育场的三分之一，即 300 亿美元，体育版权价值主要来自球迷对相对稀缺的高质量赛事的兴趣。在美国，每年以体育为中心的总转播小时数约为 2000 小时，其中橄榄器（NFL 和 NCAA）约占 33%；篮球（NBA和NCAA等）15%；棒球 (MLB) 7%；高尔夫 20%；和赛车运动 10%；每年的有线电视小时数约为 30000，其中赛车运动和足球是最大的类别，分别为 18% 和 10%（ Vogel，2020）。
+Harold L. Vogel. Entertainment Industry Economics: A Guide for Financial Analysis. 8th edition. Cambridge University Press, 2020.
+
+然而球队成本控制方面，平均每年可能有三分之一的联盟球队会报告亏损的。如果不是局内人的话，很难知道这种利润和亏损的可信度有多大。老板通过向自己支付高额工资，或与自己持有的其他关联公司签订合同的方式，试图借由折旧税保护来避税（Walker ，2002）。
+
+</Text>
+            <Comments>这种情况随着近年来NFL和英超收视率的下降而改变，以至于损害球队的投资吸引力（Hough，2019b）。</Comments>
+        </Document>
+        <Document ID="02011838-4DAE-425E-B345-9DF0BEA36B52">
+            <Title>个人社会经济</Title>
+            <Text>#
+
+#
+
+
+家庭健康、社会支持
+
+#
+
+#
+
+
+#
+
+#</Text>
+        </Document>
+        <Document ID="94828BB7-D8CA-4410-99EF-F17C0561D1E0">
+            <Title>承上启下第一段？ </Title>
+            <Text>过去几十年来，东亚各个国家或地区城市化进程是人类历史上前所未有的。大量人口从农村转移到城市，极大地促进了经济的快速增长和发展。史无前例的城市化浪潮不仅创造了近几十年来经济增长的奇迹（如东亚“四小龙”），同时也带来了一系列的挑战和问题，尤其是城市居民面临的居住高密度、高房价。住房问题是快速城市化的关键问题之一。但随着城乡差距扩大，住房问题日趋严重和复杂，如高房价、住房拥挤、居住隔离、住房不公等等。
+
+在享受二战后和平环境所带来的经济繁荣和城市化程度不断提高的同时，东亚各国或地区面临人口的快速老龄化。城市化诱发的住房支付能力压力、住房劣势等问题会影响人们的身心健康，并且在人口老龄化背景下该问题可能会更加恶化。在社会流行病学研究中，住房一直被认为是身心健康的社会决定因素{Singh, 2019 #400;Bentley, 2019 #397}，世卫组织在2018年《住房与健康指南》中汇集近年来最新证据表明改善住房条件可以预防疾病、提高生活质量、减少贫困并有助于缓解气候变化，强调鉴于城市化快速发展、人口老龄化和气候变化背景下，住房对健康的重要性在日益提高{Organisation, 2018 #878}。世卫组织的《住房与健康指南》旨在为国家、区域和地区层面提供住房相关政策和法规信息，进一步参与那些可以直接影响人类健康、行为和安全的住房建造、维护和拆除。其核心目的是突出卫生部门与其他部门之间的合作以及各级政府在住房方面促进健康而实施共同努力的重要性。 
+
+在第二章文献综述概括了现有居住与健康相关性研究的研究对象、方法和主要结论，认识到关于客观和主观住房条件不足、住房不充分或住房劣势对个人健康影响的负面作用，更重要的是若区分住房客观不足（如条件差）和住房主观认知差异（居住满意度）影响健康的途径不可能相同。然而，现有研究研究大多使用 “住房劣势的单维度测量"{Singh, 2019 #400;Bentley, 2019 #397}，很少有研究影响健康的多重因素。也就是说，已有文献经常只探讨居住条件某些方面，如住宅社会经济地位（SES）、邻里安全（如Booth，Ayers，&amp; Marsiglia，2012；Cromley，Wilson-Gendederson&amp;Pruchno，2013）或住宅权属（如Kovalchik等人，2015）。这种单维方法之所以必要，主要是由于缺乏可用数据。只有少数研究（其中许多研究基于小样本）同时包括了住房劣势多个特征，尽管多种环境因素在促进健康方面可能很重要。
+
+由于本研究领域的固有特质，几乎所有研究结论都来自观察性数据，仅有一项来自随机对照试验（RCTs）干预措施的实验证据{Larson, 2010 #879}报告结果非感染性疾病{Organisation, 2018 #878}，因此，本综述所参考的相关研究的大部分证据都是观察性的。Larson（2010）认为住房拥挤与健康特别关联，然而住房拥挤是一种偶然暴露因素。此外，之前研究结果多以单个国家或地区为分析地区（大多以欧美地区为主），并且较少研究住房劣势对老年人健康的研究，因此，我们对老年人的住房劣势特征和健康之间的关系的理解仍然非常有限。现有研究绝大多数集中于欧美发达国家，但这些发现适用于东亚（特别是台湾）老年人么？</Text>
+        </Document>
+        <Document ID="F9BBA6F2-2FF5-436C-AB4B-97A4E552E561">
+            <Title>模型设定？</Title>
+            <Text>结构方程模型是探讨内生潜变量和外生潜变量之间函数关系的统计模型，一般包括测量模型和结构模型两个部分。本部分主要涉及用于说明潜变量之间路径关系的结构模型部分。
+
+图 ###是主要概念的示意图，展示了住房劣势、健康行为与健康状况三者的关系。
+
+控制健康态度变量的模型（3-5）中估计的建成环境对健康状况的效应，即为图 3-9a 中建成环境 的总效应 c。图 3-9b 考虑了建成环境可能通过健康行为路径影响健康状况，故将 c 拆分为两个部分。第一部分是建成环境通过健康行为路径对健康状况的影响 （ab），由建成环境对健康行为的影响（a）和健康行为对健康状况的影响（b） 的乘积构成；第二部分是在建成环境对健康的影响中，健康行为无法解释的部分 （c'），这可能是建成环境本身的作用，也可能是建成环境通过其他路径对健康的 影响。</Text>
+        </Document>
+        <Document ID="A445D815-71D9-451E-89BF-A2F73B54A366">
+            <Title>教学案例2：实践型问题讲授</Title>
+            <Text>实践型案例：让学生了解联盟治理趋势和逻辑更重要，不能淹没在繁杂的管理条例中。
+
+下一个引申的讨论专题：面向娱乐产业的体育行业发展，围绕《娱乐产业经济学》
+这部分可以让学生展开维度来讨论：面向有线、无线、出版、玩具和游戏、传播
+</Text>
+        </Document>
+        <Document ID="F64495A4-9FE7-45C3-8139-CAB8FB54E616">
+            <Title>研究目的？</Title>
+            <Text> 本论文有三个目的。第一，研究住房劣势感知与老年人自评健康之间的关系；其次，研究锻炼的中介作用，看住房劣势感知与老年人自评健康之间的关系是否因老年人参与运动不同而存在差异；最后，探讨住房劣势感知与老年人自评健康关系的在东亚社会间的差异。</Text>
+        </Document>
+        <Document ID="B243567F-DB02-44BA-AD71-3BBE7F805ABB">
+            <Title>理论准备（基本完成）</Title>
+        </Document>
+        <Document ID="EC02A8D9-4726-4633-80DD-A264084D0F0D">
+            <Text>Conducting Research
+1. Organize conferences, seminars, and visitor programs that are inclusive. 
+   Each conference, panel, seminar series, or other forum should feature a diverse group of economists.
+2. Ensure that the conferences and seminar discussions you host are constructive.
+   Setting and enforcing rules of responsible behavior by attendees at conference and seminar presentations can increase the quality of the intellectual exchange. 
+3. Provide equitable access to journals.  
+   Ensuring that boards of editors at journals are diverse, that high standards of ethical and equitable behavior are set, and that referees adhere to them may help reduce biases in the editorial process. 
+4. Read and cite diversely; think inclusively.
+   Citing a diverse set of authors on syllabi and bibliographies and finding value in alternative research approaches can improve your research and the discipline.
+5. Share research opportunities broadly. 
+   Seeking diversity when identifying research assistants and potential collaborators can help counter existing biases.
+
+1. 组织具有包容性的会议、研讨会和访问项目。
+   每个会议、小组讨论、系列研讨会或其他论坛都应该有一个多样化的经济学家群体。
+2. 确保你主办的会议和研讨会的讨论是建设性的。
+   在会议和研讨会发言中，制定并执行与会者负责任的行为规则，可以提高知识交流的质量。
+3. 提供公平的期刊使用权。 
+   确保期刊的编辑委员会是多元化的，制定道德和公平行为的高标准，并确保裁判员遵守这些标准，可以帮助减少编辑过程中的偏见。
+4. 多样化阅读和引用；包容性思考。
+   在教学大纲和书目中引用不同的作者，并从其他研究方法中发现价值，可以改善你的研究和学科。
+5. 广泛分享研究机会。
+ 在确定研究助理和潜在合作者时，寻求多样性有助于消除现有偏见。
+
+
+组织具有包容性的会议、研讨会和访客计划。
+每个会议、小组讨论、系列研讨会或其他论坛都应该有一个多样化的经济学家群体。
+
+如何实施 
+- 在邀请参加会议时，明确传达你对多样性的承诺。评估活动标准和传统，作为潜在的偏见来源。
+- 邀请并确保一批多元化的经济学家发言，担任小组成员，发表主旨演讲，并参与你的活动。在这个过程中，首先邀请代表性不足的群体成员，以确保最后的多样性。请参考《多样化经济学研讨会发言人名单》。
+- 培养一个处于各个职业阶段的多元化经济学家网络。熟悉你的泡沫之外的研究。邀请年轻学者，以及那些来自小机构的、可能没有那么多关系的学者参加你的活动，即使他们不做演讲。
+- 充分利用你作为受邀演讲者的身份。当你收到组织者的邀请时，要确保你将成为多元化演讲者的一部分。如果议程中对包容性的关注不明显，请拒绝参加（Collins 2019）。
+- 为了确保所有潜在参与者的可负担性和灵活性，提出为没有研究账户的人报销旅行费用；提供允许父母平衡职业和家庭义务的住宿；并允许远程参与。
+- 记录参与者中女性和URM经济学家的比例。其他人将对你的成果进行跟踪和竞争（例如，见Doleac和Pancotti 2019，Suri和Niehaus 2019）。
+
+Research and Resources
+
+The Econ Seminar Diversity project, fueled by undergraduate students, graduate students, and predoctoral research assistants, is gathering data from department websites on how often economics research seminars feature women and URM economists. Currently, 2 percent of the more than 3,000 speakers in their data are URM, compared with 8 percent of economics faculty (Doleac and Pancotti 2019).
+
+The Diversifying Economics Seminars Speakers List, developed by CSMGEP in cooperation with CSQIEP and CSWEP, provides a growing database of URM, LGBTQ+, and women speakers by field. For additional assistance in finding diverse speakers, contact senior women and underrepresented minority economists and circulate invitations to members of the American Society for Hispanic Economists and the National Economic Association. You can reach junior economists from diverse backgrounds through the AEA Summer and Scholarship Programs, the CSMGEP Mentoring Program, the Summer Economic Fellows Program, the CeMENT Mentoring Program, and the Diversity Initiative for Tenure in Economics. Listening to the perspectives of women and URM economists helps strengthen your understanding and your research.
+
+Building a diverse network of researchers works best when done in advance of an event. Conference organizers may attempt to redress a lack of diversity by inviting women and URM economists at the last minute. These last-minute invitations are usually not a good fit for the invitees and can end up being a burden. A better practice to ensure diverse research activities is to be intentional about building a diverse network of contacts. Oftentimes this will involve reading more broadly and reaching out personally, on an ongoing basis, to women and URM economists.
+
+David Romer and Justin Wolfers at the Brookings Institution (Romer and Wolfers 2018) report that “being disorganized or rushed had negative consequences for gender equity.” More specifically, “in cases when our procrastination meant that we had to scramble to find a last-minute discussant, or our failure to notice that an author was not going to produce an acceptable paper in time meant we had to try to solicit a paper very late in the process, we tended to go with the first names that came to mind or to turn to people with whom we had personal connections. Unfortunately, those people were generally men. A behavioral economist might link this to ‘availability bias,’ and we suspect the greater availability of men’s names reflects both a personal element—we are both men—and a systemic one—we are in a male-dominated profession.”
+
+Another way conferences can expand inclusivity is to offer childcare, especially when they are held on weekends. Alternatively, organizers can publicize a list of babysitters used by local faculty or recruit undergraduate students as babysitters. Conferences should offer a clean, private area for nursing mothers to pump breast milk. If possible, they should also provide space for older children. Organizers should budget to make attendance affordable and practicable for all potential participants. 
+
+
+Ensure that the conferences and seminar discussions you host are constructive.
+
+Setting and enforcing rules of responsible behavior by attendees at conference and seminar presentations can increase the quality of the intellectual exchange. 
+
+How to Implement 
+
+- Develop a set of guidelines for your department and/or conference series. As an example, refer to the “Guidance for a Constructive Culture of Exchange in MIT Economics Seminars” (MIT Department of Economics 2019).
+- Mitigate power dynamics in seminars. For example, if a powerful person dismisses a good question from a junior, female, URM, or less-connected person, help to flatten the power dynamic by asking to hear the answer to that question.
+- Repeated interruptions or refusals to accept an answer to a question should also be addressed. If it is not possible to do so during the seminar, follow up immediately afterward and explain how destructive the behavior is.
+- Track how you and your colleagues behave. As a model, see the statistics collected in World Bank recruitment seminars (Ozler 2019).
+- As a participant, your primary objective in attending a seminar is to learn from the speaker. You can also collaboratively help the speaker improve the quality of their scholarship. The objective should never be to prove that you are the smartest person in the room.
+- Recognize the needs of different-abled economists when planning conferences. Ensure venues are accessible to those with visual and mobility impairments. Provide captioners to aid people with hearing disabilities, and make sure presenters use microphones when available to ensure proper delivery of captioning services.
+Research and Resources
+
+The economics profession is infamous for its aggressive seminar culture. “An adversarial and aggressive culture within academic economics is often advanced as a causal force in women’s stalled progress in the profession, though its impact is difficult to quantify. Economics seminars, for example, have a reputation for being particularly hostile environments. The culture of an academic discipline can have gendered implications if women either fail to fully adapt to the culture or if they receive differential treatment as a result of it” (Lundberg and Stearns 2019). 
+
+New efforts to collect quantitative data on seminar dynamics suggest that women are treated differently than men (e.g., Modestino, Dupas, Niederle, and Wolfers 2019; Ozler 2019). These findings are consistent with a striking disparity recorded in the recent AEA professional climate survey (Allgood, Badgett, Bayer, Bertrand, Black, Bloom, and Cook 2019): 91 percent of respondents agree that men are respected within the field, while 41 percent overall (and only 16 percent of female respondents) agree that women are respected. The hostility and lack of respect can be detrimental to both the field and its practitioners; for example, to avoid possible harassment, discrimination, or unfair or disrespectful treatment, 40 percent of Black, Latinx, and Native American economists report having not presented a question, idea, or view and over 20 percent have not participated in a conference (Bayer 2020). “Harassment and exclusionary discourse are barriers to diversity in economics and, therefore, to the advancement of our scholarship. Tacit acceptance of such behavior contributes to a general perception that the economics profession is unwelcoming, or even actively hostile, to female and minority economists” (CSWEP 2018). 
+
+Note that critique is not the problem. Economists who are members of groups underrepresented in the profession want close attention to and feedback on their work just as much as any economist. But, as participants in the Graduate Student Summit for Diversity in Economics note, “a common problem with seminars is low-quality communication. Time is precious for everyone, and low-quality communication prevents participants from getting the most value from seminars” (Blakeney, Kestelman, and Liu 2019). They provide examples of low-quality contributions from seminar audience members (paraphrased below): 
+
+- Questions that aren’t questions 
+- Questions that attack the whole idea—e.g., why would anyone study this?
+- Overly technical questions, either to tear down or to show off
+- Expecting norms from a different subfield to be applied
+- Making the seminar about themselves
+- Extended back-and-forth digressing from the main topic
+- Talking between audience members
+“Economists have a professional obligation to conduct civil and respectful discourse in all forums” (AEA 2018). The guidance provided by the MIT Economics Department (2019) can “help ensure that department seminars promote an open and vibrant exchange of ideas within a positive environment for both presenters and participants.” Given that women and URM speakers, especially, face premature, inappropriate, relentless, or patronizing questions, a neutral policy that, say, establishes a no-questions portion of the seminar (e.g., the first ten minutes) may help combat bias. Effective bystanders can also help change seminar norms (see the second Colleagues section). 
+
+
+Provide equitable access to journals. 
+
+Ensuring that boards of editors at journals are diverse, that high standards of ethical and equitable behavior are set, and that referees adhere to them may help reduce biases in the editorial process. 
+
+How to Implement 
+
+- Referees should remain mindful of documented biases in assessing the work of women and URM economists. Referees should judge research with an open mind and on its own merits without using proxies such as affiliation, age, race, or gender to evaluate papers.
+- Editors must monitor and provide feedback to referees, recognizing that racial and/or gender bias may nevertheless be present in referees’ evaluations of papers. Editors encountering mistaken beliefs or racial/gender animus must overrule referees and dismiss these reports. Similarly, editors should screen out excessively aggressive reports and not share them with authors. Decisions should be communicated to the referees to encourage improvement. Track outcomes and be alert to concerning patterns. 
+- Editors have a special responsibility to be mindful of their own biases as well and should exercise humility and self-reflection in editorial decisions.
+- A referee or editor who has been involved in an intimate relationship, or has suggested an intimate relationship, with an author should recuse themselves from reviewing or editing that author’s work.
+- Including women and URM economists on the board of editors can build a diverse pipeline of future journal editors. Providing discounts to graduate students or on the basis of income can make publishing more accessible to a broader set of submissions.
+Research and Resources
+
+In a study of submissions to four leading economics journals, Card, DellaVigna, Funk, and Iriberri (2019) find that that female authors appear to be held to a higher standard by referees in the editorial process, estimating that papers with female authors have a 1.7 percentage point lower probability of a revise and resubmit verdict relative to a citation-maximizing benchmark. Hengel (2019) finds female authors wait longer for peer review even though their papers are more readable; she concludes that “tougher editorial standards . . . cause senior female economists to write at least 7 percent more clearly than they otherwise would. Moreover, the cost to men of publishing a paper appears to be much lower than the cost to women: female-authored papers spend 3–6 months longer in peer review compared to observably equivalent male-authored papers (data from Econometrica and the Review of Economic Studies).” Although it might seem that using women reviewers could mitigate this disparity, Card, DellaVigna, Funk, and Iriberri (2019) find that female referees seem to hold female-authored submissions to the same higher standard as male referees do.
+
+As a reviewer, include detailed and constructive comments. Avoid using glib statements such as “that is not economics” to criticize methodological approaches you may not like. Instead, articulate substantive critiques of a given methodology, and clarify whether a given critique applies to a particular paper or to a literature. In the case of a desk rejection, be explicit about the reason so that authors learn how to improve their papers.
+
+In an initiative to improve gender balance at the Brookings Papers on Economic Activity, Romer and Wolfers (2018) find that “making an explicit decision to be concerned about these issues and to think consciously about them had the biggest impact on gender equity.”
+
+
+Read and cite diversely; think inclusively.
+
+Citing a diverse set of authors on syllabi and bibliographies and finding value in alternative research approaches can improve your research and the discipline.
+
+How to Implement 
+
+- Be intentional about citing a diverse set of authors on syllabi and in bibliographies. Broadening the set of papers you assign and cite expands your knowledge and diversifies the array of research and researchers that are seen as worthy. You can use this tool to assess the gender and racial/ethnic balance of syllabi and bibliographies (Sumner 2018).
+- Whenever possible in written materials, as well as in presentations and social media (e.g., Twitter, EconSpark), cite papers by all names or by an acronym of all family names. When writing as coauthors, consider using a certified random order of names when appropriate (Ray ⓡ Robson 2018).
+- Maintain a diverse reading list, and build a diverse research network.
+- Recognize value in alternative research methodologies and approaches. Exercise humility and self-reflection to understand how your own background and experiences influence your view on what constitutes an interesting research question, a valid methodological approach, or a compelling panelist.
+Research and Resources
+
+The resources and ideas summarized in this resource can help you evaluate the diversity in your own research activities and set explicit goals for improvement. Diversify the authors whose research you read, and expand your intellectual circle. Check the reference lists of the papers you are writing using Sumner’s (n.d., 2018) tool and correct imbalances. As Suri and Niehaus (2019) do for women in the field of development economics, track the seminar presentations you attend and the departments you visit and seek out ways to diversify them. Consider reaching out to economists at minority-serving institutions and historically Black colleges and universities. Explore diversity within groups; the circumstances and insights of white, Black, Latinx, and Asian women can differ (Sharpe 2019). Be open to alternative research approaches to increase the demographic and intellectual diversity of your networks and resources.
+
+
+Share research opportunities broadly. 
+
+Seeking diversity when identifying research assistants and potential collaborators can help counter existing biases. 
+
+How to Implement 
+
+- Proactively share professional opportunities with women and members of underrepresented groups to help counteract pervasive biases. 
+- Involve diverse groups of students in research as early as possible in their academic careers. Connect these students with organizations that promote diversity through mentorship, such as the Leadership Alliance and the Sadie Collective.
+- Recognize that some forms of research (e.g., field experiments in development) are increasingly valued but expensive propositions. Create ways to engage graduate students and faculty who are unable to access the necessary resources on their own. 
+Research and Resources
+
+Chari and Goldsmith-Pinkham (2018) show that women constitute a small fraction of presenters at the NBER Summer Institute, and Hospido and Sanz (2019) show that, other things equal, papers authored by women are less likely to be accepted at conferences than papers authored by men. Individuals and organizations can be deliberate about countering the effects of pervasive biases. 
+
+In sum, the evidence suggests that poor research practices are impeding the trajectories of women and URM economists and of economic research itself. Economists need to redress discrimination intentionally for the good of the profession and of the discipline.</Text>
+        </Document>
+        <Document ID="B94301FF-B8BB-4169-81C8-5CF26F09EECD">
+            <Title>资料来源与样本√</Title>
+            <Text>本研究利用东亚社会调查（EASS）中数据进行分析，该调查在日本、韩国、中国大陆和台湾地区询问相同的问题。EASS每两年进行一次社会调查，作为东亚地区四项综合社会调查（GSS）——中国综合社会调查（CGSS）、日本综合社会调查（JGSS）、韩国综合社会调查（KGSS）和台湾社会变迁调查（TSCS）——的跨国家研究综合，EASS致力于促进东亚地区社会生活各个方面的比较研究。EASS于2003年启动，是少数几个国际协调的社会调查数据收集工作之一，在关注东亚地区方面确实是独一无二的。截至2019年8月，EASS分别于2006年（家庭模块）、2008年（全球化与文化模块）、2010年（健康模块）、2012年（网络与社会资本模块）、2014年（工作模块）、2016年（家庭模块）、2018年（全球化与文化模块）进行了7个模块调查，目前正在进行2020年健康模块数据的归档工作。
+
+作为最近一期、最为权威性、东亚地区关于健康主题的综合性社会调查，EASS（2010）为本文研究提供了丰富的问题背景和数据支撑。EASS要求每个参与单位收集到的数据集要经过处理和准备，以符合标准设置结构后，才能交付给EASSDA进行整合、统一和存档。考虑EASS在收集数据时强调科学的严谨性和文化的可比性，因此更适合于跨国别研究中使用{Iwai, 2014 #880}。虽然2010年EASS主题为健康模块，但考虑环境因素对健康的重要影响，EASS为了最大限度地发挥同时实施两个模块（健康与环境）的协同作用，特意将EASS健康模块与2010年国际社会保障协会（ International Social Security Association，ISSA）的环境模块联系起来。健康模块包括健康状况（自评健康、无望、症状、慢性病等）、与健康有关的行为（吸烟、饮酒、体育锻炼、健康检查等）、护理的给予和采取、健康和社会保障保险、替代医学、社会支持和信任、环境、流行病学、家庭护理需求和护理管理、精神崩溃等。其他话题包括环境和污染、邻里设施、对衰老的恐惧、成瘾和身体形象。受访者及其配偶的人口统计信息包括年龄、性别、婚姻状况、教育程度、就业状况和工作时间、职业、收入和收入、宗教、阶层、社区规模和地区在调查范围中。
+
+日本的数据包括一个全国性的样本，由4,500名居住在日本的20至89岁的男性和女性组成，通过两阶段分层随机抽样选出，并按地区块和人口数量分层。通过面对面访谈和安置方法收集数据。回答率为58.8%。韩国的数据包括一个全国性的样本，由2,500名18岁及以上的男性和女性通过多阶段地区概率抽样选出。所有的问题都是通过面对面的访谈提出的。回答率为55.8%。中国的数据自于2010年中国社会调查的横断面调查，包括对中国大陆所有省级行政单位的18岁成年人进行面对面的访谈，采用三阶段概率-比例-规模的抽样策略。
+</Text>
+        </Document>
+        <Document ID="BC5A2EB2-9703-4CD4-8FAA-E1FB6517679A">
+            <Title>双奥之城未来体育发展</Title>
+            <Text>研究方向一：双奥之城未来体育发展 （暂定）
+	1	奥林匹克精神文化传承和人文素养提升研究
+	2	双奥之城区域发展战略研究
+	3	双奥之城体育公共服务体系研究
+
+一、中心定位与发展目标（不超过1000字）
+（一）中心定位（300字，承担人：张锐 郭彬 ）
+（二）发展目标（700字，承担人： 张锐 郭彬 ）
+1.总体目标（300字）
+2.各细分研究领域目标（400字）每个方向100字
+
+双奥之城未来体育发展研究目标
+双奥之城未来体育发展将奥运文化与城市公共体育服务融合发展新型高端智库为发展目标。坚持服务发展原则，找准国际化中心城市发展战略定位，致力于提供奥运遗产与城市精神风貌协调发展相关的规划、制度、政策咨询的中心任务；坚持广泛惠民原则，构建畅通、高效的民间体育沟通联系和成果转化渠道，培养高水平、延续奥运精神文化传承的社会力量；坚持全面健身原则，推动全民健康、健康中国和体育强国战略在首都实施与落地，增强群众身体素质，提升市民生活质量。 
+
+二、中心建设的必要性与可行性分析
+（已有选题方向申建中心，重点论证其可行性及目标产出；自选题目申建中心，重点论证其必要性与可行性，不超过2000字）
+（一）中心建设的必要性（400字，承担人：张锐 郭彬 ）
+（二）中心建设的可行性（1200字，承担人：张锐 郭彬 ）
+（三）中心的目标产出（400字，承担人：各研究方向）每个方向80字
+
+三、中心建设主要任务
+（中心主要工作规划，预期目标和水平，包括研究内容、科研条件、人才培养等，规划时间不超过五年，明确年度计划任务和阶段性目标，不超过10000字）
+（一）中心整体工作规划（3000字）
+
+1.研究内容（四大研究领域）（2000字）
+（1）研究方向一： 北京市双奥之城未来体育发展（400字）
+1. 奥林匹克精神文化传承和人文素养提升研究：包括（1）奥林匹克教育及双奥城市文化传播； （2）传承奥林匹克精神文化的城市载体；（3）奥运人文素养解读与首都文化生活质量提升；（4）奥运遗产可持续利用；（5）城市规划下奥运精神与人文素养的展现。
+2. 双奥之城区域发展战略研究：包括（1）北京市体育设施与配套服务布局优化；（2）多元化便民体育设施均衡供给；（3）科技赋能体育设施新基建 ；(4)京津冀协同发展下提升居民健康消费
+3.双奥之城体育公共服务体系研究：包括（1）城市绿地与体育公园建设；（2）社区联动与群众体育赛事活动设计；（3）学校体育场地的开发与利用。
+
+1.2023年研究计划和阶段目标（1500字）
+（二）预期目标和水平（800字，承担人：郭彬 ）
+（三）年度计划和阶段目标（6200字）
+
+1.2023年研究计划和阶段目标（1500字）
+（1）研究方向一（双奥之城未来体育发展）的计划和阶段目标（300字）
+
+（一）奥林匹克精神文化传承和人文素养提升研究。聚焦后奥运时代体育文路活动新格局构建，创造更多高水平品牌赛事和特色文旅活动。分析奥运遗产的利用潜质，把握巴黎奥运会备战周期特点，理清城市人文素养提升的主要路径与现实要求；挖掘可供借鉴的典型案例和举措等；梳理奥林匹克教育及双奥城市文化传播的新途径、新趋势；探索传承奥林匹克精神文化城市载体的国际经验；拓宽奥林匹克教育的时空路径；把握促进文化传播的现代信息技术。
+
+（二）双奥之城区域发展战略研究。1.系统优化区京津冀“体育+”产业空间布局。探索世界级城市群中优势互补、分工明确的体育产业布局机制设计。对巨型城市、中间层级城市的“体育+”产业融合机制深度调研。2.提升区域内传统数据和大数据整合化水平，提升各类各级规划协同性，包括以双奥之城为中心城市的发展规划和国土空间规划有机协调。3.以双奥之城建设为契机，挖掘能够全面统筹发展全民健身、竞技体育和体育产业的战略资源。
+
+（三）双奥之城体育公共服务体系研究。1. 优化首都全民健身设施功能布局，分析研究体育公共服务能力在城乡区域的不均衡情况，调研并评估功能布局短板；2.挖掘城市体育服务供给的“金边银角”空间资源；3.对现有城市生态绿地、廊道和水域系统深度分类，探索绿色低碳的全面健身发展模式；4. 探索智慧健身步道和智慧体育公园建设方案，阶段性完成城市绿色户外空间数字化转型方案。
+
+1.2024年研究计划和阶段目标
+（1）研究方向一（双奥之城未来体育发展）的计划和阶段目标（300字）
+（一）奥林匹克精神文化传承和人文素养提升研究。1.新奥运周期下，营造首都高校师生“共同参与、共同尽力、共同享有”的奥林匹克精神文化传承氛围；2.研究以倡导文明观赛、文明健身为目标的首都精神文明建设方案；3.聚焦巴黎奥运会，在分析国内外体育人文素养新趋势基础上，结合奥运宣传，研究提出弘扬中华体育精神和奥林匹克精神的具体举措；4.加紧研发符合时代要求的虚拟现实教育场景，辅助全民学习掌握奥运运动技能，从而带动更多首都青少年关心、热爱和参与到体育运动，推动奥林匹克运动发展。
+（二）双奥之城区域发展战略研究。1. 梳理现有公共服务的合作生产与价值共创理论，厘清双奥之城体育发展区域协同治理的技术问题，探索以生产者为中心、服务对象参与的公共服务过程内创造价值的机制设计；2.构建以区域发展和改革实践趋向一致的双奥之城体育发展战略体系；3.借鉴国外发达国家体育发展战略精华，集中研究后奥运时代国外主办城市在发展战略的异同。
+（三）双奥之城体育公共服务体系研究。1. 厘清体育公共服务主体的权责任务，重点研究社区居委会、民间体育组织和地方体育局等服务部门统筹发展的体制机制建设路径；2.以理顺体育行政部门和体育社会组织的关系为目标，探索以市场配置资源的现代体育制度设计方案；3.以备战奥运为契机，进一步就完善智慧场馆建设和竞技训练基地硬件条件提出资金支持方案。
+
+
+1.2025年研究计划和阶段目标
+（1）研究方向一（双奥之城未来体育发展）的计划和阶段目标（300字）
+（一）奥林匹克精神文化传承和人文素养提升研究。1.为推动创作具有首都特色、奥运内涵的文化产品，提出研发和成果转化途径；2.总结梳理巴黎奥运会的办赛特色、发展趋势和人文环境支持；3.聚焦分析如何以政府购买服务等方式，引导社会力量承接社区体育活动和人文论坛；4.研发落地项目以推动和综合保障，激发社区组织协办活动的积极性，支持有条件的学校体育社团推动周边社区文化传承热点项目；5.研究奥林匹克教育及双奥城市文化传播对提高首都市民体育和健康素养的提升机制。
+（二）双奥之城区域发展战略研究。1.按照“一区一品”、“一区多品”的模式，统筹规划体育设施建设用地，调研并评估能够实现调多利益主体协同发展、优势资源互补的发展战略方案；2.系统整合可用于建设健身设施的城市空闲地、边角地、公园绿地、城市路桥附属用地、厂房、建筑屋顶等空间资源以及可复合利用的城市文化娱乐、养老、教育、商业等其他设施资源，研究探索利用非体育用地、临时用地等建设公共体育设施的配置标准、建设指引。
+（三）双奥之城体育公共服务体系研究。1.为实现各级各类体育场馆向社会免费或低收费开放，充分挖掘学校体育场地设施开放潜力，完善“15分钟健身圈”配套服务建设的激励机制；2.聚焦夜间体育公共供给侧改革研究，激活双奥城市夜经济活力，重点分析提升冬季户外滑雪场等体育运动场所服务品质的制度保障，探索能够丰富夜间体育赛事活动、激活体育夜经济的体制机制设计。
+
+
+1.2026年研究计划和阶段目标
+（1）研究方向一（双奥之城未来体育发展）的计划和阶段目标（300字）
+（一）奥林匹克精神文化传承和人文素养提升研究。1.聚焦奥林匹克文化课程建设，融合思政和人文关怀，为大中小学思政课程提供奥运核心内容；2.根据新时代下国际奥委会倡议的奥林匹克精神的现实需求来考察发达国家奥运知识普及创新媒介的主要内容；3.分类别分阶段确定大中小学奥运精神文化传承对人文素养提升的主要精神内核，体现双奥城市及下一阶段关于奥运精神传承的经验和智慧；4.发挥传统奥运遗产在新形势下的人文价值，充分利用互联网为传媒中介，重点关注对利于传播和普及的形式创新、内容创新和渠道创新的规律把握。
+（二）双奥之城区域发展战略研究。1.以科技赋能体育设施新基建为主要内容，论证5G网络、大数据人工智能、网络安全等前沿技术管理对传统体育设施的布局、建造、场景的适用性，体现匹配科技赋能基建发展趋势和其对首都经济增长的拉动潜力；2.以长三角、珠三角和粤港澳大湾区为参照对象，比照分析典型经验做法，多渠道收集解决区域市场一体化发展的政策供给、技术手段和典型案例，梳理相关政策、法规、标准、技术等方面的需求。
+（三）双奥之城体育公共服务体系研究。1.结合首都财政实际情况与体育公共服务发展实际，重点研究构建城乡均衡覆盖的政府购买和法律保障机制，分析总结发达国家根据国情和城市发展实际需要采用的政府购买机制设计。研究社会组织、学校体育外包和政府服务购买的运行机制、政策工具和绩效创新评估方法；2.根据当下法律制度供给缺口，以均衡性和高效性为原则，确定购买公共服务时所需的监督评估机制、财税优惠政策和资金管理体系。
+
+
+1.2027年研究计划和阶段目标
+（1）研究方向一（双奥之城未来体育发展）的计划和阶段目标（300字）
+（一）奥林匹克精神文化传承和人文素养提升研究。1.研究奥运精神对提升居民“主动健康”意识的作用机制；2.倡导以人文奥运和人文素养相结合的双奥之城城市品牌建设，加紧研究对奥运领军人物、基层奥运服务人物的挖掘和扶持的制度设计；3.依据奥运典型人物与基层社区居民融合互动原则来考察实现城市人文素养提升的国际经验和现实路径。
+（二）双奥之城区域发展战略研究。1. 以构建“4+N”层级体系为目标，发挥首都在都城协同及京津冀协同发展的核心引领作用，城市级体育发展战略以竞演场馆群和竞训场馆群为主要载体，地区级体育发展以体育中心和大型全面健身中心为主要载体；2.立足“一核两翼”城市联动发展目标，策划、组织以制定及惠及全区域的全民健身活动、体育赛事和体育产业的发展规划纲要；3.构建对接国家重大战略的空间布局，确定冰雪运动的区域协同发展核心内涵，体现双奥之城促进冰雪运动、冰雪旅游等方面的消费潜力；3.围绕“4+N”层级体系，研究冰雪运动产业基础设施、公共服务、赛事活动、标准规范的联动机制，实现一体化发展格局。
+（三）双奥之城体育公共服务体系研究。1.研究分析京张体育文化旅游带，包括“三核”和“三轴”在内的体育公共服务体制机制；2.研判健身休闲运动发展现状，探索促进首都高端户外运动发展的实时路径，因地制宜制定符合区域特色的户外运动行业标准，确定实施乡村振兴战略的户外运动配套服务行业的重要主力点；3.建立和完善政府救援和民间救援的应急救援体系，比对分析现有救援类别优劣，建立户外运动目的地风险等级信息库，研制风险多发区域内的安全警示、安全防护行业标准。
+
+</Text>
+        </Document>
+        <Document ID="85B89DBD-7171-4C2A-BAE9-541EAF41E9EE">
+            <Title>为什么基于循证策略</Title>
+            <Text>美国纽约市于2010年提出《积极设计指南》(ADG：Active Design Guidelines)，这是一本基于循证策略的进行城市设计手册，目的是通过街区、街道、建筑层面的设计手段，促进居民的身体活动和健康水平。《指南》的设计策略依据证据强弱分为获得充分证据或不断增加证据的措施，以及专家根据经验认为有益但需要验证的手段。之后，在纽约市政府推动下，启动评估程序和开发部门和设计部门人员技术培训，在实践中虽然部分研究结论未得到证实，但会根据经验认为的那些有益于健康的实践措施，会成为研究者进一步循证研究的目标。 居住对健康影响的循证研究成为科学规划住宅建设和城市规划的最新范式，也为如何解决住房劣势健康负面作用提供了方法依据。在统计方法方面，通常采用相关分析、线性回归和离散模型等定量分析。 
+
+以往的研究以居住环境（住房劣势）因素为自变量，以相关健康结果为因变量，建立数学模型识别并测量自变量对因变量的影响，以有针对性地采取最具代表性或最显著的干预措施。由于住房劣势的构成要素众多，要了解其中哪些要素、以何种方式影响特定人群健康是主动采取规划措施，进行健康干预的前提。因此有必要采用循证研究（evidence-based research）的策略进行分析。传统的估计住房劣势因素的健康影响研究范式主要基于技术规范和专家经验，很大程度上受制于社会资源组织管理方式和技术发展水平；而循证研究主要通过科学证据寻求干预的最佳方式和效益，逐渐成为21世纪健康和住房劣势研究领域的重要研究手段之一。大量文献说明在住房劣势因素对健康影响领域应用循证战略，使得科学研究和设计实践之间的密切合作达到了前所未有的水平。
+</Text>
+            <Comments>循证研究起源于20世纪70-80年代的循证医学，其初衷是应用现有的最佳研究基础，结合医生的专业技能和临床经验，并根据患者的具体情况制定治疗计划。1984年，罗杰斯教授。瑞典查尔莫斯理工大学的罗杰·乌尔里希教授在（Roger S. Ulrich）《科学》杂志上发表了研究结果，率先应用循证策略来探索于建成环境健康影响。之后又有学者通过随机对照实验，证明医疗建筑的环境可以帮助患者康复。21世纪，循证研究引起了全世界的关注，为促进公共卫生学科在城市规划和设计提供了一系列重要的决策依据。</Comments>
+        </Document>
+        <Document ID="E4D250BF-8047-4F88-BE3A-F9D65F8DA7E9">
+            <Title>Ideas</Title>
+        </Document>
+        <Document ID="F0ABADB3-7727-4C5F-82A9-37C3F65AC8A5">
+            <Title>研究动机</Title>
+        </Document>
+        <Document ID="704941F5-2CF4-484A-86DE-1C0EA629637B">
+            <Title>体力活动 M 在居住劣势 X1、个体属性 X2 与健康间的中介作用</Title>
+        </Document>
+        <Document ID="963401C7-5EB2-4AE8-81BE-BB475FE678CB">
+            <Title>阶段一：已验证的测量模型的信度与效度检验</Title>
+            <Text>​	所有观测变量高低分组的t检定均显著，结果显示全部变量具有较好的鉴别力。本文样本数高达2783 （&gt;1000），样本服从正态分布，因此本文的样本数据适合SEM分析。 将概念模型中所有测量模型进行多因子验证性分析，社区休闲环境测量模型中的观 测变量吸引力、建筑有趣、步行便捷、干净整洁，社区交往环境的观测变量和睦相处、 值得信任的因素负荷量未达到0.6的标准，因此删除此5个观测变量后重新进行多因子验 证分析。 调整后的所有测量模型的组成信度均大于 0.6 的标准， 平均方差萃取量均大于0.5的标准，观测变量的因素负荷量均大于0.6的标准，信度系数均大于0.36的标准，所</Text>
+        </Document>
+        <Document ID="EBA3C3D7-CD58-48A2-83DC-3FF3E1FE819E">
+            <Title>居住劣势 X1 和个体属性 X2 对健康直接影响效应</Title>
+        </Document>
+        <Document ID="6CDBFB64-00A8-4C5D-BB71-DCBB02B5AE01">
+            <Title>主要挑战
+主要挑战</Title>
+            <Text>
+钟天朗和徐琳2014年在其著作《体育经济学教学案例》一书首次将案例资料与教学课程设计融合在一起，然而考虑跨学科的特性，如何实施案例教学尚未在教学中形成公认的方法。亟需解决以下问题：
+
+挑战1，议题选择与课程定位。以经济学为例，几乎所有进入该学科的本科生会必修经济学原理、计量经济学和中级微观宏观理论，这就为日后专业划分提供很好的一致学科基础，毕竟众多研究领域都是在以上几门课程基础上发展起来的。一些以学术研究为培养目标的学校在经济学基础上融合更多数学类课程，比如微积分、线性代数和统计学入门课程。如果将体育经济学定位为“入门级”课程，甚至可以不修以上课程就能利用体育领域知识介绍基本经济概念。但如果是将课程定位成“中级”水平，就必须保证课堂中有足够比例的学生至少预修过经济学基础类课程，教师才能在有限时间内将课程延伸至更深领域。
+课程定位明确意味着课程内容设置是合适的，既要覆盖足够广泛的常规性议题，也能够穿插进入高级经济学课程中所强调的前沿性问题和研究方法训练。对于议题选择才能比较广泛，可以参考大学经济入门级经济课程的内容设置，比如经济学原理课、产业组织、劳动经济学和数据科学课程。这个课程多具有百年历史的传承，像市场完全竞争和完全垄断的福利分析对体育职业联盟就有很好的参见意义。这里有个比较有技术性环节，假如教师偏好未来将议题向学术方向延伸，可将体育经济行为定位成传统课程的案例讲解环节；假如偏好行业应用方向延伸，可以参照体育金融和市场营销类课程设置，可以经济学方法分析开放联赛和封闭联系的竞争均衡福利差异，或分析职业体育中个别球队（如曼城、皇马）在联赛中脱颖而出的原因，以“现象-原理-概念”方式将基本经济学概念对体育现象进行概述。一个学期内课程内容侧重点不完全是固定模式的，适当时候教师应该根据学生预期进行编排调整，这部分将在本文以后部分来分析。 
+
+挑战2，传统知识体系与最新时事新闻。相比体育经济课程的知识体系和分析框架而言，学生对赛事动态、球员新闻和赛会政治更津津乐道。这意味着叫教科书中的案例很快就会老套和过时。例如，应该及时增加COVID-19对体育参与的影响、赛事延迟举行会造成哪些后果等。通过订阅体育类杂志或关注媒体报道可以及时为教师提供最新信息咨询，但作为长期的、持续不间断的教学和研究任务，这要求教师必须能够敏感、系统的把握核心知识体系，并时刻对时事新闻保有足够的敏感度和自主“追赶”意识。
+
+
+挑战3：学生预期与课程重点。很多学生是“错误地”选择了体育经济课程，他们可能预期在课程中期望能够谈论某些知名球队或者球星的运动成绩，而非关注球队成绩以外的内容。如果课堂中男生比例大，那么上述的预期误差可能会更加放大。选择该课程的大部分学生是某些运动项目上的狂热体育迷，并且他们都相信自己在这些运动项目中的专业见解，这种情况很少会出现在其他经济学课程中。为了消除上述预期差异带来的困惑，教师应当从课程最开始就将课程讲授重点给学生交代清楚。降低甚至消除预期差异非常重要，以至于以教学案例为主导的讲授过程中要反复强调该观点，否则课程过半后，学生们会将关注点转移到他们所感兴趣的比赛胜负、转会新闻和球员八卦上。
+随着女性运动和女权主义的兴起，女生主动参与体育经济讨论的人数逐渐增多，话题更丰富，这无疑增加了课程重点的多样性考虑。在兴趣点选择与课堂参与度方面，教师应该顾及到她们可能会处于劣势状态，因为女生可能对某些运动项目的规则、基本状况不是那么熟悉。假如将课程部分重点确保男生和女生可以均衡地讨论问题进而理解经济学理论在体育领域中发挥的作用时，那么课程气氛就能极大的活跃起来。
+
+
+挑战4：多样性与课程难度。如果教师一味强调课程难度和前沿计量方法的使用，很有可能给初学经济学的同学带来极大的挫败感。选择该门课的学生中，只有部分学生是为学习前沿研究方法而来的， 事实上除经济学专业外，还可能遇到法律、新闻传播、体育类专业，甚至是外语专业的学生。因此，教师必须准备有层次的课程难度设计，以应对学生专业的多样性，特别是在计量经济或者统计的技能掌握。
+
+
+挑战5：动机识别与培养目标。教师在教授一门课程时的动机几乎不能都是利他的。在精心设计的课程背后，教师通过课程内容设定、研究技能传授等方式期待与学生创造更多知识，甚至合作研究。由于跟随课程进程，很多灵感、议题会在课堂讨论环节浮现出来，这无论对学生还是老师都是很好的研究机会。就课程背景而深入开展的研究，学生在教师指导下进行研究很可能比另外时段独自研究会获得更有效的生产过程。面对大多数是应用型硕士研究生，如何以能够接受的方式实现学生的学术培养目标是值得思考的问题。
+
+另一个原因可能涉及到比较优势。大多数教师可以进行基本的数据处理，但他们的时间成本比学生高，所以教授的时间可以更好地用于研究先进的计量经济学技术或理论模型，而这些是本科生无法获得的。
+
+
+</Text>
+        </Document>
+        <Document ID="3F1CD016-8569-4F97-A7D8-D5F5A527790C">
+            <Title>居住相关题目</Title>
+            <Text>#
+
+#</Text>
+        </Document>
+        <Document ID="1D7280B2-69A8-428B-9868-E1A4D92BC76B">
+            <Title>研究不足</Title>
+            <Text>我们的研究是第一个在亚洲老年人群中发现预测焦虑症状发生率和持续性的因素。在我们的队列中，焦虑症状的流行率、发生率和持久性都很高，与西方国家的研究相似。此外，居住在租房中的韩国老年人和身体活动较少的老年人更有可能出现焦虑症状；这些因素在以前的西方研究中都没有进行评估。此外，我们使用了标准化的评估量表；我们的随访率为75.5%，随访的参与者与未随访的参与者在感兴趣的危险因素方面没有差异。
+
+然而，我们的研究也有几个局限性。
+
+首先，焦虑测量在本质上是有限的，而且没有区分出特定的焦虑亚型，限制了从我们的数据中可以得出的推论。此外，与痴呆症或情绪障碍评估相比，GMS诊断工具在焦虑评估方面的有效性较低（Copeland等，1986）。尽管如此，GMS已经被证明在描述焦虑的精神病理学特征方面是有用的，包括在阈值以下的水平（Prina等人，2011）。
+
+其次，根据自我报告的测量方法对一般身体健康和失眠的数据进行了评估。医疗记录，包括有关心理健康治疗的信息，是不可用的，某些因素，如性格特征，没有被纳入评估。然而，我们评估了许多其他风险因素，并通过多变量分析确定了焦虑症状的决定因素。由于焦虑症是一种复杂的疾病，因此需要进一步的研究来评估多维度的风险因素（Blay和Marinho，2012）。
+
+第三，我们在分析中没有考虑多重比较，这可能会增加I型错误的机会。然而，我们认为，在多变量分析中加入更广泛的signiﬁcance截止值以允许 "负 "混杂（即模糊而非夸大效应）是一种可接受的做法。
+
+最后，我们的前瞻性分析认为焦虑症状是一个 "事件 "结果--即在一个场合不存在，而在另一个场合存在。这样的方法对焦虑症状的再检测能力有限。轨迹(尽管这种方法在流行病学研究中被普遍使用)；例如，在检查点之间发生并随后消失的发作将不包括在分析中，这可能会导致对焦虑发生率和持续性的低估。</Text>
+        </Document>
+        <Document ID="0E804D2D-A3E2-40DD-856B-3E889E57F710">
+            <Title>Non-Fiction Format</Title>
+            <Text>NON-FICTION WITH SUB-HEADS
+
+About This Template
+When compiled (File &gt; Compile), this project will generate a document in standard manuscript format with sub-headings inside the hapters.
+
+How To Use This Template
+		Edit the Title Page document to ensure it contains the correct information.
+		Create a new folder for each chapter and title each folder with the name of the chapter. If you don’t intend to use chapter names, just use something descriptive that tells you what the chapter is about. (You do not need to title the folders “Chapter One” and so on, as chapter numbering will be taken care of automatically during the Compile process.) The first chapter folder has been created for you with the placeholder title “Chapter Subtitle”.
+		Create a new text document for each sub-section within the chapter folders, giving each the title of the subheading you wish to appear in the text. You can nest text documents for smaller subheadings, like this:
+#
+		If you don’t require a foreword, move the “Foreword” document to the Trash folder. Alternatively, rename it “Preface” or “Introduction” if you prefer. If you would rather the foreword come after the table of contents—as is sometimes the case—drag the “Foreword” document and drop it below the “Contents” document.
+		If you are compiling to the RTF file format or if you have Microsoft Office installed and are compiling to DOC, DOCX, PDF or Print, you can create a table of contents. Before compiling, simply select all the documents you wish to be included in the contents listing (usually this will be the “Foreword”, all chapter folders, and “Endnotes”, but not the nested sub-sections), then go to Edit &gt; Copy Special &gt; Copy Documents as ToC. Paste into the “Contents” document below the “Contents” title. The resulting linked text and page number tags will be replaced with the final chapter names and page numbers in the compiled document. You can format the contents however you wish, for example removing the underlines or indenting subsections if you chose to include them. You don’t need to do this every time you compile, just when chapters have been added, deleted, renamed or moved around. (Note to Microsoft Word users: If you export to Word, you may need to generate a print preview in Word to force the page numbers to show up correctly—they may appear as question marks before doing so.) Deselect “Include in compile” for the Contents document in the inspector if you do not want it in your final output.
+		If you have no footnotes or endnotes in your text, be sure to delete the “Endnotes” document.
+		“Notes” and “Ideas” folders have been provided for your convenience, although you can replace them or create different top-level folders for your research materials if necessary (these are just regular folders that have had custom icons assigned to them using the Documents &gt; Change Icon feature.)
+		Compile your manuscript into standard manuscript format by selecting File &gt; Compile. The “Front Matter” folder is already selected for inclusion in the compile Contents pane.
+
+Making Changes
+There are various minor changes you can make to the settings to tweak this template so that it better suits your needs, as follows:
+		Chapter subtitles: If you don’t want to include the names of your chapter folders below the chapter numbering text in the compiled document, go to the “Formatting” pane in the Compile dialog and deselect “Title” in the list of elements to include. You will also need to edit the title prefix in the “Section Layout”.
+		Hierarchical numbering: If you require hierarchical numbering for sub-sections, choose “Non-Fiction with Sub-Heads (Hierarchical)” from the “Format As” menu in Compile. Alternatively, edit the “Section Layout” for each level in the “Formatting” pane of Compile and add the “&lt;$hn&gt;” (for “hierarchical numbering”) tag to the title prefixes. 
+		Page header: You can edit the page header in the “Page Settings” pane of the Compile dialog.
+		Font: You can use the “Formatting” pane in Compile to change the font used in the final document by selecting a row in the elements table, then clicking into the preview text to select it and clicking the “A” button in the format bar to change the font settings.
+
+Sample Document
+See the “Sample MS” PDF file in the Research folder for an example of a document that has been created using this template. This is what the “Draft” folder structure looked like in the binder for this sample document:
+
+#
+
+Final Note
+Scrivener project templates are flexible and are not intended to restrict you to a particular workflow. You can change, delete or move the files and folders contained in the template, and you can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File &gt; Save As Template.</Text>
+        </Document>
+        <Document ID="37B41F1E-EA90-43EE-AC43-9B9934D47B7D">
+            <Title>本节大纲</Title>
+            <Text>
+（一）参数估计结果
+		因素载荷、参数结果、多元相关平方（SMCi，单个测量变量收到潜变量影响的程度）
+（二）模型评鉴与拟合度分析
+（三）路径参数
+		报告中一定要报告beta和gamma两种结构参数
+		在图形表示外源变量的相关系数矩阵（所有变量的），只在图形中表示
+
+
+1 结构方程结果分析
+	1.1 模型介绍
+		模型原理+参数估计方法+模型评鉴指标选取
+	1.2 模型设定与评鉴
+		构建初始模型+修正模型拟合及评价
+	1.3 结果分析
+		模型路径分析+模型影响效应解析
+2 结构方程模型稳健性检验
+	
+
+
+
+3.3 不同年龄阶段老年人模型路径比较
+	3.3.1 群组差异显著性检验
+	3.3.2 从个人步行行为到社区交往环境的转移
+3.4 不同年龄阶段模型主要变量均值比较</Text>
+        </Document>
+        <Document ID="4E091F61-FC7E-4E81-8CD4-B0C6B0C3CD31">
+            <Title>描述统计表格</Title>
+            <Text>表 1‑2 显示了本文选取变量在EASS四个国家（地区）之间的描述性统计。本文研究重点是台湾地区老人住宅劣势感知对自评健康作用机制，只有65岁以上的被调查者的数据被纳入分析范围（台湾地区：N=551，中国大陆：N=2029，日本人：N=1537，韩国人：N=683），总计4760个，其中分析重点为台湾地区。</Text>
+        </Document>
+        <Document ID="240709C7-A389-469A-9BDD-3547D220E038">
+            <Title>性别异质性的模型及其检验方法</Title>
+        </Document>
+        <Document ID="9CA14B35-D616-47CC-B06B-8FC82CEC94AA">
+            <Title>一些框架</Title>
+            <Text>#
+
+#
+
+#
+</Text>
+        </Document>
+        <Document ID="37E30341-08E5-42B8-A3E7-2D7618FDE211">
+            <Title>教学案例1：理论型问题讲授</Title>
+            <Text>I. 一个问题：不同的数据集。体育运动中的竞争性平衡。
+II. 一个数据集：不同的问题。专利活动的分析。
+III. 一个定量问题：不同的问题。基于河流的娱乐活动。
+IV. 一个定性的问题：不同的问题。公司董事会的作用。
+
+理论型问题讲授：竞争均衡的不同数据集。
+
+每一个案例教学将从（a）研究问题（b）如何组织学生进行研究（c）进行研究时涉及的活动以及（d）研究结果四个维度展开。综合对现有主流教材内容和教学课程大纲的观察，笔者总结典型教学案例的方法和经验，而对具体项目的细节感兴趣的读者可以在表1中找到关于案例的名称、资料来源和教学目的与教学组织的信息。
+
+研究问题
+
+现代职业体育联盟的组织发展经历一段漫长的时间。工业革命是催化剂，中产阶级人口数量增加，休闲需求大量扩张，同时现代化交通网络和通讯工具的发明和完善，让人们有能力去更远的地方旅行。因此，棒球、篮球、足球和曲棍球等相对古老的运动，加上有组织的社会化、专业化的组织运作，组织形式也越来越稳定，促成了现代职业体育联盟。然而，职业联盟早期
+
+早期经济学家竞争均衡问题是体育经济学的核心问题之一。经济学对该问题的讨论来源于西方职业联盟发展从最初不稳定到稳定，再到理性治理的乘数阶段。El-Hodiri和Quirk（1971）建立了第一个正式的体育联盟经济模型，解释了为什么在每支球队有相同的收入函数时，一支球队只有在联盟中各个球队“势均力敌”的条件下才能达到利润最大化。 从那时起，持续50年的职业联盟竞争均衡问题研究一直支持如下假设：球迷倾向于比赛结果的不确定性，比赛失去悬念时球迷就会失去兴趣（结果不确定性假设）。Noll在2003年的《牛津经济政策评论》中指出"一支已经退出冠军争夺战的球队通如果它的对手是积分榜前列的球队，它可能会卖出更多的票，而如果对手是水平相当的弱队则不然，尽管比赛结果更不确定。” 
+
+作为理论型案例教学的关键，是教师应让学生理解为什么竞争均衡问题会成为联盟治理的核心关键。若是将球迷观看比赛或购买门票作为球队盈利能力关键影响因素，那么关键假设就是球迷会因为每场比赛的结果不确定性而产生兴奋感（Quirk和Fort，1997）。鉴于球队实力会影响比赛胜率，进而影响球队盈利能力，这样联盟作为天赋球员、资金和地理管辖权等资源的分配者，就必须促进联盟整体竞争均衡。如果竞争平衡和上座率是相关的，那么研究问题就变成“职业联赛中竞争平衡的决定因素是什么？”
+
+上述逻辑符合“理论假设→已有结论（文献资料）→问题拓展”，这有利于启发学生针对“经典问题”进一步拓展分析角度。
+除了强调分析逻辑，符责任的教师还说明测量方法的重要性。常见衡量竞争均衡的方法是联盟中胜率的分布。各队间胜场分布大致均匀的联赛比那些不均匀的联赛有更好的竞争平衡。
+
+ 
+理论研究型案例能给学生反直觉的冲击。职业联盟在建立初期经历了一段财务很不稳定的阶段（Leeds，2012），各支球队财力状况差异很大，为了巩固球队能够在联盟中生存下来，各支球队尽可能保留队中有天赋的球员，因此支付给球员的工资差别很大。富队常用高薪和礼物恶性挖走穷队球员，结果是富队笼络了大多数天才球员，以尽量“剔除”潜在竞争者。长此以往，联盟的强队和弱队成绩泾渭分明，比赛失去悬念，观众流失，威胁到了联盟整体生存问题。保留条款（reverse clause）就是在该背景下产生的，该条款本意是将天才球员平均地分配在穷队和富队中，结果Rottenberg （1956）“爆炸性”的结论指出该条款并未真正改善了联盟竞争均衡状况。
+理论研究型案例能等得到经典结论。随后Rottenberg （1956）发展了“不变性原理”，即在同时满足产权明晰和最低交易成本条件下，保留条款（球员被绑定）或自由球员（转会可协商）的市场结果一样。
+理论研究型案例能够引申更多假设。与保留条款有同样目的的逆向选秀（draft）制度是否具有促进竞争均衡的作用呢？Rottenberg （1956）认为选秀系统看似在任何联盟中都能将天赋球员初轮分配给最需要他们的球队。但这种优势随着球员产出价值与其市场价值的不匹配，最终市场会将球星转移到边际收入生产（MRP）更高的球队。
+
+
+ Berra的方法。相同的（研究问题）只是不同
+
+芬恩与本科生合作研究竞争平衡的工作始于一个以前的学生发现了一篇由克雷格-德普肯（1999）撰写的研究竞争性棒球的决定因素的文章。
+
+该学生有兴趣将这篇文章扩展到全国橄榄球联盟（NFL）的一个计量经济学课程项目。在成功完成该项目后，芬恩敦促他申请夏季研究支持，以便他们可以将该项目变成值得提交的手稿。安德鲁-拉森申请了资助，他们将该项目发展成一篇可发表的文章，内容是关于美国国家橄榄球联盟中竞争平衡的决定因素。芬恩选择让第二个学生艾琳-斯宾纳（Erin Spenner）参与其中，他扩展了拉森创建的数据集，并根据实际的NFL赛程，对竞争平衡的衡量标准，如基尼系数和赫芬达尔-赫斯曼胜率指数（dHHI）的偏差，增加了一些修改。
+
+Thomas Preissing，一个以前的学生（和现在的国家冰球联盟INHL]球员），继续提出关于国家冰球联盟竞争平衡的决定因素的类似问题。他对研究欧洲球员的涌入对美国运动的影响感兴趣。在他的案例中，Fenn能够将他的论文与Peter von Allmen和Stacey Brook的工作相结合。
+
+Michio Ohno修改了竞争平衡模型的基本决定因素，以说明日本球员向美国的迁移以及美国球员流入日本职业棒球的两个六支球队联盟的情况
+
+#
+
+每个案例中的项目组织都涉及到寻找一个应用微观经济研究问题，并允许学生用数据集来测试专业团队运动的假设。在大多数情况下，学生在研究方法课上初步确定了他们的研究问题，这门课是在大三结束时或大四开始时上的。这门课的目的是为学生撰写毕业论文做准备。这门课的重点是研究要素，例如。什么是一个好的经济学研究问题？如何写一篇学术性的文献综述？在多元回归的背景下，基本的假设检验是如何进行的？
+
+这门课对成功的本科生研究至关重要，因为学生在这里学会了如何进行基本的实质性经济学研究。在论文过程中得到额外的指导，一些手稿会发展成工作论文（比论文的最小长度50页要短），然后教师必须对其进行完善，以提交给同行评议的期刊。
+
+研究活动
+
+在每一种情况下，基本的理论模型仍然是相同的，只是针对手头的运动进行了相关的修改。学生们进行了文献综述，由于他们对该运动的详细了解，他们经常提出对解释变量的创新修改。他们还在毕业论文中收集数据。学生们经常进行基本的计量经济学研究，由芬恩提供他的计量经济学专业知识，以提高文章的质量，达到同行评议的标准。这些应用计量经济学的文章都填补了体育经济学文献中的一个空白。
+
+研究成果
+
+与Thomas Preissing、Peter von Allmen和Stacey Brook合作的关于NFL竞争平衡的决定因素的文章于2006年11月发表在《体育经济学杂志》上（Larsen, Fenn, and Spenner 2006），关于NHL竞争平衡决定因素的文章于2005年发表在《大西洋经济杂志》上（Fenn et al.） Erin Spenner接着写了她自己的高级论文，关于测试NFL球迷的理性成瘾。这篇论文在2004年的西方国际经济学会议上发表（Fenn, Crooker, and Spenner 2004），Spenner继续攻读经济学博士课程。
+
+Michio Ohno关于日本职业棒球联盟的竞争平衡的文章，促使他被邀请修改并重新提交给《国际体育金融杂志》的手稿。
+
+其他值得一提的与本科生合作的项目包括与Shannon Carney合作的关于NFL Nielsen收视率决定因素的论文（在2005年的Southem经济学会议上发表）（Fenn and Carney 2004）。以及与Mateo Garcia合作的关于种族对全国篮球协会尼尔森电视收视率影响的新项目。
+
+</Text>
+        </Document>
+        <Document ID="8C51D8FA-C28A-4A4F-B07E-50081AEE74AB">
+            <Title>结构方程模型的优势</Title>
+            <Text>以往研究表明住房劣势对居民健康的影响具有暴露时间长、相关因素多、影响不可估量的特点。虽然有研究表明一些居住环境特征与公共健康确实相关，但它们之间的相互作用机制尚未明确揭示。为了在环境因素和健康结果之间建立更直观的关系，使用结构方程模型进行观察和分析是一种可靠且具有经验的方法。
+
+ 结构方程模型是验证性因子模型和（潜变量）因果模型的结合。因子模型部分称为测量模型（measurement model），其中的方程为测量方程（measurement equation），描述的是潜变量（latent variable）和指标（indicator）间关系；因果模型部分为结构模型（structure model），其中的方程为结构方程（structure equation），讨论潜变量之间的关系{温忠麟, 2020 #882}。探讨潜变量间因果关系时，不仅要确定变量影响关系及显著性，还要能够清楚界定影响路径和方式，探索结构关系。相较于简单回归分析，适合在研究潜变量类的社会科学中使用，特别是集合了验证性因素分析（confirmation factor analysis，CFA）、验证性构成分析（confirmation composite analysis，CCA）、路径分析（path analysis）、偏最小二路径模型分析（partial least squares modeling，PLS）和潜在增长模型（latent growth modeling）等统计技术（{Kline, 2011 #887}，可以清洗描述某单个指标对总体影响和指标之间的相互作用关系、潜显变量之间的直接或间接关系。由于结构方程模型允许因变量同时是结果变量和解释变量，不仅能够估计自变量对因变量的回归效应，还可以估计因变量对彼此的回归效应，避免了传统的分步回归分析所引起的估计偏差，更准确地捕捉到所有变量间的相互影响。
+
+
+
+
+
+</Text>
+        </Document>
+        <Document ID="5952941E-28B1-4AAD-B949-3A0991202F26">
+            <Title>分析步骤？</Title>
+        </Document>
+        <Document ID="9932D431-DD56-4891-AF2F-1142EB164255">
+            <Title>中介效应的检验方法</Title>
+            <Text>## 中介效应原理及检验方法
+
+### 中介效应原理
+
+在分析自变量对因变量影响机制时，中介效应可以更好的了解影响机制和路径。虽然通过逐步法进行传统回归分析也可以得出中介效应或者变量的间接效应，但在结构方程模型中估计中介效应可以得到参数估计值的较小标准误且使用Sobel检验不再强制要求服从正态分布，因此使用SEM是最佳框架分析中介效应 (Zhao et al., 2010 和 Iacobucci et al., 2007)。
+
+下图就是中介效应的路径图（PPT插入示意图）
+
+从路径示意图可以看出，结构方程模型分析中介效应必须要求模型时递归的（recursive），即路径图中直线箭头要求单向，没有反向或循环，且误差项间没有双向弧线箭头。通过回归方法可以得到参数的估计值及其标准误。由于$c={c}^{\prime}+ab$。因此，关于中介效应检验的核心问题就是检验$ab$或者 $c-{c}^{\prime}$。另一个非常重要的概念是：效应量（effect size）。若是使用非中心化数据，那么中介效应估计值与变量的测量单位有关，需要使用与测量单位无关的效应量才能合理解释中介效应大小。Alwin和Hauser（1975）以及MacKinnon（2008）等建议使用中介效应与总效应之比计算效应量，如下方程：
+
+$\text{P}_{M}= \hat{a} \hat{b}/\hat{c} $
+
+也有学者使用中介效应与直接效应之比（Sobel，1982；Preacher和Kelly，2011），如下：
+
+$\text{R}_{M}=\hat{a} \hat{b}/\hat{c}^{\prime} $
+
+本文会同时报告以上两种效应值。需要说明的是，为了方便比较组间或跨组之间的效应量，学者建议使用标准化的效应值。对于非标准化效应值，仅在原始变量单位是有意义的情况下是可以报告原始估计的总效应、中介效应和直接效应；有学者认为将$\text{P}_{M}$作为中介效应量，但$\text{R}_{M}$不合适作为中介效应量，因为它没有单调应
+
+### 中介效应检验方法及步骤原理
+
+中介效应检验的大前提是建立在SEM模型条件下的，因此对因变量、自变量和中介变量的类型有些要求。对于因变量而言，通常是连续型变量，可以是显变量也可以是潜变量；对于自变量而言，可以存在多个自变量，通常是连续型变量或者二分变量，可以是潜变量也可以是显变量；对于中介变量而言，自变量直接或简介影响中介变量，中介变量要直接或间接影响因变量。中介变量可以是显变量也可以是潜变量，通常其是连续型变量，复杂模型下可以是非正态分布的；另外结构方程模型中允许多个中介变量存在，其存在形式可以是同一路径（串联）或者多条平行路径（并联），也可以同时存在，模型设定非常灵活。
+
+对于经典中介效应模型，是建立自变量与因变量具有相关关系的假设基础上的，因为在总效应$c$估计量是显著的前提下再考虑中介变量的影响（即$H_{0}:c=0$的原假设被拒绝，否则使用广义中介模型）。检验中介变量是否真正起到中介作用，或者说是中介效应在一定置信水平下具有显著性的基本思路有三种：第一种是要分别检验中介效应相关参数的虚无假设（即$H_{0}:c\neq0,a\neq0,b\neq0,{c}^{\prime}\neq0 $的原假设被拒绝），才能验证存在中介效应；第二种是要检验系数乘积的显著性（即:$H_{0}:ab=0$的原假设被拒绝），才能验证具有中介效应；第三种是要检验另一种等价形式$c-{c}^{\prime}$（即$H_{0}:c-{c}^{\prime}=0$的原假设被拒绝）。目前中介效应检验方法基本思路参照上述，比如：逐步回归法（Baron和Kenny法），Sobel法，Boostrap法，乘积分布法，马尔科夫链蒙特卡洛法（MCMC）。最常见的为逐步回归法，原因是它简单易懂，但是目前部分文献更倾向于使用Boostrap法等精度相对较高的方法来替代逐步回归法进行中介效应的检验。考虑逐步回归法和Sobel法是使用率最高的方法，本文简要介绍。
+
+#### 逐步回归检验法
+
+逐步回归检验法也叫Baron和Kenny方法，是检验中介效应非常经典的方法，基本思路就是第一种，依次检验所有系数。需要注意的是要在回归全部都应该加入控制变量。第一步：用因变量Y对自变量X回归，获得总效应$c$的估计值，需要显著以证明两者有关系。否则，到此为止。第二步，中介变量M对自变量X回归，得到系数$a$，需要显著，证明两者存在相关性，否则到此为止。第三步，因变量对中介变量和自变量同时回归，获得中介变量的系数$b$的估计值，若显著说明中介效应存在，否则就是不存在。若系数显著的同时，自变量系数$c^{\prime}$也显著就是部分中介效应（partial meditation）；不显著就是完全中介效应（complete meditation）。然而，MacKinnon等（2002）指出，该方法在中介效应较弱情况下，检验力（power）（脚注：检验力就是在原假设为不真时，能够正确拒绝原假设的概率，其实就是1减去第二类错误$\beta$，即检验力等于$1-\beta$）有所不足。
+
+#### Sobel检验法
+
+Sobel方法就是直接针$H_{0}:ab=0$的原假设进行检验，关键是求出$\hat{a}\hat{b}$的标准误。根据Sobel（1982）的方法，可以通过1阶Taylor展开式近似得到：
+
+$s_{ab}=\sqrt{\hat{a}^2s_b^2+\hat{b}^2s_a^2}$
+
+其中$s_a$和$s_b$分别别是$\hat{a},$$\hat{b}$的标准误，构建统计量$z={\hat{a}\hat{b}}/{s_{ab}}$为Sobel检验{温忠麟, 2020 #882}。McKinnon等（2002）认为Sobel检验比逐步回归检验的检验力要高。然而，Sobel检验的前提是$\hat{a} \hat{b}$乘积要服从正态分布，这是极为严格的。因为，即便${a}$和${b}$分布服从正态分布，其乘积通常很难服从正态分布，因而$\hat{a} \hat{b}$标准误是近似的，不精确。因此针对$\hat{a} \hat{b}$的分布如何构造就成为中介效应的关键。目前常使用的方法有3种，乘积分步法、Bootstrap法和马尔科夫链蒙特卡罗法（Markov chain Monte Clarlo，MCMC）。
+
+#### Bootstrap法
+
+如上所述，Sobel检验法的思路清晰，但要求$\hat{a} \hat{b}$乘积要服从正态分布，而Bootstrap方法正是迎合了该思路。Bootstrap是在样本中通过重复取样（resample），从而统计推断总体分布的特征（前提是样本能够代表总体）。Bootstrap方法通常以冠以”非参数“命名，因为仅仅是利用样本推导的经验分布推论总体分布及其参数，对总体并不要求有正态分布假设，更不涉及总体分布及参数的估计。Bootstrap法目的是用于参数估计不是正态分布，或者虽是正态分布但其标准误难以计算的场景，属于非参数估计方法。由于是对样本重复取样，获得总体分布，因而大量重复取样实质上就是在获取内在变异性的参数估计量，一般认为Bootstrap法得到的估计量置信区间优于其他方法（Chan，2009）。
+
+对应于$\hat{a} \hat{b}$估计区间的Bootstrap法思路非常清洗。通过重复取样，重新构建一个Boostrap总体。若重复1000次抽样，就可以获得1000个$\hat{a} \hat{b}$的估计值，可以将其标记为$\{\hat{a} \hat{b}\}$集合，将其按照从小到大排序，就可以按照一定比例构建中介效应置信区间进行检验（MacKinnon等，2004）；亦或者选取顺序集合的中位数，将其与原始样本计算的中介效应估计$\{\hat{a_0} \hat{b_0}\}$比较，若两者差距较大就构建校正后的置信区间{温忠麟, 2020 #882}。上述两种方法分别为非参数百分位Bootstrap法和偏差校正的非参数百分位Bootstrap法，检验力均高于Sobel方法，实践中较常使用后者。Bootstrap法通过重复取样很好地模拟了在总体中随机抽样构建大样本的过程，其得到参数估计分布是一种实证结果，基本前提仅要求原始样本可以反映研究对象总体特征（最弱），不需要假设总体分布。目前较为公认的中介效应检验方法中，偏差校正的非参数百分位Bootstrap法是较高的统计效力（Fritz等，2012；方杰和张敏强，2012）。
+
+[1] Iacobucci, D. (2012). Mediation analysis and categorical variables: The final frontier. *Journal of Consumer Psychology, 22*, 582–594.
+[2] MacKinnon, D. P. (2008). *Introduction to stat istical mediation analysis*. Mahwah, NJ: Erlbaum.
+[3] MacKinnon, D. P., &amp; Fairchild, A. J. (2009). Current directions in mediation analysis. *Current D irections in Psychological Science, 18*, 16-20.
+[4] Mackinnon, D. P., Fairchild, A. J., &amp; Fritz, M. S. (2007). Mediation analysis.*Annual Revie w o f Psychology, 58* , 593–614.
+[5] MacKinnon, D. P., Krull, J. L., &amp; Lockwood, C. M. (2000). Equivalence of the mediation, confounding, and suppression effect. *Prevention Science, 1*, 173–181.
+[6] MacKinnon, D. P., Lockwood, C. M., Brown, C. H., Wang W., &amp; Hoffman, J. M. (2007). The intermediate endpoint effect in logistic and probit regression. *Clinical Trials, 4*, 499–513.
+[7] MacKinnon, D. P., Lockwood, C. M., Hoffman, J. M., West, S. G., &amp; Sheets, V. (2002). A comparison of methods to test mediation and other intervening variable effects. *Psychological Methods, 7*, 83–104. MacKinnon, D. P., Lockwood, C. M., &amp; Williams, J. (2004).
+
+</Text>
+        </Document>
+        <Document ID="666AED0C-DEB0-4139-B157-0D6D65A2203D">
+            <Text>结构方程模型在处理多样本比较以及潜显变量间相互关系时具有优势，特别是可以同时分析测量误差、因素分析和路径分析，能够更为全面理解变量间关系。本文使用结构方程模型分析不同国家、地区的老人住房劣势感知对自评健康的影响机制，重点关注运动锻炼和医疗服务获得的中介作用，根据已有变量测量设计构建如下概念模型。
+
+在模型界定（modeling specification）方面，一般进行SEM很少只处理一个模型的估计。依据先验理论或者不同假设不同的假设或理论模型，经过模型间比较最终确定哪个模型最能反映实际样本状态。替代模型的选择依据两种原则，二选其一即可：一是基于理论观点；二是根据估计结果所产生的建议。前者为演绎取向修正策略（deductive approach），理论推导模型演绎结果，最终模型设定与数据无关，是基于先验的（priori）；后者基于计量数据所得到的替代模型，一般是依据修饰指数（MI指数）等修饰程序所得到的修正模型，因此是事后的（post-hoc）、偏探索性的，Joreskog（1993）称是模型产生取向策略（model generation approach），也称之为归纳取向（inductive approach）{邱皓政，林碧芳, 2019 #889}。无论采取何种替代模型选择方式，通常模型界定要在简效原则（principle of parsimony）和良好的拟合度之间进行相机抉择
+
+统合的结构方程模型分析包含测量模型和结构模型两部分，模型界定既包含测量模型，有包含对结构模型的界定。在孰先孰后的分析策略上，James和Mulaik（1989）建议的统合的结构方程模型采取两阶段分析策略（two-stage modeling）。第一阶段，使用CFA方法确定测量模型中潜变量结构的拟合性；第二阶段，在不改变测量模型的前提下，增加结构模型设定与路径分析，评估统合模型的拟合性{邱皓政，林碧芳, 2019 #889}。Aderson和Gerbing（1988）认为两阶段的分析策略对于潜变量效度评估具有重要价值，因为将测量模型在进行路径分析前检测可以提供测量模型的聚敛与区分效度信息，而统合的结构模型则可以提供预测效度的信息。
+
+两阶段分析策略的优势在于可以捕捉统合模型更丰富的信息。第一阶段的测量模型的良好拟合为后续的路径分析打下基础，因而测量模型必须在结构模型确定之前进行确认。测量模型中的参数包括因子载荷、测量残差、潜变量共变等绝大多数的参数，其数目远多于路径分析中相关系数。Aderson和Gerbing（1992）认为测量模型分析阶段，通常默认选项是将所有潜变量设置为相关，而路径分析阶段估计的结构方程模型回归系数仅仅共变的一种特例，从逻辑上讲是测量模型在先、路径分析在后，测量模型提供计量分析的测度基础，路径分析则检验背后的理论关系，更为看中参数方向性背后所代表的理论合理性。据此，本文进行了三个步骤的分析：
+
+首先，在测量模型分析阶段，参照已有研究对住房劣势感知的定义，由居住环境感知和邻里环境感知两个维度组成。因此，二阶因子模型（second-order model）适合用来衡量老年人住房劣势感知状况。二阶因子模型认为，有一个共同的二阶因子可以解释一阶因子之间的关联性。这个二阶共同因素是住房劣势感知，它是由2个一阶因子测量的。二阶因子模型的矩阵方程如下。
+#
+
+方程（1）是二阶因子测量模型，n是二阶因子向量，住房劣势感知，服从正态分布的连续潜变量。是一阶住房劣势感知的因素（居住环境感知和邻里环境感知），y是二阶因子中四个一阶因子的负荷系数，是二阶因子残差。公式（2）是两个一阶因子的测量模型，X是8个指标变量的向量。指标变量。A，是2个一阶因子中九个指标的载荷系数，e是指标变量的测量误差。具体模型如图1所示。使用
+#
+
+3.3.2. 使用多组比较静态方程模型对潜变量的平均差异进行显著性检验。
+ 在对二阶因子 "健康老人 "进行适当测量并对模型进行估计之后我们继续研究这4个国家地区的住房劣势感知的差异。方程（1）中二阶因子模型的截距默认为0。然而，它将被设定为自由参数，通过在结构方程模型中把潜变量Health_elders的方差固定为1来估计。然后，我们利用结构方程模型的多组比较功能来检验Health_elders平均值在五个阶段的差异意义。矩阵方程如公式（3）所示
+#
+
+ 公式（3）中的结构方程模型可以估计新的参数，即潜在的变量平均数。在进行多组比较时，它将设定参照组的潜变量均值&gt;0，然后检验其他组的均值与参照组的均值之间的差异是否显著[43]。我们对2002-2005-2008-2011-2014（基础组2002）,2005-2008-2011-2014（基础组2005）2008-2011-2014（基础组2008）和2011-2014（基础组2011）进行了四次检验，观察各组潜变量均值的变化是否显著，研究和判断有关健康老龄化的变化趋势。
+
+第二，路径分析阶段，每个地区的结构方程模型都是单独拟合的，以探索住房劣势因素和社会经济因素对老年人健康影响的地区间差异。运用 P 值检验方法判定不同群组间模型路径是否存在显著差异，并进一步通过群组参数矩阵的 Z 值精准地找到不同群组间存在显著差异的路径，研究法清晰直观同时更加严谨科学。
+第三，中介变量分析，包括了台湾地区与其他东亚社会的比较分析。
+
+数据清洗使用R语言，数据分析使用R语言的MplusAutomation包结合Mplus进行。本章节所有分析均使用无权重来描述整个CGSS统计数据。结构方程模型的参数估计方法是最大似然法（maximum likelihood，ML）。显著性水平以0.05进行估计，精确度以95%的置信区间（CI）进行估计。另外，本研究的备选模型是使用逻辑回归的广义结构模型（generalized structural equation model，GSEM）中来预测报告健康状况不佳或良好风险。调整后的几率与95%的置信区间（OR，95%CI）表明自变量与健康良好与健康优秀的关系（表3）或与健康不良与健康优秀的关系（表4）。</Text>
+            <Comments>SEM涉及变量众多，在探讨变量间的共变关系时往往有无数种组合方式，因此学者建议应该以最符合理论意义且简明扼要的方式界定模型，使其符合样本数据结构。这主要是研究者无法精确说明一组变量间共变关系究竟以何种结构化方式呈现的原因造成的。根据该原则设定的模型结构在探讨变量间关系时，比较不会犯下第一类错误，即：SEM分析对于模型检验或者修正只能是的研究者设定的模型不至于有错，但很难说明该模型就是代表真实总体关系的模型。
+从严格意义上讲，最大似然估计要求全部变量必须服从联合正泰分布，包括显变量在内{阳义南, 2021 #881}。此时ML参数估计值是渐进无偏（asymptotically unbiased）、一致（consistent）和渐进有效的（asymptotically efficient），并服从渐进正态分布，且不受指标变量的量纲影响。然而实际中的数据（特别是人口调查数据）大都违反正态分布假定，虽然ML估计仍是一致的，但不再是渐进有效的。当在大样本下，ML会是渐进有效的。
+EASS的个人自评健康是五等分量表，取值1-5。之所以将广义结构模型设定为备选模型是因为在经验做法中，如果取值超过5中，采用ML方法估计依然可以得到精确估计，故而可以当作连续型变量处理{Yu, 1989 #886}。在大样本下，ML估计和GLS（广义最小二乘）估计相当接近。{温忠麟, 2020 #882}</Comments>
+        </Document>
+        <Document ID="0CDE63D9-E1D8-4E4A-90F9-10327A4C431C">
+            <Text>
+#
+
+#
+
+second‐order latent variable model
+
+
+</Text>
+        </Document>
+        <Document ID="45F50DE8-69EC-430B-BC4F-E9E7085B7A3B">
+            <Title>基于循证策略使用结构方程模型√</Title>
+        </Document>
+        <Document ID="88A3D282-054B-4F0F-89D8-71E5927FCC13">
+            <Title>NACC</Title>
+            <Text>尽管职业球队在一定程度上享有反垄断法的豁免权，但1984年最高法院的一项裁决认为，全国大学体育协会（NCAA）与三个电视网络的独家协议违反了联邦反垄断法的规定。这一决定使NCAA的学院可以自由地与商业广播和有线电视网络谈判个人合同，并使NCAA作为大学足球比赛广播权的唯一独家谈判者的传统角色失效。米勒、埃德和桑多米尔（2013年）写道："ESPN既是木偶主人，又是国王的缔造者，它安排比赛，设置时间表，并将全国范围内的曝光率赠送给它选择的大学、球员和教练。" 虽然最高法院的决定增加了有线电视和区域体育网络以及独立广播公司竞标播放当地感兴趣的比赛的机会，但这些新的竞标者所支付的总金额在一段时间内被证明低于NCAA在合同中经常获得的金额。见《华尔街日报》，1999年11月19日。Tracy (2017)报道了涉及主要大学的贿赂和贿赂的丑闻，这些大学剥削年轻运动员并违反了NCAA的业余补偿规则。Clotfelter (2011)写道，2010年十大大学在体育项目上花费了约10亿美元。
+
+对于广播公司和有线电视网络来说，大学体育很有吸引力，因为它们的制作成本很低，而且比赛享有广泛的人气。对于学校来说，首要目标是培养获胜的球队。大学橄榄球和男子篮球的年收入加起来超过60亿美元。也见Einolf（2006），Sandy（2006），Vascellaro和Everson（2011），Nocera（2012），2012年11月18日在60分钟上播出的 "大学比赛"，Bachman和Futterman（2012）关于广播和大学经济学，Bachman（2013），以及Benedict和Keteyian（2013）。Vranica（2012）指出，截至2013年，最大的大学橄榄球联盟的全国电视转播权交易如下，以百万美元计。PAC-12，30美元；BIG 10，271美元；Atlantic Coast，245美元；SEC，205美元；Big 12，192美元。 见Barrett（2014）关于大学体育腐败，Strauss和Tracy（2014）和Gay（2017）关于向运动员付款，Gaul（2015）和Cieply和Barnes（2015）关于好莱坞的人才机构进入体育领域。通过www.DeepL.com/Translator（免费版）翻译</Text>
+        </Document>
+        <Document ID="DDAF0E3C-6D8B-4155-A7CA-3C6147C4B2FD">
+            <Title>对健康影响的性别差异</Title>
+        </Document>
+        <Document ID="5E58F4BC-8320-41C7-9D84-6B7AB41AD1F0">
+            <Title>变量选取与编码√</Title>
+        </Document>
+        <Document ID="39E86B71-79AC-4F59-80FD-D74DC0D30C1D">
+            <Title>研究目标</Title>
+            <Text>Research Aims &amp; Hypotheses
+
+#
+
+邻里环境可能影响健康的途径有几种。(a) 传染模式，(b) 集体社会化模式，(c) 制度模式，(d) 压力源模式(Mayer &amp; Jencks，1989年，1990年；Ellen等人，2001年)。</Text>
+        </Document>
+        <Document ID="2BDDC644-C1F8-467B-97B3-D439E6063F56">
+            <Title>结构模型评价指标</Title>
+            <Text>## 拟合指数
+
+对于本文提出的假设模型，需要得知模型的拟合优劣，即：判断模型在多大程度上可以是适配真实数据。一般使用拟合指数（也称适配度统计量，fit index）评价模型的整体拟合测度。拟合模型通常有两个默认的模型参照系，分别是饱和模型（saturated model）和独立模型（independence model），前者包含所有关系和路径，后者则认为所有变量间没有相关关系。判断拟合优劣的绝大多数指标都是建立在以上两者参照基础上计算的，虽然饱和模型无法计算（相关系数太多），但研究者只需计算那些重点关注的路径和参数，而将其他参数设置为固定参数或者受限参数（也就是被验证的模型）即可。只要将被验证的模型与饱和模型或独立模型比较，被验证模型的拟合指标能在相应置信水平下显著无差异（可别需要有差异），则被验证模型即是可接受的“理论模型”{阳义南, 2021 #881}。所有的适配度指标都基于样本协方差矩阵 $ S $ 和代入参数 后 $\hat{\theta}$ 的协方差矩阵间的函数，用以衡量它们的距离。根据已有大量研究，现如今最为常用的是卡方指数、平均概似平方误根系数（root mean square error of approximation，RMSEA）、非范拟合指数（non-normed fit index，NNFI或者TLI）。
+
+适配度指标虽多，但可分为绝对适配度统计量（absolute fit index）、增值适配度统计量（incremental fit index）、比较适配度统计量（comparative fit index）和简约适配度统计量（parsimony adjusted index）4大类绝对适配度统计量，主要包括$\chi^2/df$，RMSEA，GFI，AGFI等，它主要用于决定假设理论模型预测相关矩阵或共变数的程度；增值适配度统计量，主要包括NFI，IFI，TLI等，它通常是将假设理论模型与基准线模型的适应度进行比较，从而考察模型的契合度；比较适配度统计量通常同时用于比较两个以上模型适配度时使用，无法单独运用到某一个模型，如AIC和BIC；简约适配度统计量，主要用于更正模型过度拟合的情况。接下来重点介绍本文使用的也是学术界较为常用的拟合指数。
+
+### 卡方自由度比
+
+卡方值常用于模型比较。拟合函数$F[S,\Sigma(\hat{\theta})]$（记为$\min \{F\}$）衡量样本协方差矩阵和代入参数后 $\hat{\theta}$ 的协方差矩阵间的“距离”，该距离的$(N-1)$倍可用于检验假设$H_0: \Sigma = \Sigma(\theta)$，若$H_0$为真则构建$\chi^2$:
+
+$\chi^2 = (N-1) \min\{ F \}$
+
+服从渐进卡方正态分布，自由度$df=(p+q)(p+q+1)/2-t $，其中$N$为样本量，$t$是自由参数个数。卡方值最小值为零（衡量的是饱和模型，即所有路径都存在），没上界（衡量的是独立模型，变量之间不相关相当于所有参数设置为零，因此代入参数后 $\hat{\theta}$ 的协方差矩阵为零，$\Sigma(\hat{\theta})=0$）。卡方值虽然最常用，但其有诸多不足之处，因此学者通常报告其与自由度的比值。通常当$75&lt;N&lt;200$时，使用卡方值比较合适；当$N&gt;200$时使用卡方自由度比更合适 。然而卡方值还是卡方自由度比均有如下不足：当指标不服从整正太分布时，特别是峰度（kurtosis）远高于正态分布峰度时会出现高估；对于样本容量大小敏感，对于大样本（特别是大于200时）会出现大卡方值{温忠麟, 2020 #882}，导致几乎所有模型都被拒绝(张伟豪、2011；徐茂洲和颜汉平，2013)。但卡方值在比较嵌套模型（nested model）时是非常好用的指标，这在模型修正环节是极为有用的。对于给定的样本和模型，增加新路径关系（产生自由参数）后视为新模型，卡方值只升不降。新模型与原模型形成嵌套关系，原模型嵌套于新模型之中；相反，在模型中施加约束（如固定参数），会减少自由参数，减少卡方值。两者相比，自由参数多的模型，卡方值会比较小。因此，卡方值和卡方自由度比均属于badness of fit，即数值越小，表示模型拟合程度越好。
+
+比较嵌套模型的步骤，一般是将两个模型的卡方值差值最为新的卡方统计量，其自由度是前后模型的自由度之差。例如，模型$M_1$的$\chi^2_1$且自由度$df_1$，模型$M_2$的$\chi^2_2$且自由度$df_2$，模型2的自由参数较多，模型2的卡方值更小，自由等小；$\Delta \chi^2$比较大，且相应显著性水平小于0.01则选第2个模型；若$\Delta \chi^2$比较小，相应显著性水平大于0.05，则认为第1个模型更好。这样选择原则是：将原模型的某个固定参数改为自由参数，因此新模型的卡方值会下降，因此新模型卡方值降低到一定程度时，说明与原模型（更简单的模型）有显著性差异了，应当选择新模型作为理论支撑。
+
+### 平均概似平方误根系数
+
+平均概似平方误根系数（root mean square error of approximation，RMSEA）是Steiger和Lind（1980）提出的拟合指数，其定义为：
+
+$\text{RMSEA}=\{{\text{max}[(\chi^2_{}-df_{})/(N-1)，0]/df}\}^{1/2}$
+
+Steiger（1990）认为RMSEA小于0.1表示好的拟合，低于0.05表示拟合非常好，其有优点是受样本容量N的影响较小，对错误模型比较敏感，并且惩罚复杂模型，是公认最为理想的指数之一。
+
+上述指数是比较理想的拟合评判指数。一个理想指数应该与样本容量关系不大（Hu and Bentler，1998），应当对模型复杂程度程度进行惩罚，更倾向简单模型（一般复杂模型拟合更好），McDonald和Marsh（1990）就认为应该在模型复杂度和拟合优度之间找到平衡点；应当对错误设定模型敏感，即同一个样本对错误模型和正确模型应当有明显区别。NNFI和CFI越大，模型拟合越好；RMSEA越小，模型拟合越好。通常认为RMSEA小于0.05表示模型拟合度较好，0.05-0.08之间表示基本可以接受（Browne 和 Cudeck，1993）。参照以往研究和应用广泛度来看，本文报告NNFI、CFI、RMSEA和$\chi^2/df$。一般来说，NNFI和CFI应该达到0.9以上，RMSEA在0.09以下就可以任务模型整体拟合度不错。需要注意的是，上述指标仅涉及模型的整体拟合优劣，拟合指数临界值的设定在不同学科下，甚至期刊上的要求不同，目前并无定论。拟合指数只是反映模型对数据的整体拟合程度，是从协方差角度分析，但模型的其他方面不好，如关键变量参数显著性、回归方程判定系数等都是评价模型的重要考量。需要说明，RMSEA同样属于badness of fit，即数值越小，表示模型拟合程度越好。
+
+上面两个指数属于绝对适配度统计量，而下面介绍增值适配度统计量。前者仅基于自身模型设置，不与其他模型相比；后者则将被验证模型与独立模型相比。增值适配度统计量构建的思路是用最差模型适配度减去当前模型适配度，除以最差模型适配度减去最好模型适配度。
+
+$\frac{worst \ possible \ model \ - \ proposed \ model}{worst \ possible \ model \ - \ best \ possible \ model \ }$
+
+由于增值适配度统计量通常是卡方值的函数，可写作如下形式：$[ f(\chi^2_{null})-f(\chi^2_{model})]/f(\chi^2_{null}）$，可以看做是相对独立模型$f(\chi^2_{model})$（脚注：独立模型的自由度和卡方值较大）而言，被验证模型的$f(\chi^2_{model})$减少的比例。以下介绍塔克-刘易斯指数和比较拟合指数。
+
+### 非标准拟合指数
+
+非标准拟合指数（non-normed fit index，NNFI），也叫塔克-刘易斯指数（Tucker-Lewis index，TLI）的定义为
+
+$\text{NNFI}=\frac{\chi^2_{null}/df_{null}-\chi^2_{model}/df_{model}}{\chi^2_{null}/df_{null}-1} $
+
+通常认为NNFI/TLI取值应该超过0.9模型才是可接受的（Bentler和Bonett，1980），在STATA报告为TLI。
+
+### 比较拟合指数
+
+比较拟合指数（comparative fit index，CFI）是最为常用的拟合指数之一，其定义为
+
+$\text{CFI}=\frac{\text{max}[(\chi^2_{model}-df_{model})，0]}{\text{max}[(\chi^2_{model}-df_{model})，\chi^2_{null}-df_{null})，0]} $
+
+通常认为CFI取值应该超过0.9模型才是可接受的，但其没有惩罚模型复杂度。
+
+Hu和Bentler（1999）认为CFI和TLI均大于0.95表示适配非常好，均大于0.9表示适配较好。在小样本下，CFI依然是稳健的。
+
+## 模型修正步骤
+
+为了获得更好的拟合和理论验证，通常会进行模型修正。本文遵循以下过程：
+
+假设模型——评价模型——修正模型——重复上述过程——最终确定模型。在评价和修订模型中：第一，模型确定过程要考虑关键变量的参数是否适当（proper），在新模型中可以删除哪些不显著的参数路径，但尽量在大样本下进行操作；某些参数不不显著但有理论意义，就要保留在结构方程中。第二，查看残差，是否有异常的残差值。现有的计量软件可以报告残差矩阵（拟合矩阵和样本矩阵的离差），还可以报告标准化残差。若标准化残差较大，说明方程可能遗漏了重要的变量。第三，根据修正指数（modification index，MI）看是否要增加模型路径。修正指数含义是若将之前的某个固定参数改为自由参数，将至少能够按该修正指数降低新模型的卡方值，若大于3.84（5%显著水平，1个自由度的卡方临界值）说明该路径可以纳入修改范围。第四，通过参数检验，看是否要减少路径，通常是借助t检验；看判定系数是否减少方程，通常某一个方程判定系数低于0.2或完全标准化后小于0.45说明该指标不适合用来测量相应潜变量；用拟合指数判断模型整体拟合度。
+
+</Text>
+        </Document>
+        <Document ID="D0CB1531-80D7-49F0-BEBD-E43DB36D3BAA">
+            <Title>居住劣势X</Title>
+        </Document>
+        <Document ID="D1E1A0C5-717C-4AD5-95E2-B886C7C0677B">
+            <Title>Contents</Title>
+            <Text>
+
+
+
+
+
+
+
+
+
+
+
+Contents
+</Text>
+            <Notes>Use `Edit &gt; Copy Special &gt; Copy Documents as ToC` if you are compiling to RTF or to PDF, DOC, DOCX or Print and have Microsoft Word installed.</Notes>
+        </Document>
+        <Document ID="D003BEB6-0958-4A20-A4EB-054B7FD99A88">
+            <Title>健康状况</Title>
+            <Text>#
+
+#
+
+#
+
+心理健康
+
+#
+
+#</Text>
+        </Document>
+        <Document ID="B417D41A-F2A9-44B1-A836-938BAE95CBBD">
+            <Title>资料处理与研究设计 √</Title>
+            <Text>2021年03月22日：EASS和数据，文本结构</Text>
+        </Document>
+        <Document ID="9881FBF7-5043-4D01-850D-A46FED5A555C">
+            <Title>结论</Title>
+        </Document>
+        <Document ID="E728340E-6D6A-424F-B594-79CDA533951D">
+            <Title>三个步骤
+本文进行了三个步骤的分析。
+首先，用χ 2检验比较了四个国家及地区的受访者中老年基本人口统计学因素。
+第二，使用χ 2检验，检查每个国家及地区的住房劣势因素和社会经济因素在不同等级自评健康的个人比例上（一个按照原始编码，一个重新编码后的自评健康）的差异。
+第三，为了实证检验居住环境是否通过健康行为路径影响老人的健康状况，本文构建结构方程模型进行分析，包括了台湾地区与其他东亚社会的比较分析。
+
+每个地区的结构方程模型都是单独拟合的，以探索住房劣势因素和社会经济因素对老年人健康影响的地区间差异。数据清洗使用R语言，数据分析使用R语言的Mplus模块进行。本章节所有分析均使用无权重来描述整个CGSS统计数据。结构方程模型的参数估计方法是最大似然法（maximum likelihood，ML）[1]。显著性水平以0.05进行估计，精确度以95%的置信区间（CI）进行估计。另外，本研究的备选模型[2]是使用逻辑回归的广义结构模型（generalized structural equation model，GSEM）中来预测报告健康状况不佳或良好风险。调整后的几率与95%的置信区间（OR，95%CI）表明自变量与健康良好与健康优秀的关系（表3）或与健康不良与健康优秀的关系（表4）。
+
+
+在双变量分析中，流感疫苗接种覆盖率按高危健康状况进行分层，并对人口统计学变量、社会经济（SES）因素以及医疗态度和行为进行估计。采用双面Pearson's x 2独立性检验来评估大多数变量结论的显著性；对于年龄、教育程度、健康检查、担心无力支付医疗费用和担心大流行性流感菌株等序数变量，采用双面Cochran-Armitage检验来评估趋势的显著性。
+
+ 多变量逻辑回归模型包括高风险健康状况、医疗态度和行为以及混杂因素（性别、年龄、教育、职业、城市化和流感流行地区）。在敏感性分析中，由于担心高危健康状况和疫苗接种之间的关系可能会受到这些因素的影响，因此在不考虑医疗态度和行为的情况下运行了一个逻辑回归模型。与本文提出的模型相比，该模型没有显示出实质性的不同系数估计。同样的模型，但按高危健康状况进行了分层，见补充数据。
+
+ 
+
+￼
+[1] 从严格意义上讲，最大似然估计要求全部变量必须服从联合正泰分布，包括显变量在内{阳义南, 2021 #881}。此时ML参数估计值是渐进无偏（asymptotically unbiased）、一致（consistent）和渐进有效的（asymptotically efficient），并服从渐进正态分布，且不受指标变量的量纲影响。然而实际中的数据（特别是人口调查数据）大都违反正态分布假定，虽然ML估计仍是一致的，但不再是渐进有效的。当在大样本下，ML会是渐进有效的。
+[2] EASS的个人自评健康是五等分量表，取值1-5。之所以将广义结构模型设定为备选模型是因为在经验做法中，如果取值超过5中，采用ML方法估计依然可以得到精确估计，故而可以当作连续型变量处理{Yu, 1989 #886}。在大样本下，ML估计和GLS（广义最小二乘）估计相当接近。{温忠麟, 2020 #882}</Title>
+            <Text>
+在双变量分析中，流感疫苗接种覆盖率按高危健康状况进行分层，并对人口统计学变量、社会经济（SES）因素以及医疗态度和行为进行估计。采用双面Pearson's x 2独立性检验来评估大多数变量结论的显著性；对于年龄、教育程度、健康检查、担心无力支付医疗费用和担心大流行性流感菌株等序数变量，采用双面Cochran-Armitage检验来评估趋势的显著性。
+
+ 多变量逻辑回归模型包括高风险健康状况、医疗态度和行为以及混杂因素（性别、年龄、教育、职业、城市化和流感流行地区）。在敏感性分析中，由于担心高危健康状况和疫苗接种之间的关系可能会受到这些因素的影响，因此在不考虑医疗态度和行为的情况下运行了一个逻辑回归模型。与本文提出的模型相比，该模型没有显示出实质性的不同系数估计。同样的模型，但按高危健康状况进行了分层，见补充数据。
+
+ </Text>
+        </Document>
+        <Document ID="AD6B888D-32E6-4056-B380-AF31B236D0B6">
+            <Title>应对挑战</Title>
+            <Text>如何应对挑战：
+
+传统知识体系主要的来源于：教材和综述类文章。当前，活跃在北美教学课程中最重要的教科书，如Blair（2012），Fort（2018），Kesenne（2015）和Leeds，Von Allmen 和 Matheson（2018）。主体框架包括：。。。。，能够看出，几乎所有作者的出发逻辑是经济学原理+中级产业组织学。Kesenne是欧洲学者（于2021年去世），他教材中并未包含职业球队与地方政府关系，而这一主题却出现在其他3本教材中。Leeds认为在欧洲传统中，地方政府对特许经营权体育设施的建设和资助少于北美。从主流教材中可以窥见体育经济传统知识体系的核心内容至少包括：职业联盟的产业组织理论、职业球员劳动力市场、业余体育在运作中的特殊性。
+
+“案例教学法在开展过程中对于提升学员分析问题能力的有效性较强®，但对于解决企业实际问题的功能较为薄弱且存在着课堂流程不规范等问题。与此同时，行动学习基于企业真实的管理难题，是以提出解决问题方案为目标所开展的
+
+应对方案1：小型化案例知识点
+
+与传统经济学更具有大块部的知识体系相比，体育经济学课程面对的是更多样化的学生。体育经济核心内容已经涉及到非常多的基本经济概念，它们既有经济学原理，也有微观和宏观概念。如果不在课程每小节前就说明清楚，那么同学们在随后的分析环节，很可能是概念模糊，甚至逻辑混乱的。
+为了不让经济学概念在体育经济学课堂上“喧宾夺主”，教师可以在线上教学平台中事前或者以辅助资料方式，将基本概念资料事前制作，供学生课前学习。比如，对于需求曲线和供给曲线的由来、市场出清时的福利经济学分析、税收对消费者剩余或生产者剩余的影响等。这样至少可以达到掌握随堂讲解的最低共识基础。
+
+应对方案2：以课前测验方式形成知识基础
+
+即便有知识点已经在课前发布，但如果同学们不看也是没有作用的。因此如何激励学生课前去学习就很有必要分析下。一个有效的方式是在课前进行测验。但只要有考试就会有作弊风险，因此Leeds给了如下建议来确保达到课前使用资料的有效性。第一，测验的设计是知识形成为目标的，而非总结性的；测验目的是确保学生能够看完所有资料内容，而不是评估对议题的掌握程度。这要求分数设置比重不宜过重、难度不宜过大。第二，每位学生回答的问题不应该完全相同，这降低了作弊的概率。教师可以组成问题库或每道题目的选项是随机的。最后，为学生设置的问题“关门时段”应该短且临近课前时间，比如提前一天。
+
+应对方案3：生动案例辅以影音资料
+
+事实上，很少有经济学课程像《体育经济学》那样容易使用互联网。审慎地使用简短的电影片段可以极大地提高学生的学习效率，并使课程更加有趣。处理以下问题影音资料会特别有用（表1是一个简短的、非常特殊的电影剪辑及其用途的样本）。
+第一，课程的“破冰阶段”。在课堂开始时（或在学生进入课堂时）播放影片，能让学生以轻松的方式迅速进入思考状态。选取的片段应包含关键概念，且能扩大学生对体育运动理解。例如播放。。。。。来反映球迷对自己关注球队偏爱。第二，面对小众或不熟悉的运动项目。例如，播放。。。第三，体育运动的历史演变。在这方面，影音资料发挥其独特优势，例如，东德时期的举办高运会，可以说明奥运会带来的国家凝聚力；“可以通过比较佩吉-弗莱明在1968年冬奥会上的金牌表演--当时滑冰运动员还需要追踪 "学校的身影"，不能仅仅依靠高超的跳跃或旋转技巧来赢得比赛--的电影片段，来证明专业化的好处，比如浅田真央在2010年世界锦标赛上的获胜表演。这两个表演之间的对比是令人震惊的。弗莱明的跳跃在今天看来，即使是低级别的滑冰运动员也不会觉得有什么特别的挑战，而浅田则在第一分钟内完成了两个三周跳--最难的三周跳，这在1968年是男子很少尝试的。”第四，了解产生体育关键概念的异国文化背景。例如，路易斯和施梅林与“结果不确定性假设”的关系，这场比赛对非裔美国人和美国体育迷的影响；为了说明民族社区如何采用并与 "他们的 "团队联系起来，我们可以用蒙特利尔加拿大人队的例子。今天，大多数美国学生都不知道加拿大人对讲法语的加拿大人的种族认同有多重要。一些历史学家将魁北克分离主义运动的起源追溯到1955年的 "理查德暴动"，当时蒙特利尔的法语居民抗议明星球员莫里斯-理查德在斯坦利杯季后赛前夕被停赛。为了说明蒙特利尔加拿大人队在20世纪50年代和60年代对魁北克人身份的重要性，我们可以播放一段关于莫里斯-理查德葬礼的电视报道录音；电影《达勒姆公牛》中的场景，凯文-科斯特纳（Kevin Costner）扮演的 "克拉什"-戴维斯哀叹，每周一个小小的 "带眼睛的滚地球 "就能将他这样的职业小球员与 "表演 "中的明星球员分开。这一幕比任何PPT幻灯片演示都能更好地解释由Sherwin Rosenis超级明星效应（Rosen 1981）导致的赢家通吃的分赃。
+
+
+#
+
+应对方案4：案例注重数据的累积。
+
+体育市场不仅具有丰富、多样的数据资源，而且公开度和透明度也比其他市场高。促使早期经济学家进入该领域的一个重要原因就是对职业球员的薪酬和工作绩效相关性的观察，从职业球员极度右偏的收入分配曲线到对激励措施反应的性别差异，再到著名的“超级明星效应”，都为劳动经济学家带来宝贵的观察渠道。
+假如课程内容中包括有实证分析和写作训练，那么数据型案例就能给同学练习的机会。教师可以从以下两个方面设计内容：第一，侧重实证分析的逻辑延伸。可以从一个特殊经济现象入手，比如NBA球队球员的收入分布为初始分析对象，可以看样本均值、中位数。随后看每支球队的收入均值、中位数和工资总额；假设对地理分布或特许经营权所在城市规模与球队均值和中位数的相关性感兴趣，进而可以得到的结论是大城市的球队收入均值更高。以这种方式，可以帮助刚建立实证经验的学生快速进入分析框架。第二，侧重自由形式的期末小论文。这种方式对于已经有经验研究基础的同学是友好的，因为需要更广泛的建模基础和分析基础。例如，若是将OLS作为研究生必备的分析技能为目标的话，那么教师就可以借助案例帮助那些背景薄弱的学生。它的另一个好处是，可以借助学术文章讲授经济学论文的普遍结构，帮助学生未来更好的理解这类研究。
+
+
+#
+
+
+
+</Text>
+        </Document>
+        <Document ID="E7F1BBCC-EC8A-4B3C-A022-9F5DDDAA1C2E">
+            <Title>中介变量：运动频率与医疗服务获得</Title>
+            <Text>本文的中介变量包含2个显变量：锻炼频率与医疗服务获得。两个变量衡量依然采用主观评价方式活动。锻炼频率问题为“受访者多久时间做一次体育锻炼”，回答选项编码设置为5级选项：1=从不，2=一年几次或更少，3=一月几次，4=一周几次，5=每天锻炼。考虑运动对健康潜在正向作用，因此指标设置为从频率较低到频率较高，反映正向作用。医保服务获得问题为“有多担心在需要时无法获得医疗保健服务”，回答选项编码设置为4级选项：1=非常担心，2=有一点，3不是很担心，4=根本不担心。指标分值越高，代表对医保服务获得担心程度降低，反映正向作用。本文在SEM中，对中介变量设置为连续变量。一般而言，分析变量间复杂共变关系的统计方法基本变量设置均为连续变量，类别变量仅作辅助或分组讨论的调节变量用。
+</Text>
+        </Document>
+        <Document ID="7656D224-6E78-42A0-BF2C-E4C0358FC5DE">
+            <Title>Social participation（Y）</Title>
+        </Document>
+        <Document ID="5876BB89-0446-4D2A-A41E-CE8FBF77D7CA">
+            <Title>控制变量：个体特质</Title>
+            <Text>控制变量根据现有的文献和住房劣势感知和自评健康变化之间的可能关系而设定的，需在四个国家地区均有数据，为常用人口特质变量，控制了：性别、年龄、婚姻状态、居住区域、教育程度、子女数量、是否罹患慢性病、社会阶层，家庭相对收入层级。
+
+（1） 性别：类别变量，1：男性；0：女性
+ 
+（2） 婚姻状况：问卷相关问卷题目为:“请问您目前结婚了吗？”或“请问从上次访问您以来，您个人的婚姻状况有没有改变（例如，从单身变成已婚、离婚后再婚）？”Chung等（2020）将婚姻状况分为「已婚」(包括同居)或「未婚」(包括从未结婚、离婚、分居或丧偶)。本文参照已有研究将婚姻状况划分为类别变量，其数值含义为，0：未婚，包含[未婚单身]、[离婚]、[分居]和[丧偶]；1：已婚，包含[已婚]、[同居]和[再婚]。
+ 
+（3） 工作属性：“请问受访者是在为谁工作？”。类别变量，数值1：雇主，包括[自己当老板，而且有雇人]、[帮家里工作，支领固定薪水]、[帮家里工作，没有拿薪水]；2：私人部门打工，包括[自己一个人工作，没有雇人]、[为私人雇主或私人机构工作]、[和他人合伙，没有雇人]；3：公营部门，包括[为公营企业工作]、[为政府机构工作（包括公立学校、公立医院等）]及[为非营利机构工作（包括私立学校、财团法人医院等）]。
+ 
+（4） 家庭收入：由连续变量处理为转换为类别变量，分为5个组别。若受访者本人或其配偶回答题目为“您這份工作平均每個月的總收入”直接加总为家庭收入；若回答题目为“這份工作平均每個月的總收，如4—5萬元”则取中间值1.4万元再进行加总；若未回答上述两题目，仅回答“去年年收入如何”，则将年收入换算为月收入再进行家庭加总。类别变量：0：[小于等于15000]；1：[15001-30000]；2：[30001-45000]；3：[45001-60000]；4：[60001-75000]；5：[75001-90000] ；6：[大于90000]。注意该单位个人新台币/月。
+ 
+（5） 子女数量：问卷题目为“家有小孩数量?”。类别变量，0：没有；1：1个；2：2个；3：3个；4：4个；5：5个及以上。
+ 
+（6） 教育程度：“请问受访者的最高教育程度是什么？”，受访对象包含受访者及其配偶，类别变量；1：小学或以下，包含[无/不识字]、[自修/不识字]及[小学]；2：中学，包括[国（初）中]、[高中普通科]、[高中职业科]、[高职普通科]、[高职职业科]、[五专]、[二专]和[三专]；3：大学及以上，包括[科技大学或技术学院]、[大学或独立学院]、[硕士]和[博士]。
+ 
+（7） 住宅型式：问卷题目为“住宅的型式是？”。Chung等（2020）将住房类型包括公有住房和私有住房两个维度，以及住房租赁和所有权两个维度，因此分为公共租住房屋、公有房屋、私人出租房屋和私人拥有房屋。本文参照已有研究将住宅型式划分为类别变量，其数值含义为，1：独栋，包括[独栋透天（如：跃层、别墅）]、[独栋式一楼平方]和[连栋式一楼平方]；2：公寓，包括[5楼（含）以下公寓]、[六楼（含）以上的大楼]；3：大厦，包含[华厦（有电梯）]和[组合屋]；4：传统农村式，包括[传统农村或传统ㄇ字形庭院]。
+ 
+（8） 住房面积：问卷题目为“房屋建坪多大? 房屋坪数多少？”连续变量，单位为坪。1坪约合1.3平方米。
+</Text>
+        </Document>
+        <Document ID="2654FEE1-D90D-4E70-9B94-F29BD099BE5E">
+            <Title>构思与框架</Title>
+            <Text>A. Bryson, F. Bemnd and S. Rob, “Sports Economics: It May Be Fun But What's the Point?", National Institute Economic Review, Vol. 232, No. 1, 2015, pp. 1~3.
+P. V. Allmen, “ Teaching the Economics of Sports Joumal of Sports Economics, Vol. 6, No. 3, 2005， Pp. 325~ 330.
+J. C. Hall, R. H. Brad and P. Hyunwoong, An Inventory of Sports Economics Courses in the US”， West Virginia University Department of Economics Working Paper, No.15~ 49， 2015.
+J. Potts and T. Stuart, “Toward A New (Evolutionary) Economics of Sports", Sport, Business and Management:An International Journal, Vol. 8. No. 3, 2018, PP. 82～96.
+
+下一个研究重点就是：Meta-analysis 多大型活动、大型设施的相同性与不同
+	数据库的准备
+体育经济学所涵盖的三个主要内容
+综上所述，理论源于实践，体育学、经济学和体育经济学均来源于实践。
+应该充分考虑体育经济学的双重学科性质和交叉学科特征，更重视其经济学属性所占据的主要地位。
+体育经济学学科建设的现实基础——体育场景丰富
+· 从体育总局分工看体育经济研究范畴
+
+按照体育活动发展的先后顺序，亦即支撑体育场景的不同顺序，根据经济学“底层基础设施-中间主体及主题-衍生服务品类”的思路，体育场景体系可以分为三层：体育基础场景层、体育核心场景层和体育衍生场景层。体育设施、体育用品制造和体育教育作为体育的基础支撑层，为体育活动的开展提供了设施设备和人力支撑。在此基础上，体育赛事、体育健身休闲和体育竞技的核心场景层活动才得以开展。再进一步，体育赞助、体育彩票和体育传媒等衍生服务才有了依托的载体。
+
+前体育场景可以分为体育设施、体育用品、体育教育、体育赛事、体育健身休闲、
+体育竞技、体育传媒、体育赞助和体育彩票等9项，对应的体育新经济活动涵盖22个方面
+
+
+体育产业基本理论、 体育旅游、体育经济学基本理论、体育场(馆)经营、体育消费、 体育用品市场、奥运经济及影响、职业体育、体育俱乐部、体育竞赛表演市场、体育健身市场、体育彩票、体育投融资、体育特色小镇、体育人才培养、体育赞助、体育无形资产、体育保险、国际体育贸易(WTO）、体育中介研究等。
+体育场(馆) 经营研究是 2011-2020 年的研究热点。体育场地设施是实施全民健身和健康中国国家战略的重要物质基础,是建设体育强国的重要内容。
+
+体育劳动经济学相关研究，涉及了体育中劳动力供给、劳动力需求、就业、工资、人力资本投资、 失业、收人分配等多个方面。体育经济学在欧美国家可以追溯到经济学学者在劳动经济学（如关注球员工资、转会)、城市经济学（如体育场馆建设等）、产业经济学等领域的少量研究，逐步形成了一个清晰的研究领域。
+
+
+视“两大结合”——案例教学和实习基地建设相结合、高水平实验室与基地产学研相结合。
+
+5. 价值评估聚类。价值评估是指在一定的假设条件下，运用金融、财务理论、模型与方法，对各种资产的价值进行评估的过程。在体育经济学中，对赛事或者公共物品进行价值估算和门票定价是最常见的价值评估。该聚类典型关键词包括价值、条件价值评估法、门票定价、价格弹性、特许经营价值、支付意愿、体育需求、二级门票市场、不确定性、特征价格模型等。高被引论文有 Bruce K. Johnson 等"使用条件价值评估法衡量NHL 匹兹堡企鹅队产生的大量高价值公共物品，但这些公共物品的价值远低于建设新场馆的成本。作者质疑政府兴建大型体育设施导致纳税人公共利益受损；Harry Walton 等叫采用条件价值评估法评估 2012年伦敦奥运会对英国的价值，结果表明，伦敦以外的居民愿意为奥运会产生的积极无形价值（如公民自豪、体育设施遗产）买单；Brie Barget 等四认为体育赛事的生产和消费不仅产牛积极的外部效应（社会安宁和社会联系等），同时产牛消极效果（流氓行为和兴奋剂等)。只有将体育赛事产生的外部性内部化，并衡量赛事的总体经济价值与实际创造的净社会效用，才能正确判断体育赛事是否应获得政府补贴，获得多少政府补贴。
+价值评估研究大多与经济学理论相关，如需求定价、弹性定价、竞争性定价、公共物品价值评估、外部性价值评估等，研究方向大多是理论与应用相结合，具有较强的现实指导性。
+
+6.影响评估聚类。经济影响分析(Economic Impact Analysisen, EIA) 考察事件对特定地区经济活动水平的影响。它通常衡量业务收入、商业利润、个人工资或就业等变化。体育的经济影响分析是指体育赛事、设备和运营费用对区域经济发展、产业发展及宏观经济所带来的影响，为促进赛事等顺利运行提出相应的措施和建议。该聚类的主要关键词包括影响分析、经济影响分析、大型事件、奥运会、公共金融、补贴、体育馆、竞技场、设备、事件研究、赞助等。高被引论文有 Robert A. Baade等四针对MLB声称举办全明星赛能推动主办城市的经济发展，研究利用两个独立的经济影响模型，发现截然相反的研究结果，实证推翻之前 MLB的推论；Dennis Coates 等2对1969—1997年职业体育俱乐部所在城市的实际人均收入决定因素的实证检验显示，是否进入季后赛与城市人均收入水平无相关性，无法从经济效益角度解释在职业球队或球场设施上的公共支出是正当的：Victor Matheson等④通过经济影响研究批判了奥运会等大型事件能为地区带来巨大利益的泡沫，利益驱动引用不当的乘数进行影响分析是夸大主办方的实际经济收益的主要原因。作者还演示了大型事件是如何操纵膨胀乘数和夸大经济利益的。影响评估主题是对相关赛事的经济影响进行分析，并利用经济学原理来解释这些影响。
+
+多数影响评估主题的高频引用论文对于政府举办大型赛事、修建大型体育设施、维持职业球队等支出从经济影响角度提出了批判，反对使用政府资源和公共补贴来支持此类决策，并质疑官方所谓经济影响统计方法和结果的有效性。
+
+7.效率评估聚类。“效率的评估是提高生产力的基础，其结果帮助决策者了解组织对于资源的使用是否有效率”。q该聚类是以数据包络分析和随机前沿分析为核心关键词的小团体，两者都是经济建模测量生产效率。该聚类典型关键词包括数据包络分析、随机前沿分析、效率、技术效率、生产函数等。高被引论文有 Peter Dawson 等＆l使用随机前沿模型评估了1992—1998年期间英超联赛管理小组的技术效率，并使用固定和随机效应模型得到管理效率得分，最终证明管理效率在样本期内有所下降；Dieter J. Haas"以美国职业足球大联盟 2000年赛季的数据为依据，采用数据包络分析对美国职业足球大联盟的技术效率进行了测量，其中各队球员和主教练的工资变量决定投入，通过得分数、观众人数和收入来衡量产出，结果显示，效率与联盟绩效高度相关；Fiona Carmichael 等针对体育生产函数的研究绝大多数是美国棒球赛事，作者使用英超联赛足球队的赛季性数据弥补该研究的空白。
+
+体育经济学的效率评估主要包括技术效率、管理效率、工资效率、财务效率、生产效率等。研究方法不管是数据包络分析还是随机前沿分析，都是从效率评估的角度出发的。
+
+关键词
+
+如竞争优势、竞争平衡等，更趋向于针对具体赛事的经济现象进行研究，因此呈现出更多的体
+育赛事名词（soccer（足球）、major league baseball（职业棒球大联盟）等）和细节名词（attendance（出席人数）、satisfaction（满意 度））。可见，相较于国内，国外的体育经济更具体、更言之有物。</Text>
+        </Document>
+        <Document ID="F3E5D1B9-57AA-41D4-BFC0-84621935CC78">
+            <Title>模型评价√</Title>
+        </Document>
+        <Document ID="62A597CD-10D2-4358-A8D9-34B9F160BCAB">
+            <Title>第二阶段：路径分析</Title>
+            <Text>## 阶段二：模型评鉴与拟合度分析：是否需要修正？
+
+为了更直观了解代际支持对农村老人健康的影响效应，本研究通过参数界定、参数检验后得出最终模型，模型的标准化路径系数、变量残差、因子载荷的结果呈现如下如图3-2所示（标准化系数）。</Text>
+        </Document>
+        <Document ID="0677725D-2DC3-4BE8-9C6B-8AECD0CF4148">
+            <Title>Title Page</Title>
+            <Synopsis>Title page to the manuscript.</Synopsis>
+            <Text>周正卿
+Your address
+Your phone number
+Your email address
+
+Your agent’s name
+Your agent’s address
+&lt;$wc100&gt; words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;$projecttitle&gt;
+
+by &lt;$fullname&gt;</Text>
+            <Notes>This is the title page of the manuscript. Note that “Compile As-Is” is ticked - this ensures that the title page’s formatting doesn’t get changed during the Compile process, even though the formatting of other text documents will be overridden to use a standard 12-point manuscript font.
+
+The &lt;$projecttitle&gt; and &lt;$fullname&gt; tags get replaced with the information set in Project &gt; Meta-Data Settings… &gt; Project Properties. You can edit those settings or just replace this text altogether.</Notes>
+        </Document>
+        <Document ID="68E110DC-6EA1-4D67-850C-DA34361599AB">
+            <Text>#
+
+
+遗漏值！
+如何使用mplus
+</Text>
+        </Document>
+        <Document ID="F5E70076-2D00-457E-822C-91329D0227C3">
+            <Title>影响老年人健康因素的性别差异</Title>
+        </Document>
+        <Document ID="706A390A-E60C-4849-B6D4-01DDA547FE05">
+            <Title>
+体育课程的经济学也比其他班级更有可能为其他部门创造溢出。这样的阶级本质上必定是跨学科的，并结合了各种经济学子场。该课程的学生可以品尝到工业组织，公共经济学和劳动经济学等标准课程。
+
+体育经济学教学一直是研究者和政策制定者必须要重视的环节。随着经济全球化，体育经济吸引了越来越多的投资者和消费者，很多赛事影响力已经远远超越了本地本国的界限，成为全球性关注的焦点。一方面，经济学理论的发展为体育经济研究提供更多理论土壤；另一方面，体育经济的包容性随着重大赛事、数字媒体和科技的发展，延伸到了更多领域中。
+
+
+
+国家战略引导+人民消费观念+新时代经济发展需求。。。。。。据统计,2015 年,我国居民经常参加运动健身的人数达3.6亿，而运动健身休闲产业总计达8千亿元。国务院在 2014-2016年间下达了一系列关于发展全民运动健身的文件，包括《全民健身计划(2016-2020年）»和《关于加快发展健身休闲产业的指导意见》，提倡以全民运动健身来提高国民健康水平。在政府的大力倡导与推动下，到2025 年， 我国居民经常参加运动健身的人数预计达到3.6亿,而运动健身休闲的产业规模将增长三倍， 达到3 万亿元。2014 年10月20日下发的《国务院关于加快发展体育产业促进体育消费的若干意见》提出了由计划体制向市场化转变，初步尝试体育竞赛与经营活动结合，鼓励企业加盟,实现产业社会化的号召。随着市场化的发展，体育运动包括全民体育健身所带来的商业活动，,包括电视转播、旅游、广告、服务产业、体育用品，如球队文化产品、体育运动器材和相关健身设备,在我国整体经济中将会占到很大的份额。
+
+</Title>
+            <Text>
+体育课程的经济学也比其他班级更有可能为其他部门创造溢出。这样的阶级本质上必定是跨学科的，并结合了各种经济学子场。该课程的学生可以品尝到工业组织，公共经济学和劳动经济学等标准课程。
+
+体育经济学教学一直是研究者和政策制定者必须要重视的环节。随着经济全球化，体育经济吸引了越来越多的投资者和消费者，很多赛事影响力已经远远超越了本地本国的界限，成为全球性关注的焦点。一方面，经济学理论的发展为体育经济研究提供更多理论土壤；另一方面，体育经济的包容性随着重大赛事、数字媒体和科技的发展，延伸到了更多领域中。
+
+
+
+国家战略引导+人民消费观念+新时代经济发展需求。。。。。。据统计,2015 年,我国居民经常参加运动健身的人数达3.6亿，而运动健身休闲产业总计达8千亿元。国务院在 2014-2016年间下达了一系列关于发展全民运动健身的文件，包括《全民健身计划(2016-2020年）»和《关于加快发展健身休闲产业的指导意见》，提倡以全民运动健身来提高国民健康水平。在政府的大力倡导与推动下，到2025 年， 我国居民经常参加运动健身的人数预计达到3.6亿,而运动健身休闲的产业规模将增长三倍， 达到3 万亿元。2014 年10月20日下发的《国务院关于加快发展体育产业促进体育消费的若干意见》提出了由计划体制向市场化转变，初步尝试体育竞赛与经营活动结合，鼓励企业加盟,实现产业社会化的号召。随着市场化的发展，体育运动包括全民体育健身所带来的商业活动，,包括电视转播、旅游、广告、服务产业、体育用品，如球队文化产品、体育运动器材和相关健身设备,在我国整体经济中将会占到很大的份额。
+
+
+体育赛事因其刺激性、实时性、普及性高、关注度高等特点,在世界上许多国家和地区已成为第三产业的一个重要组成部分。例如，2008 年北京奥运会的现场和电视观众估计达到了 47 亿人次：2014 年的巴西足球世界杯大约共有 32亿人观看。一些大型的体育赛事，如奥运会、世界杯等，可以吸引数千万的观众，从而对经济和社会都产生巨大影响( Zimbalist, 2015； Baade 和 Matheson，2016)。一方面，职业体育产业创造了众多的就业机会，已经成为新经济增长的一个重要引擎。欧美等发达国家的体育联赛,例如美职篮(NBA)、英格兰足球超级联赛(EPL) 等，具有很强的观赏性和广泛的当地群众基础。另一方面,体育比赛的影响力不仅仅在于比赛本身。借助大众传媒的报道，体育比赛可以提升国民自豪感(Kavetsos 和 Szymanski,2010)，弘扬奥林匹克精神,以及推动民权运动的发展。
+
+
+
+给以及市场分析。目前国内对体育经济的研究相对较少，范青亮和洪永淼(2017)研究我国 —、二线城市马拉松比赛对赛事举办地当地经济的影响。Fu 和 Guo( 2017) 研究空气质量对马拉松选手成绩的影响。魏下海等(2017）用中国职业足球运动员的微观证据研究雾霾对个体生产率的影响。由于篇幅所限，本文的综述难免以偏概全，  ====&gt;&gt; 研究作者单位和作者国别，对赛事经济效应的影响。 ====&gt;&gt; 中国与其他国别的影响、经济学家与非经济学家的影响
+</Text>
+        </Document>
+        <Document ID="32FB17C5-3120-471B-B9C5-2D50753ED901">
+            <Title>第一阶段：CFA</Title>
+            <Text>验证性因素分析是进行统合的结构方程模型分析的第一步。本文使用二阶潜变量模型对住房劣势进行测量。笔者将样本分成台湾地区、中国大陆、日本和韩国四个地区的子样本，使用同一个二阶潜变量测量方程进行拟合。表###呈现出使用同一个二阶CFA模型对四个地区子样本的拟合指数结果。笔者使用较为常用的比较拟合指数（CFI）、塔克-刘易斯指数（TLI）、标准化残差均方根指数（SRMR）以及平均概似平方误根系数（RMSEA）、作为统计数据来确定模型的准确性。考虑在大样本中，$\chi^2$检验倾向于虚无假设被推翻（虚无假设为理论矩阵与观察矩阵之间没有差异，代表拟合度良好）；因此在我们的模型比较中，它没有被用作评估模型拟合的标准（West, Taylor, &amp; Wu, 2012），笔者仅作报告。
+
+台湾地区：二阶两因素模型的自由度（df）为18，$\chi^2$值为119.018（p&lt;0.0001），CFI为0.821，TLI为0.721，SRMR为0.083，RMSEA为0.101；大陆地区：二阶两因素模型的自由度（df）为18，$\chi^2$值为468.683（p&lt;0.0001），CFI为0.825，TLI为0.727，SRMR为0.094，RMSEA为0.111；日本：二阶两因素模型的自由度（df）为18，$\chi^2$值为90.413（p&lt;0.0001），CFI为0.972，TLI为0.956，SRMR为0.032，RMSEA为0.051；韩国：二阶两因素模型的自由度（df）为18，$\chi^2$值为158.883（p&lt;0.0001），CFI为0.830，TLI为0.736，SRMR为0.083，RMSEA为0.110。以上表明二阶二因素模型的拟合度较好，大部分指数都在可接受的阈值之内且高于一般研究标准。
+
+同时条目的因子负荷也在可接受水平。据此，可以看到到经过修正后的测量模型部分拟合良好，第一阶段分析结束。 
+
+
+（如果需要调整模型，则修正如下）模型拟合结果显示，适配度指标 GFI 值、AGFI 值、RMSER 值符合理想标准，而卡 方自由度比 （x2 /df）、IFI值、CFI值仍未达到指标理想标准，因此模型需要优化。模型拟 合输出结果显示“吸引散步”的残差 e6 与“吸引锻炼”的残差 e7 之间的修正指标值最 大，重新界定二者有共变关系，可以减少卡方值54.712。因此将e6与e7建立相关关系后 重新进行模型拟合， 拟合结果的 IFI 值、CFI 值、x2 /df 值仍不符合适配度指标理想标准， 继续进行模型优化， 经过建立 e2 与 e5、e14 与 e16 两组残差的共变关系后， 最终 IFI 值、 CFI值与x2 /df值均符合理想标准，因此优化后模型具有很好的适配度 （表3）。当模型中有中介变量存在时， 自变量与因变量之间的关系应以总效应、间接效应、直接效应来诠释更为准确③ ，整体样本拟合结果见表4，标准化路径见图4。 模型中所有路径系数全部显著， 接受全部假设。 社区休闲环境与交往环境的改善， 以及步行强度的增加均能有效改善老年人的健康状况。改善社区休闲环境对老年健康的 促进作用需要部分通过改善社区交往环境与老年人的步行强度才能获得，其中社区交往 环境的中介效应值为 0.036，步行的中介效应值为 0.055。社区交往环境对老年人健康状 况的影响同样需要一部分通过增强老年人步行强度才能实现。老年健康影响因素的影响 程度由大至小依次为步行、社区休闲环境、社区交往环境。
+
+</Text>
+        </Document>
+        <Document ID="5441C398-8A9B-44E3-81AA-444C09ADAE68">
+            <Title>因变量：自评健康下降</Title>
+            <Text>本研究的因变量自评健康是基于李克特五级量表的健康状况自我评估。该评估是社会科学领域国际公认的、最常用的健康评级指标。1983年，Kaplan 和 Camacho 先后证实自评健康与死亡率关联后，自评健康在流行病学、社会学、经济学领域也得到广泛的认可。Thristiawati等(2015) 在研究印度尼西亚老人自评健康影响因素时发现，尽管问题采用模糊概念，但对于中老年人而言，自评健康是有效的健康衡量指标，与实际健康状况有一致性结果。EASS中自评健康的信息来自问题："总的来说，你如何评价当前健康状况？答案的选项是。(1) 非常好 (2) 很好 (3) 好(4) 普通 (5) 不好。为了便于理解参数，将编码重新调整为从小到大逐渐由不好到非常好：1=不好；2=不同；3=好；4=很好；5=非常好。#表 1‑2 中显示，所有组别中只有少数老年人认为自己的健康状况不好。为了研究方便，且保持与现有文献的可比性， 在回归中参考通用做法：将分类变量有5类别以上的变量处理为连续变量进行回归。从平均值来看，中国大陆自评健康为3.28 (标准差1.11)为最高，其次是韩国2.97 (标准差1.07)，再次是日本2.76 (标准差0.77)，最低为台湾地区2.47 (标准差1.01)。</Text>
+        </Document>
+        <Document ID="3F523852-6B55-4041-9910-55D9C126648F">
+            <Title>测量模型的因子载荷</Title>
+            <Text>结构方程模型结合了构造潜变量的测量模型和反映潜变量关系的结构模型。测量模型使用因子分析法筛选显变量来构造潜变量。其中反映显变量与潜变量关系的叫因子载荷（factor loading），表示该显变量（指标）对潜变量测量程度，其平方值反映各指标间的公共性，所以因子载荷又称为效度系数。侯杰泰、温忠麟和成子娟（2004）认为因子载荷在0.3以上即可。好的因子载荷不仅能够反映聚合效度（convergent validity，一般认为大于0.7），还能有较好的区分效度（discriminant validity，各因子间相关性小于0.9）。</Text>
+        </Document>
+        <Document ID="23A8E21E-EB62-4040-9177-6F3824F8AD61">
+            <Title>实证结果与分析？</Title>
+        </Document>
+        <Document ID="C55549E6-6261-4828-B1D4-D76FEA5670D8">
+            <Title>通过案例教学的优势</Title>
+            <Text>问题意识
+
+团队合作
+
+数据素养
+
+写作规范
+
+
+传统的本科生经济学课程教授特点
+
+1.理论偏好。一般来说，经济学课程倾向于将应用视为理论阐述的次要。尽管大多数教师使用例子来说明特定理论概念的应用，但他们倾向于用例子来强化理论，先讲授理论，而不是将理论视为一套工具来回答应用提出的问题.因此，重点是理论本身，而应用通常被认为是偶然的。当学生不了解学习理论的目的时，过程比需要的更加枯燥和困难，他们往往无法掌握所需的工具。
+2.理论的应用。 
+体育经济学的目标是教授学生将经济理论应用于特定的体育领域分析，如职业联盟治理。讲授重点是政策形成过程和特定政策领域（如竞争均衡）。说明该过程的一种方法是通过与讲座相关的示例。将应用作为强化理论的一种手段的主要问题在于，尽管它在理论和应用之间建立了一对一的关联，但演示从理论开始，因此学生将应用视为一种使用理论，而不是将理论视为处理应用程序提出的问题的工具。因为例子被广泛选择是因为它们很好地说明了特定的理论概念，所以它们几乎不能帮助学生了解哪些理论适用于哪些类型的政策问题。
+3.证据的使用。政策分析是一项基本的经验性工作，由理论概念和分析工具指导。因此，它要求学生发展使用定量证据的能力。这涉及到一些任务，包括确定哪些类型的证据是衡量哪类现象的相关措施，评估现有信息的可信度，进行计算以得出适当和有用的措施，并找到使用表格和图表传达这一信息的最佳方式。尽管讲授和举例方法通常为学生提供一些接触定量信息的机会，但并不要求他们自己去做这些工作。一个准备好的课堂例子并没有提供如何选择、操作和展示这些证据的训练，也没有帮助学生学会自己解释证据。
+4.理论的局限性。进行应用经济分析最困难的方面之一是了解手头问题的哪些部分可以通过经济分析来回答，而哪些部分最好用其他学科的方法来解决。特别是，学生需要学习确定政策选择的经济（包括效率和公平）后果与在政策制定者可能发现的更广泛的社会和政治背景下考虑该政策之间的区别。用讲座和例子来实现这些目标是很难的。课堂上的例子往往是从背景中抽象出来的，这样就可以得出相对简洁的基于经济的政策处方。我很少将一个例子的全部复杂性呈现出来，也从未向学生提供大量的信息，让他们从中推断出政治和社会目标及限制因素。这场讨论并不是要对讲授式教学进行全面的指责。我做了大量的讲授，甚至在我也使用案例的课程中。有很多东西，包括理论本身，可以通过讲课比通过其他教学模式更快、更完整、更准确地传达出来。然而，对于解决我所讨论的四个教学问题来说，案例特别适合，而且可能比讲课更好。下面几节将更详细地解释什么是案例教学法，以及如何利用案例来实现这些目标。
+
+使用案例法
+
+【】作为激励的案例
+
+使用案例作为激励学生学习理论的手段可以是一种非常成功的技术，但需要仔细注意案例的时间、选择和教学。案例法的这种应用比下面要讨论的将案例作为应用的方法要困难一些，但也特别有意义，特别是它能使学生更加投入到后面的理论讲授中。
+
+为了作为激励手段，案例应该在课程的某个环节开始时讲授，在学生听完理论的相关内容的讲座之前。重要的是向学生保证，你知道他们不具备完成案例分析所需的理论工具，并且要特别注意让他们探索所有可能的分析方法，而不强加特定的结构。目的是让他们得出结论，他们需要一些分析工具，而这只有在他们有机会自己思考问题的情况下才会发生。
+
+案例本身应该提出有趣和相关的问题，但不要特别复杂。虽然应该包括一些定量数据，但明智的做法是避免用大量的信息压倒学生。迫使学生做出决定的案例，即案例中没有指出结果，而让学生确定什么是最好的选择，比描述实际结果或选择的案例效果更好。
+
+课堂上对案例的讨论应该集中在产生一个问题清单上，这些问题在解决案例提出的政策问题之前需要被回答，而不是创造一个可能的政策选择菜单。这些问题应该是可以通过应用经济理论来回答的类型。尽管学生们通常会以针对案例的术语提出这些问题，但教授的额外引导性发言应允许学生以更一般的术语重新表述这些问题。这些问题应在每次讲座开始时重申，以提醒学生他们要理解的内容，并继续在案例和理论之间建立联系。
+
+下面的例子说明了这个过程。我在课程的贸易部分（也就是课程本身的开始）开始时，对全国剪刀和剪子制造商协会主席就根据1962年《贸易扩展法》提出的降低关税的建议在国会作证的几页记录进行了案例讨论。他认为必须维持关税，他支持这一信念的证词包括定量和定性的数据，以及对行业形势的几次尝试性分析，但并非都是正确的。他对来自德国和日本工业的竞争、取消关税的就业后果以及剪刀和剪子对国内经济的重要性发表了看法。该案例为学生提供了评估证词的真实性和考虑他们如何决定是否维持关税的机会。
+
+在分析过程中，学生发现他们的决定取决于一些具体问题的答案，这些问题需要他们尚未掌握的知识和工具。在课堂结束时，学生们已经产生了一个问题清单，通常包括以下内容。
+
+1. 是什么决定了一个国家的贸易模式？
+2. 自由贸易好吗？
+3. 谁从贸易中获益，谁从贸易中受损？
+4. 关税如何影响这些收益和损失？
+5. 在制定贸易政策时，效率和公平的权衡是什么？然而，这些问题通常不会以这种形式出现在学生身上。我们通常从 "为什么美国的剪刀行业与日本和德国的竞争能力越来越弱？"这样的问题开始，然后在我的一些温和的劝说下，发展出上述问题1中更普遍的形式。
+
+这个案例确实激发了学生学习理论的积极性，主要是因为他们希望了解这个案例并评估其中提出的论点。案例结束后，我就贸易理论和商业政策理论的基础知识进行了一系列的讲座，经常提到案例，以及学生提出的问题。
+
+
+【】作为理论应用练习的案例
+
+案例也被有效地用作应用，为学生提供了一个 "做 "经济学的机会。这通过诱导学生应用理论、使用证据和认识经济分析的合法应用范围，实现了其他三个教学目标。这种类型的案例应用是在有关理论的讲座之后进行的。一种方法是在每次讲课后做一个案例。第二种方法是在所有讲座结束后教授一系列的案例。虽然后一种方法迫使学生做更多的工作来弄清楚在哪个案例中应用哪个理论，因此可能更有用，但它也产生了一长串的讲座课程，没有被案例提供的节奏变化所打断。我对这一困境的回应是，在整个讲座过程中，在部分课时内教授一些简短的案例。使用Yarbrough和Yarbrough(1991)中各章末尾的案例，这是课程使用的教科书。这些案例强化了具体的理论概念。然后，在完成所有的主题讲座后，我再教授两到三个更广泛、更复杂的案例。这一策略在课程的贸易和6-nance部分都有使用。
+
+这些案例在风格、长度和复杂程度上可能有所不同，但都应该有以下特点。首先，它们应该包含以各种形式呈现的量化信息，包括表格、图表和图形。理想情况下，这些信息中有些是无关紧要的，有些需要额外的操作才能发挥作用，而所有的信息都需要在案例文本中提供的信息之外进行重要解释。研究问题指导学生沉浸在数据中，并以一种能够让他们获得对问题的见解的方式组织信息。
+
+第二，所选的案例应该描述需要应用一个以上的理论概念的情况和提出的问题，或者看起来有可能涉及使用一个以上的理论。这种类型的案例将迫使学生更深入地思考他们所学到的理论以及每种理论可以用来解决的问题类型。在这方面，允许同时考虑效率和分配问题的案例尤其有效。
+
+第三，好的案例是以复杂的政治和社会背景为背景的。在讨论案例的过程中，学生有机会描述一些政策选择的经济理由和结果，但也被要求根据政治和社会目标和限制因素来评估这些选择。讨论应包括试图确定有关各方并解释他们对政策问题的看法。政策分析最重要的一般经验之一是，参与者的观点取决于他们的背景和利益。案例讨论为学生提供了一个极好的机会，让他们了解在制定政策时平衡一些群体的竞争性合法利益的难度。
+
+最后，虽然对案例的分析应该要求学生使用他们在案例背景之外学到的理论，但重要的是选择那些不要求学生拥有大量制度或历史知识储备的案例。
+
+在我的国际经济学课程中，学生们来自不同的背景，而需要先前知识的案例往往对背景不太全面的学生不利。虽然这并不意味着应该阻止学生分享任何与讨论有关的事实或自己经验的见解，但最好是选择那些包括分析所需的所有事实材料的案例。如果案例不完整，这可能需要一个附带的讲义，包括定义或一些历史信息。这一点对于从报纸文章中提取的案例尤其适用。
+
+案例讨论的重点是确定相关的政策问题，制定潜在的选择菜单，根据现有的证据评估每个选择会产生的影响，并讨论学生会选择哪个选项。全班没有必要就 "最佳 "选择达成共识。相反，重点应该放在分析政策的过程上。
+
+例如，在课程的贸易部分的最后，我做了三个案例。
+
+一个是研究美国最近的食糖保护，另一个是关于哈雷-戴维森向ITC提出的保护请求（Robyn 1986），第三个是研究里根政府在80年代初延长《多纤维安排》的决定（Yoffie and Austin 1983）。尽管这些案例都涉及所有三个教学目标，但每个案例都被选中，因为它在满足其中一个目标方面特别有效。虽然我没有对这种方法在实现我的目标方面的效果进行系统的评估，但我确实有一些观察，将学生在案例课程中获得的技能与学生在更传统的教学课程中获得的技能进行了比较。值得注意的是，在这两组学生的安排上存在明显的自我选择，具有较强经济学背景的学生倾向于选择理论性更强的课程。
+
+然而，考虑到这一点，我观察到两个班级之间以及案例课程中的非专业学生与我在改用这种方法之前所教授的传统课程中类似学生的一般表现之间的一些差异。从积极的方面看，案例课程的学生对我们所讲的理论有更全面的掌握，在要求他们用理论分析现实世界或假设情况的考试题中表现更好。几年来，我一直提出一个问题，要求学生假设他们正在帮助准备两个电视谈话节目，其中的小组成员将讨论与东欧开放贸易的建议。学生们被要求预测并解释代表不同选区的小组成员将对该提案做出怎样的反应。采用案例教学法的学生能更好地看到不同的观点，并能适当地运用理论，特别是使用正式的模型来解释每个观点。
+
+参加案例课程的学生写的学期论文比参加更注重理论的课程的学生，或者比参加混合课程的学生写的好得多。准备和讨论案例的过程，以及因此而进行的构建论点的练习，似乎使学生的分析性思维得到了普遍的改善。这种方法的重点是 "做 "而不是 "看"，以及看到薄弱的论点被小组拒绝的经验，似乎提高了他们评估自己的论点的能力，认识到他们的弱点，并针对最明显的批评为他们辩护。- 我还注意到，学生的口头表达能力有了极大的提高。随着学期的进展，他们对讨论的贡献变得更加集中和清晰，陈述更加有力，包括更少的修饰语和警告语。他们也发展了更好的倾听技巧，并更加尊重彼此的见解和能力。
+
+最后，学生们似乎非常喜欢这门课。虽然我认识到我的目标不是提供娱乐，但我也相信，让学生感到参与的方法，以及他们被迫对自己的学习负责的方法，对他们和我来说都是更愉快的，并产生一个加强学习的环境。
+
+该方法的使用也有一些局限性。最重要的是，教授案例需要时间，因此需要我去掉我本来要介绍的材料。在这种情况下，这意味着我所讲的理论较少，这既体现在我所介绍的模型数量上，也体现在我教授这些模型的技术复杂程度上。这门课程的学生最终对经济理论中一些核心观点的基本见解和基本机制有了强有力的理解，并能够将其应用于政策分析。然而，他们对模型本身的理解却不如更注重理论的课程的学生那么透彻和详细，他们对理论建模的过程或经济理论中的假设和含义之间的关系也没有那么好的理解。鉴于这门课程的目标是政策分析，我觉得这没有那么令人不安，但它也清楚地表明了在更注重理论的课程中增加大量案例的代价。
+
+我没有试图通过使用案例来教授理论本身，也没有信心能够成功地做到这一点，从而消除在案例课程中少讲理论的需要。在我所讨论的四个教学目标的背景下，对案例法的有效性的主要限制是，经济学中的好案例很难找到，许多教员发现他们必须花时间自己做这些案例。要找到好的激励性案例尤其困难，这些案例必须足够复杂，让学生看到学习理论的必要性，但又不能复杂到让他们不知所措而放弃。第二个问题是，案例教学法通过允许学生表达自己的想法，给一些学生留下了所有想法都一样好的印象。这就需要教师引导全班学生区分好的和坏的想法，但我发现这并不比在我开始对学生使用案例之前，要解释为什么政策有时似乎与经济推理的规定相矛盾更有问题。第三，无论人们如何小心翼翼地选择非常适合他们的目标或很好地说明特定想法的案例，学生们并不总是希望带走人们希望的想法。虽然这也是讲课的问题，但由于案例允许学生对课堂上发生的事情有更多的影响，这在案例讨论中就显得更加明显。然而，根据我的经验，这些局限性被这种方法在让学生学习如何思考政策问题方面提供的好处所抵消。
+
+我在这篇文章中所讨论的大部分内容与更注重理论的课程同样相关，而且案例方法在我教授的其他经济学课程中也被证明是成功的。然而，我相信，教学生清楚地思考公共政策问题是我们所做工作的最重要方面之一，而开发有效的技术来做到这一点是一个特别的挑战。案例教学法帮助我的学生掌握了经济理论的基础知识，并学会将其应用于现实世界的政策问题，并将我的注意力集中在教学技巧以及覆盖材料上。我认为这种方法对其他领域的学生也会有帮助。
+</Text>
+        </Document>
+        <Document ID="55AA35EE-A9AA-4FD1-9071-EE8298AB5FC9">
+            <Title>中介效应的分析流程</Title>
+            <Text>中介效应检验步骤
+本文中介效应参照温忠麟（2014a）新的中介效应分析步骤，如下图：
+##插图
+
+第一步，检验总效应​。若显著，则按存在中介效应立论；否则按照不一致中介立论。无论是否显著，都进行下一步检验。第二步，依次检验​和​，如果两者都显著，则表示为间接效应；至少一个不显著，进行第三步；都显著，进行第四步。第三步，用Bootstrap法检验直接检验乘积间接效应​，即​。若果显著，表示显著存在间接效应，进行第四步；否则表示间接效应不显著，停止分析。第四步，检验直接效应​。如果不显著，表示直接效应不显著，说明仅有中介效应；如果显著，表示直接效应显著，进行第五步。第五步，比较​与​的符号。两者同号，属于部分中介效应，需要报告效应量（effect size）。如果异号，属于不一致中介，报告间接效应与直接效应的比例绝对值。否则，属于遮掩效应。
+
+上述分析步骤中涉及到两个新概念，一个是不一致中介，另一个是遮掩效应。通常认为，检验中介效应的基本前提是自变量与因变量存在显著相关关系，进而研究影响机制，即自变量如何影响因变量，这样才有分析中介效应的必要。Frazier等（2004）认为自变量与因变量间相关性不应该作为分析中介效应先决条件。既然两个变量间不相干，何谈影响机制呢？Frazier等学者认为在研究特定问题时，是可以在自变量与因变量不相关情况分析影响机制的：一方面是分析效应的遮掩效应，二是分析远端关系（Shrout和Bolger，2002）。若是理论上自变量与因变量应该具备相关关系，但实际中数据并不支持该理论，进一步有必要了解是因为原因导致了两者的不相干，中介变量在其中起到何种作用，这就是所谓的遮掩效应。在分析时，实证结果应该呈现若下状态，在理论框架允许下才能体现中介变量的遮掩效应：第一步，自变量与因变量不相关，及总效应不显著；第二步，依次检验（自变量与中介变量相关系数）和（自变量与中介变量相关系数），如果两者符号相反，表示间接效应为负号；第三步，控制中介变量后，计算自变量与因变量直接效应，若显著相关且符合与间接效应相反，表明两者加总后导致总效应不显著，这就是遮蔽效应。更确切的说，直接效应的绝对值比总效应的绝对值应该还大，也就说：自变量与因变量回归时的相关系数，在控制中介变量后，会变得更大（控制M后， ）！这种直接效应与间接效应​符号相反的情况就是不一致中介（inconsistent mediation model）。
+
+总结如何解释中介效应的思路如下{温忠麟, 2020 #882}：实施中介效应分析的前提是学科理论上或者经验上，变量之间会有相关关系。传统上会区分完全中介效应还是部分中介效应。如果检验总效应发现不显著，通过是乘积间接效应与直接效应符号相反，加总抵消导致总效应不显著。如果直接效应比总效应还要大，一般按照遮蔽效应解释。Zhao等(2010)认为如果直接效应是显著的，不排除存在其他中介变量的可能，这一部分可以放在讨论中分析。
+</Text>
+        </Document>
+        <Document ID="33B44408-C8B9-4E9B-B0EE-1E99618FDA04">
+            <Title>自变量 ：住房劣势感知</Title>
+            <Text>住房劣势感知在测量上是多维的 ，考虑EASS健康模块问卷优势，不可能选取所有住房劣势指标，本文仅选择那些在4个国家（地区）均有提问到的问题作为测量指标，并将住房劣势感知区分为居住环境感知（X1）和邻里环境感知（X2）两个维度，均为潜变量。在居住环境感知构念（construct）方面，包括3个测量指标：“受访者家居住地区的空气污染有多严重”X11、“受访者居住地区的水污染有多严重”X12以及“受访者家居住地区的噪声污染有多严重”X13，以上原问题数值越大表示情况越严重，编码分别为：1=非常严重，2=有点严重，3=没有那么严重，4=一点也不严重。为符合参数解释习惯，序号有小到大表示居住环境程度越恶劣，将编码调整为：1=一点不严重，2=不严重，3=严重，4=非常严重。在邻里环境感知构念（construct）方面，包括5个测量指标：“受访者家周围1公里（步行约15分钟）的区域，是否适合做运动，如慢跑或步行。在多大程度上同意或不同意”X21、“受访者家周围1公里（步行约15分钟）的区域，是否附近有大量的新鲜水果或蔬菜可以选择”X22、“受访者家周围1公里（步行约15分钟）的区域，是否附近所在社区有足够的公共设施（社区中心、图书馆、公园等）”X23、“受访者家周围1公里（步行约15分钟）的区域，是否附近邻里地区是安全的”X24以及“受访者家周围1公里（步行约15分钟）的区域，是否邻居们相互关心，互不相让的”X25。以上原问题数值越大表示情况越不认同，即反映邻里环境越恶化，编码分别为：1=强烈同意，2=同意，3=既不同意也不反对，4=不同意，5=非常不同意。为符合参数解释习惯，保持原编码顺序，仅修改标签值更，将编码调整为：1=非常同意，2=同意，3=无所谓，4=不同意，5=非常不同意。
+
+为了反映中老年住房劣势感知情况，减少测量误差，本文选择上述两个维度和九个项目作为验证性因素分析（CFA）的基本模型框架。居住环境感知和邻里环境感知都是衡量中老年住房劣势感知的正向指标，指标数值越大反映住房劣势感知越强烈，代表现实住房劣势客观情况可能越糟糕。
+
+
+
+
+
+</Text>
+        </Document>
+        <Document ID="19BEE850-C255-43AE-AA55-969394F2328C">
+            <Title>2022年09月10日</Title>
+            <Text>题目：关于体育经济学教学过程中的思考
+
+
+捉升市场营销学课程案例教学实效的策咯与建议
+
+
+一：问题提出（基本完成）
+
+
+二、学科建设背景下案例教学课程的应用现状与主要挑战
+
+	国家战略
+
+	理论要求
+
+	现实困境
+
+
+· 主要内容和导向：
+	· 非体育类高校的体育经济教学的一般性与特殊性
+	· 体育经济学的与校园体育发展的融合方案
+在人才培养模式上存在较大差别，缺乏统一标准，难以满足人才培养需要，与现实社会所需的体育新经济人才标准脱节。
+
+
+近年来，在学术界同仁以及广大教师的积极探索下,案例教学法在我国商科教育中的应用取得了较快发展，其关注重点已逐步从如何开发出规范性较强的教学案例转变为如何设计出更为规范化的教学使用流程以提升教学效果。然而，
+
+
+（1）案例分类
+	· 理论类案例
+		· 描述研究的案例：
+		· 实证研究的案例：
+		· 综述研究的案例：
+	·实践类
+		· 成功赛事
+	·思想类案例
+		· 中国体育经济思想
+（2）实施的逻辑
+四、总结</Text>
+        </Document>
+        <Document ID="1EA4671A-226E-4DFC-B501-6A0E7FDA5205">
+            <Title>Notes</Title>
+        </Document>
+        <Document ID="36C136D5-0316-4CA6-96F1-0406955925E5">
+            <Title>2.联盟间的差异与共性</Title>
+            <Text>考虑几乎所有顶级体育职业联盟都是卡特尔，因此他们分配资金的逻辑是相同的，即“通过限定准入资格，划定特许转播区域，形成收入分享机制”（Scully，1995，p.15）。所有联盟和球队都会关心：1.无线、有线或新媒体的转播权价格；2.考虑在划定区域内产品（赛事）市场的卖方垄断势力，特许经营权在避税、场馆租赁以及使用权转让等价格方面的议价能力；3.控制成本，特别是利用联盟在劳动力市场买方垄断势力限制球员的薪资成本。然而联盟的发展路径不尽相同，赛事特点和球迷偏好也有差异，这就造成了各具特色的联赛运营方式。
+
+1.NFL有无与伦比的全国广播电视收入。收入来源方面，NFL高度依赖网联电视台的转播收入。特别是在20世纪80年代有线电视刚刚兴起之时，NFL与全国性广播电视台签订了一份5年价值20亿美元的大合约，这在当时可以说是天文数字。直接结果就是，NFL所有球根本不用担心门票收入，紧靠全国性转播收入的分享就能获得足够利润。该趋势一致保持到20世纪90年代后期，联盟总转播收入高达180亿美元。2007年NFL的营业利润估计约为10亿美元，这比MLB、NBA和NHL的利润总和还要大，尽管它只有16场常规赛，而篮球是82场，冰球是84场，棒球是162场。
+
+球队的盈利差距：NFL的豪华包间和场馆赞助收入是不参与总资金池共享的，球队所在辖区的人口、消费能力拉开了球队间收入差距。门票收入分配也是造成穷富队之间收入差距的另一原因，一场比赛门票收入由主客队间65:35的比例分享。此外，媒体联播收入的分享掩盖了部分球队的长期管理经营不善、不称职或者比赛失利造成的财务损失。虽然各支球队有不小差距，但是最富有球队通常只比最穷的球队多20%。
+
+总体而言，NFL的收入分享机制更像是“社会主义式”，媒体收入、门票收入的40%和许可收入在各队间平均分配。第一，联盟层面的网络电视和许可收入在所有球队之间平等分享。第二，门票收入对球队盈利能力的影响力相对小得多：联盟将总门票收入的大约三分之一会投放到资金池中，供各队平均分配。门票收入中的其余60%自普通座位的收入在主队和客队之间以66：34的比例分配。与MLB相比，NFL没有地方性电视台的转播收入。
+
+NFL球员分配安排与MLB有些类似，倾向于减少对球星的恶意竞标，并且减少自由球员的一般权益（每支球队必须遵守球员薪资限制）。
+
+2.NBA和MLB与NFL明显不同。
+收入来源中，由于NFL通常一年只有8个主场比赛，而MLB有81个主场比赛、赛季球票库存量就以百万计。地方性收入为重的MLB和NBA，门票收入通常占到总收入的40%，其余是停车费、广告、食品和饮料销售，以及与入场观看相关的额外收入贡献。
+收入分享机制方面，NBA和MLB明显与NFL不同。前两者各支球队从总资金池中获得的收入分享比例更小，因此更依赖地方性的收入（如门票收入和地方电视转播收入等），而地方性收入取决于球队所处区域的市场规模。
+
+球员权益方面， NBA和MLB的自由球员身份是长期有效，这导致球队每年都签署许多百万甚至千万级的大合同。
+
+
+新趋势：
+然而，上世纪90 年代后期开始，工资成本压力剧增（原因是多方面：货币超发、自由球员制度、）和媒体转播收入逐渐达到天花板（进入21世纪，流媒体收入逐渐增加），所有职业联盟（NBA、NFL、NHL、MLB和MLS）的收入分享机制和工资帽更趋于一致。NFL和NBA的集体谈判协议（collective bargaining agreements，CBA）已将球员薪资和球队收入挂钩，从而使得更多球队获得盈利；然而MLB尚未有该机制。
+
+
+对于MLS而言，足球在北美并非最流行项目，但考虑其在世界范围的巨大影响力，私人媒体、营销和球员薪酬结构开始类似于其他职业联盟。例如，福克斯体育和Telemundo购买了2018年和2022年世界杯比赛的媒体转播权，其中福克斯支付了4亿多美元，Telemundo支付了6亿美元，这反映了美国足球转播的价值。2015年，NBC体育还将其在美国播放英超联赛的独家协议延长了六年，估计每赛季的价格约为1亿美元，直到2022年。另见Gallivan（2012）和Robinson（2013），关于威胁到体育形象的欧洲假球调查，Panja等人（2015），以及Viswanatha和Matthews（2015）。Blake和Calvert（2015）和Futterman等人（2015）描述了2015年国际足联的重大丑闻。2016年BBC也报道了一起职业网球赛事的操纵丑闻。见Clarey（2016）和Perrotta（2016）。
+直到1995年欧洲法院的一项具有里程碑意义的裁决打破了卡特尔安排，球队只能派出三名非本地球员。然而，欧盟球员现在不再被算作外国人；在合同结束后，球员成为自由球员。足球俱乐部曾经可以阻止球员交易，或者坚持要求支付高额费用才允许交易。MLS的前身是北美足球联盟（1967-85）。MLS从1996年成立到2004年，估计损失了3.5亿美元。另见Lubove（1995），Freedman（2004），Gage（2005），以及《彭博商业周刊》，1996年9月23日；《彭博商业周刊》，1998年3月23日；"足球能被拯救吗？" 彭博商业周刊》，2004 年 7 月 19 日；以及《彭博商业周刊》，2004 年 11 月 22 日，其中描述了业主如何平分损失，联盟如何控制球员分配给球队。Fatsis（2006a）和Szymanski和Zimbalist（2005）提供了概述。Futterman和Patrick（2009）讨论了职业足球的债务负担和高球员成本。
+
+</Text>
+        </Document>
+        <Document ID="BA61EE3A-C7EA-47E2-A722-ABDC2F19AE37">
+            <Title>Bibliography</Title>
+            <Text>[1]
+BARON R M, KENNY D A. The moderator–mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations.[J]. Journal of personality and social psychology, 1986, 51(6): 1173.
+[1]
+DANIELS K M. Associations of Built and Social Neighborhood Environment Variables with Pediatric BMI z-Score and Changes in BMI z-Score[D]. Drexel University, 2019.
+</Text>
+        </Document>
+        <Document ID="AB6B2ABF-FF8A-4497-8A55-808DDF2C699A">
+            <Title>引言</Title>
+            <Text>近年来，无论是体育还是经济专业的研究者逐渐开始重视体育经济学的教学环节。由于该课程包含了若干经济学子领域，本质上是跨学科的（Leeds，2022）。此外，随着体育职业化和经济全球化影响，体育经济学的发展是迅速的，除了涉及到产业组织理论、公共经济学和劳动经济学等传统经济学子学科以外，还涉及到数据科学和量化分析等延伸领域（范青亮和周祎玮，2017；Watanabe 等，2021）。上述原因造成，来选修该课的学生对体育领域的政策形成过程或球队成绩浮动有真正兴趣，但对经济理论的分析方法和核心内容的基础、兴趣有限。上述问题对教师提出了教学挑战，本文的论点是，作为跨学科的体育经济学，案例教学法是满足学生"了解真实世界 "期望的绝佳方式，同时还能提高他们掌握进行政策分析所必需的基本经济理论的研究能力。基于与传统经济教学有很多不同之处，教师应该在体育经济学课堂中增加教学案例的丰富度和使用比例，不仅可以激发起学生对这些子领域的探索兴趣，也充分利用交叉领域诸多研究和故事提升教学质量。
+
+体育经济学课程给教师带来一系列的特有挑战。首先，选择课程的学生并非经济学专业，大部分情况是课堂中具有广泛技能和不同期望的学生。其次，课程设置需要精心设计，包括课程内容的选择和编排策略。最后，在非体育类院校开设该课程，应该明确学生选课动机和需求。特别对于体育专业硕士培养而言，在应用和理论两个维度把握上，如何更好承接本科理论学习和专业硕士就业导向是值得深入研究的问题。
+
+好的教学案例是对体育经济问题的生动刻画和细致描述。实施教学案例就是目的通过寻找具有典型代表的单一个体或具体事实的观察和分析，解释单个或少数个体内部结构及其与外部因素或环境的关系。虽然通过案例教学得到的结论未必一定实现对普适规律的演绎，但确实帮助学生理解理论、启发学生对现实问题进一步思考的好方法。正如西方经济学家一直强调案例研究教学法所起到的积极作用（Leeds，2020；Szymanski，2010；Cloutier等，2008），自上世纪 80 年代以来国内许多专家、学者对此投入极大的热情。钟天朗和徐琳（2004）结合时代中国国情和国际体育发展，依据重要主题系统积累不少体育经济教学案例；李为敏和王韶玉（2008）探讨如何通过体育案例教学提升高校大学生自主学习。事实上，基于应对在综合性大学开设体育经济学课程诸多挑战的考虑，挖掘不同类型的典型案例和实施相应的、有效的教学组织是非常有必要的。
+
+
+
+
+尽管在体育经济学教学中，经过学者们不懈的探索，在案例研究教学方法方面取得了一定成绩，但还存在诸多问题。比较典型的是，目前国内体育领域案例教学方面的研究大多集中于技术教学方面，体育理论课程教学研究尚显薄弱，研究深度和广度明显不足;关于案例教学在体育经济学课程方面的教学研究更是鲜见。
+
+基于这种状况，本文拟以体育经济学教学为例，对案例研究在体育理论课程教学中的运用进行深入分析，期望有助于我国高校中体育理论课程教学质量的进一步提高。
+
+总的来看，在兼顾理论和应用基础上，如何有计划性和目的性地在我国综合类高校体育经济学课程中实施案例研究教学法的相关研究较少。笔者希望借此文抛砖引玉，引起读者对体育经济中理论模型和数据科学等跨科学教学的重视和兴趣。
+
+在这篇文章中，我首先描述了在向综合类大学研究生教授体育经济学课程时出现的一些教学挑战，并概括地说明了应对挑战的基本思路。接下来重点介绍如何在兼顾多样性与技术性的基础上，利用案例教学法实现上述思路。本文的最后是结论。
+
+本文目的是概述在教授体育经济学课程中教师所面临的诸多挑战。考虑不同类型学校配套课程设置和生源的异质性，作者将结合体育经济学课程在国际和国内开展的实际情况，详细介绍克服这些挑战的方法。接下来，将以案例教学为重点方向，介绍不同类型案例对课程如何的概念。最后，我将这种技术的结果与更标准的教学方法的结果进行了比较。
+
+
+
+Watanabe, Nicholas M., Stephen Shapiro和Joris Drayer. 《Big Data and Analytics in Sport Management》. Journal of Sport Management, 2021年5月1日. https://doi.org/10.1123/jsm.2021-0067.
+
+Leeds, Michael A. 《Teaching the Economics of Sports》. The Journal of Economic Education 53, 期 2 (2022年3月24日): 150–58. https://doi.org/10.1080/00220485.2022.2038324.
+
+
+Stefan Szymanski. 《Teaching competition in professional sports leagues》. The Journal of Economic Education 41, 期 2 (2010年3月26日): 150–68. https://doi.org/10/c45hnb.
+
+Norman R. Cloutier, Dennis A. Kaufman和Rebecca S. Kaufman. 《Show me the money! an interactive lesson on demand, total revenue, and pricing in professional sports》. The Journal of Economic Education 39, 期 2 (2008年4月1日): 207–207. https://doi.org/10/bnnkw3.
+
+李为敏和王韶玉. 《如何提升高校大学生学习主体地位的研究——以体育案例教学为例》. 江西农业大学学报(社会科学版), 无, 7, 期 4 (2008年): 182–86. https://doi.org/10.16195/j.cnki.cn36-1328/f.2008.04.022.
+
+
+
+</Text>
+        </Document>
+        <Document ID="DECA906D-8610-46E0-A41A-0CFE732EE94D">
+            <Title>多群组分析与跨国比较研究</Title>
+            <Text>多群组分析（multiple-group analyses）与跨国比较研究（cross-national comparative research，CNCR）
+
+在多群组分析，其实就是在多个样本中使用SEM，最关注的问题就是是否在不同样本中结构方程的组成部分具有不变性（invariance）或者是等价性（equivalence）。在寻求多组别间不变性问题，根据，最先需要回答一下五类问题之一：第一，某特定测量工具的指标是否在不同群体（如按性别、年龄、文化等划分）有同等作用，换句话说是测量模型（measurement model）是否具有群组间的不变性。第二，在不同群体中某一测量工具或某一理论建构的因子结构，是根据某一个量表还是根据多个主量表的子量表共同组合而成？该视角体现了建构效度的问题，因此测量模型和结构模型是否等价（equivalence）是值得关注的。第三
+
+社会科学学者经常使用结构方程模型做多群组分析，特别是方差分析（analysis of variance，简称ANOVA)）方法就是其一。
+
+第二，单一工具或理论建构的因子结构在不同的人群中是否等同于由单一评估工具的项目或由多个工具的子量表分数来衡量？通常情况下，这种方法体现了建构效度的重点。在这种情况下，测量模型和结构模型的等效性是值得关注的。第三，特定因果结构中的某些路径在不同人群中是否等同？第四，模型中特定建构体的潜伏手段在不同人群中是否不同？最后，一个测量工具的因子结构在从同一人口中抽取的独立样本中是否可以复制？当然，后一个问题涉及到交叉验证的问题。
+
+ Second, is the factorial structure of a single instrument or of a theoretical construct equivalent across populations as measured either by items of a single assessment measure or by subscale scores from multiple instruments? Typically, this approach exemplifies a construct validity focus. In such instances, equivalence of both the measurement and structural models is of interest. Third, are certain paths in a specified causal structure equivalent across populations? Fourth, are the latent means of particular constructs in a model different across populations? Finally, does the factorial structure of a measuring instrument replicate across independent samples drawn from the same population? This latter question, of course, addresses the issue of cross-validation. Applications presented in this chapter, as well as the next two chapters, provide you with specific examples of how each of these questions can be answered using structural equation modeling (SEM) based on the Mplus program. The applications illustrated in Chapters[…]”
+
+"在寻求多群体不变性的证据时，研究人员通常对寻找五个问题之一的答案感兴趣。本章以及接下来的两章中介绍的应用，为您提供了具体的例子，说明如何使用基于Mplus程序的结构方程建模（SEM）来回答这些问题中的每一个问题。第[...]章所阐述的应用""
+浴缸模型（bathhub）
+
+一种在跨国研究中越来越流行的模型，即多层次结构方程模型(MSEM；Muthén 1989年，1994年；Mehta和Neale 2005年)。MSEM是一个很有吸引力的策略，因为它将延迟变量方法纳入了多层次框架（Skrondal和Rabe-Hesketh，2004）。因此，MSEM是SEM和MLM的综合体，结合了两个世界的优点。一方面，MSEM的多层次性使得它可以区分不同层次的分析，研究宏观和微观层次变量之间的联系。另一方面，SEM方面有利于检验关于建构体测量的假设，明确更复杂的因果链。
+
+本文讨论了MSEM在跨国研究中的应用。首先，本文回顾了这种方法为回答比较研究问题提供的机会。其次，本文以一种正式但易于理解的方式介绍了MSEM的统计背景。随后，本文放大了对CNCR特别有用的MSEM的具体类型，即两级共轭因子分析(CFA)、多级中介模型和组级结果模型。最后，本文介绍了MSEM如何用于应用研究的实用步骤策略，并通过一个教学实例说明了这一过程。
+CNCR的日益普及，加上跨国数据集的不断增加，促使人们寻找适合分析跨国数据的新分析技术。本篇文章主要介绍了</Text>
+        </Document>
+        <Document ID="F4841BA9-6538-44DF-852B-FDC64A5FAF3B">
+            <Title>医保相关</Title>
+            <Text>#
+
+#</Text>
+        </Document>
+        <Document ID="F681E9DA-D004-4D64-8EA8-8F9987DD7404">
+            <Title>Factors relating to social participation （Y）</Title>
+            <Text>#</Text>
+        </Document>
+        <Document ID="B2F9F202-0D45-47AB-9F61-C2AD3CAFE7C0">
+            <Title>以发表为目标的教学</Title>
+            <Text>可发表的研究通常被认为是经济学家或研究生的领域。在研究生机构，研究助理职位通常与外部资金挂钩，研究生有更多的培训，而本科生人数众多，与他们合作进行研究可能没有吸引力或不可行。尽管如此，在许多机构中，本科生是企业的重点。作为曾经的本科生，我们自己的经验表明，如果学生得到适当的培训、准备和监督，学生和教师的合作可以是一个令人难忘的成功经验。它甚至可以激发未来一两个教授的职业目标。
+
+我们概述了本科生研究的几种方法，这些方法产生了工作论文、会议发言和出版物。然而，我们没有提供简单的步骤。在开始研究之前了解与本科生进行研究的挑战，可能会使教师和他们的本科生之间的合作更加令人满意和富有成效。
+
+【】本科生研究的好处
+
+让应用型硕士研究生参与研究与发表过程不仅代表学术职业生涯的巅峰，通常要求学生发展出具有前沿导向的研究技能和问题导向的写作流程。掌握这些技能和分析思路对于业界和学界的求职招募单位发出了强烈的信号。成功完成一个研究项目可能会极大地提高学生自信心与克服困难带来的满足感。
+此外，培养应用型硕士研究生参与发表，也为教学单位在提供学生研究经验分享与学生培养质量认可中获益。教师可以从发表成果、聘期考核、学界认可度得到直接的正面反馈。在科研队伍建设方面，有利于教学单位学术梯队研究实力的提升。在招生环节，教学单位也会因为成果和学术声望的累积增加招募最优秀学生的可能性。
+然而，论文发表并非应用型硕士研究生最核心的培养目标，因此教师必须通过课程设置和激励导向，挖掘和鼓励学生追求论文打磨。虽然有少数优秀的社会科学基础的本科生进入到具有跨学科特征的体育经济领域，但多数学生会追求非学术发展目标。对于应用型硕士而言，他们与本科生和学术型硕士最大不同是明确的就业导向和硬性的时间约束；而启发这类学生参与研究课题的最佳方式，是设置难度合理、与职业发展相关的研究主题供学生思考。毕竟，他们是富有热情和通过本科生学术选拔才进入到研究生院的优秀学生。
+
+
+以研究新方向驱动。例如，数字经济如何赋予职业球队更多选择权，或者利用环境地形塑造差异化的冰雪旅游项目等。
+
+
+</Text>
+        </Document>
+        <Document ID="8EFF73C9-5067-4601-B437-B69AB22B0351">
+            <Title>其他东亚社会结果</Title>
+        </Document>
+        <Document ID="41007319-6877-4B53-8984-04C531F9430E">
+            <Title>进一步讨论</Title>
+        </Document>
+        <Document ID="10F8E55A-B584-4B82-A308-C7D44200A058">
+            <Title>Foreword</Title>
+        </Document>
+        <Document ID="0DE825EB-3332-4E5E-B7DF-387DC78312DD">
+            <Title>Sample MS</Title>
+            <Text>Your name
+Your address
+Your phone number
+Your e-mail address
+Your agent's name
+Your agent's address
+2,100 words.
+Non-Fiction With Sub-Heads Format
+          by Simon Umwan
+
+Foreword
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Praesent consequat tellus dui, eget feugiat enim imperdiet eu.
+Curabitur dictum ipsum vulputate, iaculis leo a, fringilla nisl.
+Pellentesque et venenatis nisi. Pellentesque egestas lacus dolor,
+a fermentum sapien tincidunt ut. Vivamus lacus nisi, auctor sed
+vehicula at, convallis ut augue. Quisque vitae bibendum mi.
+Curabitur imperdiet, est quis imperdiet sagittis, dui orci molestie turpis, non fringilla leo orci sit amet lorem. Fusce pellentesque sodales commodo. Donec lobortis nunc et ante ullamcorper ultricies. Etiam massa justo, tincidunt quis sodales vitae, hendrerit at elit. Aenean condimentum eget sapien ut molestie. Praesent ac luctus sem. Quisque placerat gravida ligula ac tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consectetur molestie malesuada.
+Cras at risus aliquet, sagittis tortor mattis, convallis magna.
+Non-Fiction/Umwan      2
+
+Sed sed vulputate quam. Vestibulum at semper sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus neque justo, fringilla sagittis mauris non, pellentesque accumsan lacus. Mauris nisl ante, sollicitudin ut mollis et, placerat at elit. Nulla leo dolor, tempor ac augue eget, dignissim ornare nisi. Quisque vitae risus massa. Vivamus tristique nisi eget urna bibendum, in accumsan orci ornare. Suspendisse condimentum massa sit amet lectus cursus, a semper arcu eleifend.
+Vestibulum egestas tristique urna, ac condimentum justo laoreet et. Vestibulum ultrices sapien magna, a adipiscing leo molestie vitae. Donec malesuada volutpat nisi in aliquam. Donec eget faucibus eros, at cursus ipsum.
+Quisque malesuada feugiat arcu, id pharetra turpis vehicula non. Aliquam erat volutpat. Mauris id risus nisi. Pellentesque gravida sagittis pellentesque. Donec mauris nisi, eleifend ac justo vel, bibendum eleifend dui. Cras eu neque eget lacus rhoncus dignissim. Nam eget lobortis ligula. Etiam vulputate, sapien sed tincidunt condimentum, nulla ante fringilla augue, at feugiat nisi risus convallis ante. Donec sed sodales purus.
+Non-Fiction/Umwan      3
+
+Foreword
+Chapter One: Philately
+Chapter Two: Phil Attley
+Endnotes
+2
+5 10 15
+Contents
+Non-Fiction/Umwan
+4
+
+     Chapter One: Philately
+The Joy of Collecting Stamps
+Lorem ipsum qui porro insolens reprimique an, appetere verterem conceptam eam eu. Ut nam nullam commune explicari. Vis ex mazim choro accusamus, sed civibus complectitur ex. Mazim aliquando vel in. Pri vero aliquam docendi ut, cu mei suas adhuc facilisis, saepe eloquentiam ad nec. Epicuri detracto principes sit in, vis latine luptatum recusabo et. An sed officiis vulputate, minim oratio duo no.
+Prima minimum oportere eum in. Id pro augue virtute. Eam unum laboramus adolescens te, alia tritani vix id, sit in labores iracundia moderatius. Mel in meis mutat scripserit, summo tantas apeirian ius id. Mei eu voluptua neglegentur philosophia, corrumpit evertitur sea no. Fabellas invidunt invenire sed cu. No mel volumus intellegebat.
+Non-Fiction/Umwan      5
+
+Meeting People
+Meeting people is overrated. Ex novum delicata usu, eros probo ad mel. Amet cibo vim ex. Per tibique probatus insolens id.
+Sonet consequuntur eam ex, ea placerat expetendis referrentur mea. Unum commodo minimum mea at, at sea possim posidonium concludaturque. Sit quodsi deseruisse ne, dicta consul insolens pro ad. No essent persius mediocritatem est, sed et dico sanctus, qui te latine signiferumque.1 Ad facilis percipitur duo, usu equidem euripidis an, id erat dicunt temporibus pri.
+Alia puto eos ut, errem tempor melius vel eu. Vim te omnis scripta quaeque, in hisoratio veniam fierent. Eum dictas molestie definiebas ne, te maiorum persequeris vim. Pri at integre dolorem. Cum menandri postulant te, causae accusam te has.
+No solet gubergren pro, tollit molestie signiferumque cu usu, qui nostrum partiendo adversarium ut. Vis oportere constituto id, mel odio eirmod verterem id, fugit dicunt argumentum pri ex. Sensibus petentium iracundia ut vim.
+The Smell
+Stamps smell nice. And they are tasty. Cu vel habeo delenit interpretaris, usu et alienum epicuri consetetur. Vel an soleat alienum, no vim impedit sapientem. Id nec ceteros consectetuer interpretaris, eum ad audiam eloquentiam, ad quo falli mandamus. Pro
+Non-Fiction/Umwan      6
+
+ad quodsi denique, ad intellegat assueverit honestatis per, cum eu labitur inimicus. Pro altera definitionem ea, vim no unum mutat dicunt. Et quo malis nullam essent.
+Antiopam maluisset ne mea. Ei solet saepe qui. Cu vocent fuisset vix. Eos ad electram assentior, erat assum saepe sed ne. Ut facete eruditi elaboraret duo, ex est tempor vocibus consetetur. Mea debet singulis ut, erat facer simul mei te.Mei id quis petentium, meis nostrum eu ius, vocent takimata principes ei nec.
+Sea laoreet delectus in, aperiri omittantur eum cu, detracto nominavi at cum. Mel an dolores officiis, patrioque adipiscing definitiones ius ad, at sed cibo velit. Pri solet vocent prompta no, eos ut quaerendum consequuntur, nam no 'commodo voluptatibus. Mei at forensibus comprehensam.2 Ut nam nullam commune explicari. Vis ex mazim choro accusamus, sed civibus complectitur ex. Mazim aliquando vel in.
+Cum menandri postulant te, causae accusam te has. No solet gubergren pro, tollit molestie signiferumque cu usu, qui nostrum partiendo adversarium ut. Vis oportere constituto id, mel odio eirmod verterem id, fugit dicunt argumentum pri ex. Sensibus petentium iracundia ut vim. Ius ei dicta molestie sententiae, modus voluptaria ut nam.
+Difficult-to-Find Stamps
+     Nonummy delicatissimi eu pro, ubique inimicus voluptaria at
+Non-Fiction/Umwan      7
+
+sea. Cu nec delectus invenire. Eos possim vocibus ut. Ut kasd solet qualisque sit, cu lucilius signiferumque sea, no populo consequat usu.
+The Treskilling Yellow
+Mei id quis petentium, meis nostrum eu ius, vocent takimata principes ei nec. Sea laoreet delectus in, aperiri omittantur eum cu, detracto nominavi at cum. Mel an dolores officiis, patrioque adipiscing definitiones ius ad, at sed cibo velit. Pri solet vocent prompta no, eos ut quaerendum consequuntur, nam no commodo voluptatibus. Mei at forensibus comprehensam.3 Lorem ipsum qui porro insolens reprimique an, appetere verterem conceptam eam eu. Ut nam nullam commune explicari. Vis ex mazim choro accusamus, sed civibus complectitur ex. Mazim aliquando vel in.
+Pri vero aliquam docendi ut, cu mei suas adhuc facilisis, saepe eloquentiam ad nec. Epicuri detracto principes sit in, vis latine luptatum recusabo et. An sed officiis vulputate, minim oratio duo no. Prima minimum oportere eum in. Id pro augue virtute. Eam unum laboramus adolescens te, alia tritani vix id, sit in labores iracundia moderatius.
+Inverted Jenny
+Mel in meis mutat scripserit, summo tantas apeirian ius id. Mei eu voluptua neglegentur philosophia, corrumpit evertitur sea no.
+Non-Fiction/Umwan      8
+
+Fabellas invidunt invenire sed cu. No mel volumus intellegebat. Ex novum delicata usu, eros probo ad mel. Amet cibo vim ex. Per tibique probatus insolens id.
+Alia puto eos ut, errem tempor melius vel eu. Vim te omnis scripta quaeque,4 in his oratio veniam fierent. Eum dictas molestie definiebas ne, te maiorum persequeris vim. Pri at integre dolorem.
+Cu vel habeo delenit interpretaris, usu et alienum epicuri consetetur. Vel an soleat alienum, no vim impedit sapientem. Id nec ceteros consectetuer interpretaris, eum ad audiam eloquentiam, ad quo falli mandamus. Pro ad quodsi denique, ad intellegat assueverit honestatis per, cum eu labitur inimicus. Pro altera definitionem ea, vim no unum mutat dicunt. Et quo malis nullam essent.
+Non-Fiction/Umwan      9
+
+    Chapter Two: Phil Attley
+The Life of Phil Attley
+Cu vel habeo delenit interpretaris, usu et alienum epicuri consetetur. Vel an soleat alienum, no vim impedit sapientem. Id nec ceteros consectetuer interpretaris, eum ad audiam eloquentiam, ad quo falli mandamus. Pro ad quodsi denique, ad intellegat assueverit honestatis per, cum eu labitur inimicus. Pro altera definitionem ea, vim no unum mutat dicunt. Et quo malis nullam essent
+Quisque vitae bibendum mi. Curabitur imperdiet, est quis imperdiet sagittis, dui orci molestie turpis, non fringilla leo orci sit amet lorem. Fusce pellentesque sodales commodo. Donec lobortis nunc et ante ullamcorper ultricies. Etiam massa justo, tincidunt quis sodales vitae, hendrerit at elit. Aenean condimentum eget sapien ut molestie. Praesent ac luctus sem. Quisque placerat gravida ligula ac tristique.
+Non-Fiction/Umwan      10
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consectetur molestie malesuada. Cras at risus aliquet, sagittis tortor mattis, convallis magna. Sed sed vulputate quam. Vestibulum at semper sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus neque justo, fringilla sagittis mauris non, pellentesque accumsan lacus. Mauris nisl ante, sollicitudin ut mollis et, placerat at elit. Nulla leo dolor, tempor ac augue eget, dignissim ornare nisi. Quisque vitae risus massa. Vivamus tristique nisi eget urna bibendum, in accumsan orci ornare. Suspendisse condimentum massa sit amet lectus cursus, a semper arcu eleifend.
+Birth
+Vestibulum egestas tristique urna, ac condimentum justo laoreet et. Vestibulum ultrices sapien magna, a adipiscing leo molestie vitae. Donec malesuada volutpat nisi in aliquam. Donec eget faucibus eros, at cursus ipsum. Quisque malesuada feugiat arcu, id pharetra turpis vehicula non.
+Curabitur dictum ipsum vulputate, iaculis leo a, fringilla nisl. Pellentesque et venenatis nisi. Pellentesque egestas lacus dolor, a fermentum sapien tincidunt ut. Vivamus lacus nisi, auctor sed vehicula at, convallis ut augue.
+Non-Fiction/Umwan      11
+
+Early Years
+Quisque vitae bibendum mi. Curabitur imperdiet, est quis imperdiet sagittis, dui orci molestie turpis, non fringilla leo orci sit amet lorem. Fusce pellentesque sodales commodo. Donec lobortis nunc et ante ullamcorper ultricies. Etiam massa justo, tincidunt quis sodales vitae, hendrerit at elit. Aenean condimentum eget sapien ut molestie. Praesent ac luctus sem. Quisque placerat gravida ligula ac tristique.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consectetur molestie malesuada. Cras at risus aliquet, sagittis tortor mattis, convallis magna. Sed sed vulputate quam. Vestibulum at semper sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus neque justo, fringilla sagittis mauris non, pellentesque accumsan lacus. Mauris nisl ante, sollicitudin ut mollis et, placerat at elit. Nulla leo dolor, tempor ac augue eget, dignissim ornare nisi.
+Quisque vitae risus massa. Vivamus tristique nisi eget urna bibendum, in accumsan orci ornare. Suspendisse condimentum massa sit amet lectus cursus, a semper arcu eleifend.
+School
+     Vestibulum vitae lorem vel urna pellentesque ultrices. Fusce
+vel tortor vel lectus pellentesque rhoncus a id dui. Pellentesque
+Non-Fiction/Umwan      12
+
+nulla orci, tincidunt suscipit placerat ut, mollis in nisi. Ut id nisi aliquet, sollicitudin velit non, facilisis est. Pellentesque pretium ac enim a eleifend.5 Vivamus porta, turpis id rhoncus sagittis, neque eros eleifend massa, ac auctor urna dolor in dolor. Duis tincidunt justo massa, a euismod diam sollicitudin ac. Aliquam imperdiet magna ut metus feugiat, quis laoreet dui eleifend.
+Donec hendrerit purus vel ante fringilla condimentum. Ut malesuada augue sit amet viverra mollis. Pellentesque quis elit eu justo vehicula adipiscing condimentum at quam. Morbi cursus tincidunt dui vel lobortis.
+Family
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consectetur molestie malesuada. Cras at risus aliquet, sagittis tortor mattis, convallis magna. Sed sed vulputate quam. Vestibulum at semper sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus neque justo, fringilla sagittis mauris non, pellentesque accumsan lacus.6 Placerat at elit. Nulla leo dolor, tempor ac augue eget, dignissim ornare nisi. Quisque vitae risus massa. Vivamus tristique nisi eget urna bibendum, in accumsan orci ornare. Suspendisse condimentum massa sit amet lectus cursus, a semper arcu eleifend.
+Non-Fiction/Umwan      13
+
+Licked to Death!
+Quisque malesuada feugiat arcu, id pharetra turpis vehicula non. Aliquam erat volutpat. Mauris id risus nisi. Pellentesque gravida sagittis pellentesque. Donec mauris nisi, eleifend ac justo vel, bibendum eleifend dui. Cras eu neque eget lacus rhoncus dignissim. Nam eget lobortis ligula. Etiam vulputate, sapien sed tincidunt condimentum, nulla ante fringilla augue, at feugiat nisi risus convallis ante. Donec sed sodales purus.7
+Curabitur congue ligula sed nunc viverra fermentum. Donec felis diam, porttitor sed nisl nec, convallis placerat enim. Phasellus consequat libero nec placerat tincidunt. Proin vestibulum, nunc non feugiat euismod, erat dolor tempus sapien, id venenatis neque libero at tellus. Vivamus ac mi condimentum, suscipit arcu sed, laoreet lorem. Mauris vel aliquet mauris. Integer sed diam quis felis iaculis placerat bibendum non quam. Suspendisse et ante orci. Integer lacinia tincidunt orci, sed cursus elit aliquam id. Maecenas viverra ac urna feugiat mollis. Mauris et fermentum nisi. Duis at tincidunt orci. Cras congue dictum massa vel tincidunt.
+Pellentesque imperdiet, est sit amet imperdiet egestas, lectus velit tincidunt quam, in molestie eros eros vitae eros.
+Non-Fiction/Umwan      14
+
+Endnotes
+1 Pellentesque imperdiet, "est sit amet imperdiet egestas, lectus velit tincidunt quam, in molestie eros eros vitae eros."
+2 Lorem Ipsum, Qui Porro Insolens, ed. Reprimique An (Appetere: Verterem Conceptam, eam eu).
+3 Ipsum, Qui Porro Insolens.
+4 Pro Altera, Definitionem, ea vim.
+5 An sed officiis vulputate, minim oratio duo no. Prima minimum
+oportere eum in. Id pro augue virtute.
+6 Mauris Nisl ante, sollicitudin ut mollis et.
+7 Cras at risus aliquet, sagittis tortor mattis, convallis
+magna. Sed sed vulputate quam. Vestibulum at semper sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Non-Fiction/Umwan      15
+   </Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

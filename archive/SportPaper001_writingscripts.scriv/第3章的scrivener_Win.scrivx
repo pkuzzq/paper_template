@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="1.5" Creator="SCRWIN-1.9.16.0" Device="DESKTOP-13L0MN1" Modified="2020-08-17 03:13:39 +0800" ModID="BB47B409-F160-4973-9AB6-D39EFE053EB9">
+    <Binder>
+        <BinderItem ID="8" UUID="D7EFAE8B-5A6A-4D87-9F67-E90B90E9C75E" Created="2010-10-02 03:08:16 +0800" Modified="2014-05-23 17:00:32 +0800" Type="Text">
+            <Title>About</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Information.png</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>407,0</TextSelection>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <FreeformMode>Yes</FreeformMode>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+        </BinderItem>
+        <BinderItem ID="0" UUID="56D25C2D-CB27-4924-A113-F64CB749896D" Created="2010-10-31 03:49:48 +0800" Modified="2020-07-12 00:42:43 +0800" Type="DraftFolder">
+            <Title>第3章 住房负担背景下台湾地区老年家户健康风险的研究</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <FreeformMode>Yes</FreeformMode>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem ID="3" UUID="43653830-2DD9-41D2-BB89-6554B051BCB4" Created="2010-10-31 03:49:48 +0800" Modified="2020-06-26 15:49:08 +0800" Type="Text">
+                    <Title>住房负担背景下台湾地区老年家户的健康状态</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <CompileAsIs>Yes</CompileAsIs>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>127,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <CorkboardSettings>
+                            <FreeformMode>Yes</FreeformMode>
+                        </CorkboardSettings>
+                    </CorkboardAndOutliner>
+                </BinderItem>
+                <BinderItem ID="4" UUID="6DC3C0F7-71D4-43B4-AF5F-1310C1B4AB91" Created="2010-10-31 03:55:55 +0800" Modified="2020-06-26 15:28:36 +0800" Type="Folder">
+                    <Title>研究发想</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Notes (White Notepad).png</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="5" UUID="AD1A87C1-2880-49FA-B964-1F56C8D47FB3" Created="2010-10-31 03:55:59 +0800" Modified="2020-05-17 17:59:33 +0800" Type="Text">
+                            <Title>背景</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="68" UUID="34871CE3-5E46-425D-89AA-4723A106E94E" Created="2020-07-19 17:56:22 +0800" Modified="2020-07-19 17:56:32 +0800" Type="Folder">
+                    <Title>文献回顾与相关概念</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Notes (White Notepad).png</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="69" UUID="21F7C17B-4561-44FE-958C-A2305FDF1425" Created="2020-07-19 17:56:22 +0800" Modified="2020-07-19 17:56:22 +0800" Type="Text">
+                            <Title>背景</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="30" UUID="9C0B5E60-5787-4659-ADE6-C2933698BC19" Created="2020-05-17 17:59:35 +0800" Modified="2020-07-11 17:27:55 +0800" Type="Text">
+                    <Title>居住与健康关系研究现状</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="60" UUID="151278E0-67D6-452A-97B7-B6CF738D829C" Created="2020-07-11 17:30:03 +0800" Modified="2020-07-19 17:56:52 +0800" Type="Folder">
+                    <Title>生存分析的理论准备</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Notes (White Notepad).png</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="61" UUID="F58FD1C8-416B-482D-8A0B-1006320FB10C" Created="2020-07-11 17:30:03 +0800" Modified="2020-07-15 00:12:07 +0800" Type="Text">
+                            <Title>生存分析的事件概念与数据特点</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>224,0</TextSelection>
+                                <Target Type="Characters">1000</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="62" UUID="35834DCB-79A3-403E-B8DF-7E7CFACC1928" Created="2020-07-11 17:30:03 +0800" Modified="2020-07-18 17:08:17 +0800" Type="Text">
+                            <Title>生存分析的数学表达</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>2184,21</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="63" UUID="91436F60-E663-4238-947B-A1337650EB17" Created="2020-07-11 17:33:58 +0800" Modified="2020-07-18 17:08:19 +0800" Type="Text">
+                            <Title>生存分析的基本方法</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection Caret="4427">4414,13</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="65" UUID="C667CCCB-0286-4127-A719-F6848E14AD92" Created="2020-07-11 17:34:18 +0800" Modified="2020-07-18 23:11:35 +0800" Type="Text">
+                            <Title>生存分析方法优势</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>65,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="17" UUID="58195F13-7753-4F8E-930A-A5B6BE310C56" Created="2020-05-17 17:49:58 +0800" Modified="2020-07-19 17:58:03 +0800" Type="Folder">
+                    <Title>资料处理与分析</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Notes (White Notepad).png</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="18" UUID="D831A88A-651E-4027-99DD-E31722B3A2FB" Created="2020-05-17 17:49:58 +0800" Modified="2020-08-04 14:29:29 +0800" Type="Text">
+                            <Title>资料来源与样本</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>547,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="28" UUID="DDB0E87A-05F5-41B3-961E-CCC2B6463E61" Created="2020-05-17 17:55:08 +0800" Modified="2020-08-09 00:44:08 +0800" Type="Text">
+                            <Title>变量选取与设定</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1398,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="34" UUID="13E8D2B2-8CFF-49DD-97A6-A00B057D4740" Created="2020-06-26 15:44:02 +0800" Modified="2020-08-08 23:08:43 +0800" Type="Text">
+                            <Title>基本资料分析</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>4702,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="36" UUID="F0DC2E6F-BE57-4A74-928A-1A428393006D" Created="2020-06-26 15:45:37 +0800" Modified="2020-07-19 18:05:50 +0800" Type="Folder">
+                    <Title>实证结果</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Notes (White Notepad).png</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="27" UUID="962141C5-D4F9-4C0F-A280-A172ED4AA6A1" Created="2020-05-17 17:55:08 +0800" Modified="2020-07-19 18:00:27 +0800" Type="Text">
+                            <Title>模型设定</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <FileExtension>rtf</FileExtension>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>344,0</TextSelection>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="19" UUID="7310D4BA-CC70-4946-B405-56B846F06D7A" Created="2020-05-17 17:50:01 +0800" Modified="2020-08-08 23:13:06 +0800" Type="Folder">
+                            <Title>实证结果</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Notes (White Notepad).png</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="20" UUID="4CCD5A40-2D1E-4513-BF47-9FD7569C3ED9" Created="2020-05-17 17:50:01 +0800" Modified="2020-08-09 01:34:34 +0800" Type="Text">
+                                    <Title>住房负担与自评健康下降事件关系的存活曲线</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>132,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="40" UUID="FAB22FD4-A532-42AA-828F-93710BA344B6" Created="2020-06-26 15:47:47 +0800" Modified="2020-08-14 01:51:08 +0800" Type="Text">
+                                    <Title>住房负担与自评健康下降事件关系的全样本的参数存活模型</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>3716,0</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="73" UUID="554911BE-AF8D-41EB-B54A-4EACE9E40719" Created="2020-08-08 23:16:15 +0800" Modified="2020-08-17 02:58:49 +0800" Type="Text">
+                                    <Title>稳健性检验：考虑时变控制变量的半参数存活模型</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,1687</TextSelection>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="23" UUID="858B113A-1839-4DDE-8C3A-3905C2319765" Created="2020-05-17 17:50:07 +0800" Modified="2020-05-17 17:57:23 +0800" Type="Folder">
+                    <Title>代结论</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Notes (White Notepad).png</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="24" UUID="F6514A69-7BAC-4842-81F0-E9BDCCB5CA76" Created="2020-05-17 17:50:07 +0800" Modified="2020-05-17 17:50:07 +0800" Type="Text">
+                            <Title>Body</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="1" UUID="8043323B-9366-4679-9351-D95F3198EF09" Created="2010-10-31 03:49:48 +0800" Modified="2010-10-31 03:49:48 +0800" Type="ResearchFolder">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <FreeformMode>Yes</FreeformMode>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem ID="42" UUID="D33EC796-8661-4B04-AF0E-00DC082173CA" Created="2020-06-26 15:52:23 +0800" Modified="2020-06-26 15:53:22 +0800" Type="Folder">
+                    <Title>模板文件夹</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="43" UUID="5B45BDD7-F91E-4338-A0CE-6B01E841A65B" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Folder">
+                            <Title>研究发想-1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Notes (White Notepad).png</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="44" UUID="5B615BD1-5620-43B5-9549-BBF921CDCB85" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>背景</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="45" UUID="B62F80D5-61BB-45CA-BE3B-6928BD48F5BA" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>目的</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="46" UUID="93234F81-992B-41EA-AD40-EAA93ADB830D" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Folder">
+                            <Title>资料说明与模型构建-1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Notes (White Notepad).png</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="47" UUID="820AC617-7659-4F71-A7B5-0BDFE580F67A" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>资料来源与样本</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="48" UUID="FBDD1A5A-36C5-42B8-A836-1C11A174BEDD" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>模型构建</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="49" UUID="A2AAE39B-8724-4EFB-8301-5CF3DE38F291" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>实证模型与变量</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="50" UUID="5EDA72AA-4D5C-462C-B53B-56BF020695AF" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Folder">
+                            <Title>变量选取与基本资料分析-1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Notes (White Notepad).png</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="51" UUID="C05D48EB-035D-4CD1-B8B3-2B190503D291" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>重要变量与编码</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="52" UUID="007F23EC-D26F-4FFB-962F-C35FF21FE8C3" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>基本资料分析</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="53" UUID="3EE4C418-0A4A-4B07-988F-B1DAFC57038E" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Folder">
+                            <Title>实证结果-1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Notes (White Notepad).png</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="54" UUID="080B2929-AC8B-4CD4-9491-1BEDFF643BFD" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>A与B事件关系的存活曲线</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem ID="55" UUID="590D76C8-5A1A-4728-8AFD-5840CDD9FB34" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>A与B事件关系的存活机率模型</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem ID="56" UUID="BE9FACAA-9671-43B1-A895-4F6ED2A09FCA" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Folder">
+                            <Title>代结论-1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Notes (White Notepad).png</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem ID="57" UUID="848CAD86-9AC4-4E70-8616-C083122519C1" Created="2020-06-26 15:53:00 +0800" Modified="2020-06-26 15:53:00 +0800" Type="Text">
+                                    <Title>Body</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <Target Type="Words">0</Target>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="9" UUID="9CB496D9-E8B4-4EA5-8D35-143DEF57AD92" Created="2014-05-11 07:09:32 +0800" Modified="2014-05-11 07:11:21 +0800" Type="PDF">
+                    <Title>Example Essay</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>pdf</FileExtension>
+                    </MetaData>
+                    <MediaSettings>
+                        <CurrentPDFPage>1</CurrentPDFPage>
+                    </MediaSettings>
+                    <CorkboardAndOutliner>
+                        <CorkboardSettings>
+                            <FreeformMode>Yes</FreeformMode>
+                        </CorkboardSettings>
+                    </CorkboardAndOutliner>
+                </BinderItem>
+                <BinderItem ID="76" UUID="B910B3DF-B28C-438A-8BFC-A9934B3693DB" Created="2020-08-17 03:12:27 +0800" Modified="2020-08-17 03:12:33 +0800" Type="Text">
+                    <Title>未用到</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>156,0</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem ID="6" UUID="C87DCDB4-5D70-4AA7-B207-8D7C2E89E91A" Created="2010-10-30 01:50:27 +0800" Modified="2010-10-30 02:14:27 +0800" Type="Folder">
+            <Title>Notes</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Notes (Blue Notepad).png</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <FreeformMode>Yes</FreeformMode>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+        </BinderItem>
+        <BinderItem ID="7" UUID="2FE12313-869D-4F87-A5BD-2CFAD9B588F7" Created="2010-10-30 02:14:01 +0800" Modified="2010-10-30 02:14:04 +0800" Type="Folder">
+            <Title>Ideas</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Light Bulb.png</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <Target Type="Words">0</Target>
+            </TextSettings>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <FreeformMode>Yes</FreeformMode>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+        </BinderItem>
+        <BinderItem ID="2" UUID="E58ED224-A691-4878-A69F-DD5EC75D7574" Created="2010-10-31 03:49:48 +0800" Modified="2010-10-31 03:49:48 +0800" Type="TrashFolder">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <CorkboardAndOutliner>
+                <CorkboardSettings>
+                    <FreeformMode>Yes</FreeformMode>
+                </CorkboardSettings>
+            </CorkboardAndOutliner>
+            <Children>
+                <BinderItem ID="41" UUID="3A66B301-BFC8-40B4-9C0D-E5817C34D9FB" Created="2020-06-26 15:50:47 +0800" Modified="2020-06-26 15:50:47 +0800" Type="Text">
+                    <Title>资料来源与样本</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="58" UUID="BFB914A9-3698-40C9-A50A-59EA3A95117B" Created="2020-06-26 16:05:19 +0800" Modified="2020-06-26 16:11:00 +0800" Type="Text">
+                    <Title>阿斯蒂芬</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Characters">3000</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="29" UUID="4F85D363-16DE-4915-BF2C-7E1D569E06EA" Created="2020-05-17 17:56:05 +0800" Modified="2020-05-17 17:56:42 +0800" Type="Text">
+                    <Title>实证模型与变量</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="59" UUID="D74DC97C-4F4E-4514-ADA9-4F1563B28B97" Created="2020-07-11 17:28:19 +0800" Modified="2020-07-11 17:28:36 +0800" Type="Text">
+                    <Title>理论准备</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="66" UUID="3CF196A0-29E4-4DD8-8618-D4B155CABECF" Created="2020-07-12 00:43:58 +0800" Modified="2020-07-12 00:43:58 +0800" Type="Text">
+                    <Title></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="67" UUID="78F2228B-DE50-439A-B36E-79B342DE1375" Created="2020-07-14 00:26:47 +0800" Modified="2020-07-14 00:31:09 +0800" Type="Text">
+                    <Title>生存分析基本概念</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>152,0</TextSelection>
+                        <Target Type="Characters">1000</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="64" UUID="3C931C3E-D460-4F12-9069-D6318556242A" Created="2020-07-11 17:34:08 +0800" Modified="2020-07-11 17:34:17 +0800" Type="Text">
+                    <Title>COX比例风险模型</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="72" UUID="43AA1BE3-AB61-433A-A3EA-22314FEEC930" Created="2020-07-19 18:04:50 +0800" Modified="2020-07-19 18:04:50 +0800" Type="Text">
+                    <Title>基本资料分析-1</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="70" UUID="3943F0E3-2A94-401C-BC38-6E2ED4022391" Created="2020-07-19 17:58:44 +0800" Modified="2020-07-19 17:58:47 +0800" Type="Text">
+                    <Title>资料处理</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem ID="71" UUID="B25E0BA7-23A0-45BB-B8F4-4C6C6EB815BA" Created="2020-07-19 17:59:22 +0800" Modified="2020-07-19 17:59:27 +0800" Type="Text">
+                            <Title>样本选择</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <Target Type="Words">0</Target>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem ID="74" UUID="0D7AB6A1-DDC1-498E-9146-8589E0C1EA99" Created="2020-08-14 01:51:13 +0800" Modified="2020-08-14 19:54:28 +0800" Type="Text">
+                    <Title></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="75" UUID="9CA5784C-9757-4C3A-B310-25FA537EAE90" Created="2020-08-14 19:54:41 +0800" Modified="2020-08-17 02:38:22 +0800" Type="Text">
+                    <Title></Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.901961 0.921569 0.952941">Concept</Label>
+            <Label ID="1" Color="0.988235 0.874510 0.850980">Chapter</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <TemplateFolderUUID>D33EC796-8661-4B04-AF0E-00DC082173CA</TemplateFolderUUID>
+    <ProjectTargets>
+        <DraftTarget Type="Characters" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-07-07 12:30:22 +0100" IgnoreDeadline="Yes">25000</DraftTarget>
+        <SessionTarget Type="Characters" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="No" WritingDays="">3000</SessionTarget>
+        <PreviousSession Words="38" Characters="537" Date="2020-08-17 00:16:47 +0800"/>
+    </ProjectTargets>
+    <Collections>
+        <Collection Type="Binder" ID="C3DF17CD-B9A6-495F-B80F-3E8B47762C4B" Color="0.901961 0.917647 0.933333">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="0D53BC99-F728-41DC-B07E-50F35053E8C1" Color="0.901961 0.901961 0.980392">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Exact" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No"></SearchSettings>
+        </Collection>
+    </Collections>
+    <PrintSettings PaperType="Letter" LeftMargin="72.0001" RightMargin="72.0001" TopMargin="90.0002" BottomMargin="90.0002" Orientation="Portrait" Collates="No" ReverseOrder="No"/>
+</ScrivenerProject>
