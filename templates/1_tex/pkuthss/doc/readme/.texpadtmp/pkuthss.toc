@@ -1,0 +1,26 @@
+\contentsline {chapter}{序言}{1}{chapter*.5}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}使用介绍}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}系统要求}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}模版文件}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}编译方式}{4}{section.1.3}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}pkuthss 文档模版提供的功能}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}pkuthss 文档类提供的选项}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}pkuthss 文档类提供的命令和环境}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}设定文档信息的命令}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}自身存储文档信息的命令}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}以“key = value”格式设置文档信息}{10}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}其它命令和环境}{11}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}从其它文档类和宏包继承的功能}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}高级设置}{12}{section.2.4}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}问题及其解决}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}文档中已经提到的常见问题（按重要性排序）}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}上游宏包可能引起的问题}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}文档格式可能存在的问题}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}反馈意见和建议}{16}{section.3.4}%
+\contentsline {chapter}{结论}{17}{chapter*.8}%
+\contentsline {chapter}{参考文献}{19}{appendix*.10}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}更新记录}{21}{appendix.A}%
+\contentsline {section}{\numberline {A.1}1.3 版以后的更新记录}{21}{section.A.1}%
+\contentsline {section}{\numberline {A.2}1.3 及其以前版本的更新记录}{31}{section.A.2}%
+\contentsline {chapter}{致谢}{35}{appendix*.11}%
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{37}{appendix*.12}%
