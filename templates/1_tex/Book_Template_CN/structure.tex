@@ -1,0 +1,322 @@
+%%%设置中英文混排时中文文字体%%%%%%%%%%%%%%%%
+\setCJKmainfont[ItalicFont={FZKai-Z03S}, BoldFont={FZHei-B01S}]{FZShuSong-Z01S} %
+\setCJKsansfont{FZHei-B01S} %
+\setCJKmonofont{FZFangSong-Z02S} %
+%%%定义新字体%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setCJKfamilyfont{kaiti}{FZKai-Z03S} 			%使用楷体
+\newcommand{\kai}{\CJKfamily{kaiti}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%目录格式设置%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\contentsname}{目\hspace{1em}录}	%把目录中间加空格
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%中文章节格式设置%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+%章格式设置---------------------------------------------------
+\CTEXsetup[name={第~ ,~章},number={\arabic{chapter}}]{chapter} 
+\titleformat{\chapter}{}{\centering\bfseries\huge 第~{\bfseries\thechapter}~章}{1em}{\centering\huge\bfseries}
+%%%以下名称ctex宏包默认，故不需要改%%%%%%%%
+%\renewcommand\refname{参考文献} % article类文档
+%\renewcommand\bibname{参考文献} % report/book类文档
+%\renewcommand{\figurename}{图}
+%\renewcommand{\tablename}{表}
+%\renewcommand{\appendixname}{附录}
+%\renewcommand{\algorithm}{算法}
+
+%%%章结尾页若为空白页则注“此页故意留白”%%%%%%%%%%%
+\makeatletter
+\renewcommand{\cleardoublepage}{
+\clearpage\ifodd\c@page\else
+\hbox{}
+\vspace*{\fill}
+\thispagestyle{empty}
+\begin{center}\nbvspace[1]\textit{\normalsize 此页有意留白}\nbvspace[4]\end{center}
+\newpage
+\fi}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%设置页眉页脚%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}%调用宏包
+%设置新的plain格式-------------------------------------------
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyhead{}
+	\fancyfoot{}
+	\renewcommand{\headrulewidth}{0pt}}
+\renewcommand{\headrulewidth}{0pt} % 页眉与正文之间的水平线粗细，默认0.4pt
+%\renewcommand{\footrulewidth}{1pt}
+%\setlength{\topskip}{0mm}    %页眉与正文间距离
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%设置脚注%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[perpage,stable,bottom]{footmisc}
+\setlength{\footnotesep}{0.6\baselineskip}% 脚注与脚注之间行距
+\setlength{\skip\footins}{1\baselineskip plus 0.6ex minus 0.3ex}% 脚注与正文间距
+%脚注编号带圈儿----------------------------------------------
+\usepackage{pifont}%调用带圈的数字
+\renewcommand\thefootnote{\ding{\numexpr171+\value{footnote}}\,}%脚注编号设成带圈数字rm
+%正文中脚注编号上标，脚注中编号非上标----------------------
+\makeatletter
+\let\old@makefntext\@makefntext
+\long\def\@makefntext#1{%
+	%\quad %10号默认字体下不加这个
+	\def\@makefnmark{\hbox{\footnotesize\normalfont\@thefnmark}}%
+	\old@makefntext{#1}}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%设置一系列间距%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{indentfirst}   %首行缩进宏包
+\linespread{1.4}%
+\setlength{\footskip}{1.4\baselineskip}%页码与正文距离
+\setlength{\parskip}{0.3\baselineskip plus 0.2ex minus 0.1ex}%段落间的距离
+%%%设置item间距％％％％％％％％％％％％％％％％％％％％％
+\usepackage{enumitem}
+\setenumerate[1,2,3]{itemsep=0pt,partopsep=0.3\baselineskip plus 0.2ex minus 0.1ex,parsep=0pt,topsep=0pt}
+\setitemize[1,2,3]{itemsep=0pt,partopsep=0.3\baselineskip plus 0.2ex minus 0.1ex,parsep=0pt,topsep=0pt}
+\setdescription{itemsep=0pt,partopsep=0.3\baselineskip plus 0.2ex minus 0.1ex,parsep=0pt,topsep=0pt}
+
+\renewcommand{\arraycolsep}{1.5pt}%array环境中对齐项两侧间距大小
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%修改单独成行公式与文本之间间距%%%%%%%%%%%%%%
+\usepackage{etoolbox}
+\makeatletter
+\appto\normalsize{%
+	\abovedisplayskip 6 \p@ \@plus1\p@ \@minus3\p@
+	\abovedisplayshortskip \z@ \@plus3\p@
+	\belowdisplayshortskip 3\p@ \@plus1\p@ \@minus2\p@
+	\belowdisplayskip \abovedisplayskip
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%％％编号相关%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\labelenumi}{(\theenumi)} %\labelenumi (1级e-item)
+\renewcommand{\labelenumii}{({\it\theenumii})}%\labelenumii (2级e-item)
+%%%设置item缩进值%%%%%%%%%%%%%%%%%%%%%%
+%需要enumitem宏包---------------------
+\setlist[enumerate]{leftmargin=1.7em}
+\setlist[itemize]{leftmargin=1.01em}
+%%%定义随字号变化的阴阳符号%%%%%%%%%%%%%
+%需要tikz宏包------------------------
+\usepackage{scalerel}
+\newcommand{\customyinyang}{%
+	\scalerel*{%
+		\tikz[anchor=base, baseline]{%
+			\draw[line width = 0.05em] (0,0.26em) circle (0.17em);
+			\path[fill=black] (90:0.43em) arc (90:-90:0.085em)
+			(0,0.43em)    arc (90:270:0.17em)
+			(0,0.09em) arc (-90:-270:0.085em);
+		}%
+	}{\bullet}%
+}
+\renewcommand{\labelitemi}{$\bullet$}%修改itemize二级编号
+\renewcommand{\labelitemii}{$\customyinyang$}%修改itemize二级编号
+\renewcommand{\labelitemiii}{$\circ$}%修改itemize二级编号
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%图表格式设置%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%设置图编号随章---------------------------------------------------
+\renewcommand\thefigure{${\thechapter.\arabic{figure}}$\,}%默认的图片编号本如此，只是数字后的冒号挨太紧
+%设置表编号格式---------------------------------------------------
+\renewcommand\thetable{${\thechapter.\arabic{table}}$\,}%默认的图片编号本如此，只是数字后的冒号挨太紧
+%解决表格标题距内容过近------------------------------------------
+\usepackage{caption}
+%表格线加粗-------------------------------------------------------
+\usepackage{booktabs}
+%设置图表标题与文本之间的间距------------------------------------
+\setlength{\abovecaptionskip}{6pt plus 1pt minus 3pt}
+\setlength{\belowcaptionskip}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%参考文献总设置%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[backend = biber, style = caspervector-ay, utf8,
+maxbibnames=999,maxcitenames=999,%引用和列表的文献作者全显示
+sortcites=false,%引用显示按照输入顺序
+sorting = cenyt%列表显示按照cenyt
+]{biblatex}
+%%%参考文献格式修改%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+%列表文献标题设置-------------------------------------------------
+\renewcommand*{\bbx@cepunct}[2]{#2}
+\DeclareFieldFormat*{title}{\bbx@cetext{《{#1}》}{\mkbibemph{#1}}}
+\DeclareFieldFormat*{booktitle}{\bbx@cetext{《{#1}》}{\mkbibemph{#1}}}
+\DeclareFieldFormat*{journaltitle}{\bbx@cetext{《{#1}》}{\mkbibemph{#1}}}
+\DeclareFieldFormat[inbook, inproceedings, incollection, article]
+{title}{\bbx@cetext{《{#1}》}{{#1}}}%\mkbibquote可使此类title加双引号----
+\DeclareFieldFormat*{volume}{{#1}}%卷号不再斜体；\mkbibbold可加粗
+%\DeclareFieldFormat*{type}{\mkbibbrackets{\mkbibemph{#1}}}%文献类型C,M,J斜体
+%列表中2个以上作者时，中文后2个加‘和’，英文后2个加‘and’
+\renewcommand*{\finallistdelim}{\bbx@cetext{{和}}{\addspace\bibstring{and}\space}}
+\renewcommand*{\finalnamedelim}{\bbx@cetext{{和}}{\addspace\bibstring{and}\space}}
+%去掉英文文献两个以上作者时最后两个作者之间加的and
+%\renewcommand*{\finallistdelim}{\bbx@cecomma}
+%\renewcommand*{\finalnamedelim}{\bbx@cecomma}%国标
+%列表中姓名显示姓在前---------------------------------------------
+\DeclareNameAlias{author}{last-first}
+\DeclareNameAlias{editor}{last-first}
+\DeclareNameAlias{translator}{last-first}
+%%引用显示和列表显示，作者和年份之间加英文逗号和英文空格
+%\DeclareDelimFormat*{nameyeardelim}{\addcomma\space}
+%引用显示加括号---------------------------------------------------
+\renewcommand{\cite}{\Parencite}
+%引用显示括号为中括号---------------------------------------------
+\AtEveryCite{%
+	\let\bibopenparen=\bibopenbracket%
+	\let\bibcloseparen=\bibclosebracket}
+%引用显示顿号改为英文逗号+英文空格------------------------------
+\renewcommand{\bbx@cnbcomma}{\addcomma\space}
+\makeatother
+%去掉列表中年份的括号并在年份前加英文逗号和空格---
+\usepackage{xpatch}
+\xpatchbibmacro{date+extradate}{%
+	\printtext[parens]%
+}{%
+	\setunit*{\addcomma\space}%
+	\printtext%
+}{}{}
+%增加列表项间距---------------------------------------------------
+\setlength{\bibitemsep}{0.3\baselineskip plus 0.2ex minus 0.1ex}
+%导入数据库-------------------------------------------------------
+\addbibresource{myref.bib}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%设置索引%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{imakeidx}%添加索引
+\makeindex
+%%%添加超链接%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[colorlinks=false,breaklinks=true,
+bookmarks=true,bookmarksopen=true]{hyperref}
+%该宏包必须在imakeidx之后，不然index页码无超链接
+%%%符号索引％％％％％％％％％％％％％％％％％％％％％％％
+\makeindex[name=symbol,title=符号索引,options=-s mystyle1.ist]
+%%%译名索引％％％％％％％％％％％％％％％％％％％％％％％
+\makeindex[name=name,title=名称索引,options=-s mystyle2.ist]
+%%%术语索引%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\indexname}{术语索引}%%%三种索引都分两栏%%%%%%%%%%%%%%%%%%%
+\usepackage[columns=2,totoc=true,rule=0pt,indentunit=1em,columnsep=20pt]{idxlayout}
+%分栏，显示在目录中，栏间加线，子项缩进，栏间距离
+%%%符号索引格式％％％％％％％％％％％％％％％％％％％％％
+\usepackage{filecontents}
+\begin{filecontents}{mystyle1.ist}
+	preamble "
+	\\begin{theindex}
+	\\providecommand*\\indexgroup[1]{\\indexspace
+		\\item \\textbf{#1}}
+	"
+	postamble "\n\n\\end{theindex}\n"
+	group_skip "  %\n  \\indexspace\n  %\n"
+	headings_flag 1           %如果索引项前加字母，把0换成1
+	heading_prefix "  %\n  \\indexgroup{"
+	heading_suffix "}\n  %\n"
+%suffix_2p "\\nohyperpage{-f.}"
+%suffix_3p "\\nohyperpage{ff.}"
+delim_0 "\\dotfill"           %索引项和页码之间用点填充用dotfill；不用加点则用hfill；也可用qquad
+delim_1 "\\dotfill"           %索引项和页码之间用点填充用dotfill；不用加点则用hfill；也可用qquad
+\end{filecontents}
+%%%译名索引格式%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{filecontents}
+\begin{filecontents}{mystyle2.ist}
+preamble "
+\\begin{theindex}
+\\providecommand*\\indexgroup[1]{\\indexspace
+	\\item \\textbf{#1}}
+"
+postamble "\n\n\\end{theindex}\n"
+group_skip "  %\n  \\indexspace\n  %\n"
+headings_flag 1           %如果索引项前加字母，把0换成1
+heading_prefix "  %\n  \\indexgroup{"
+heading_suffix "}\n  %\n"
+%suffix_2p "\\nohyperpage{-f.}"
+%suffix_3p "\\nohyperpage{ff.}"
+delim_0 "\\dotfill"           %索引项和页码之间用点填充用dotfill；不用加点则用hfill；也可用qquad
+delim_1 "\\dotfill"           %索引项和页码之间用点填充用dotfill；不用加点则用hfill；也可用qquad
+\end{filecontents}
+%%%术语索引格式%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{filecontents}{\jobname.mst}
+preamble "
+\\begin{theindex}
+\\providecommand*\\indexgroup[1]{\\indexspace
+\\item \\textbf{#1}}
+"
+postamble "\n\n\\end{theindex}\n"
+group_skip "  %\n  \\indexspace\n  %\n"
+headings_flag 1           %如果索引项前加字母，把0换成1
+heading_prefix "  %\n  \\indexgroup{"
+heading_suffix "}\n  %\n"
+%suffix_2p "\\nohyperpage{-f.}"
+%suffix_3p "\\nohyperpage{ff.}"
+delim_0 "\\dotfill"           %索引项和页码之间用点填充用dotfill；不用加点则用hfill；也可用qquad
+delim_1 "\\dotfill"           %索引项和页码之间用点填充用dotfill；不用加点则用hfill；也可用qquad
+%delim_2 "\\hfill"
+\end{filecontents}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%设置定理环境%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsthm}
+%中文定理与定义格式-----------------------------------------
+\makeatletter
+\newtheoremstyle{mythm}%名字
+{0.3\baselineskip plus 0.1ex minus 0.1ex}%上方的空行
+{0.3\baselineskip plus 0.1ex minus 0.1ex }%下方的空行
+{\kai}%主体内容，可在此修改内容字体
+{}%首行缩进
+{\bfseries }%定理头部字体
+{}%定理头部后的标点
+{0.5em}%定理头部后的空格
+{\thmname{#1}\thmnumber{#2}\thmnote{（#3）\!\!}.}%定理头部的说明
+\makeatother
+\makeatletter
+\newtheoremstyle{mydefn}%名字
+{0.3\baselineskip plus 0.2ex minus 0.1ex}%上方的空行
+{0.3\baselineskip plus 0.2ex minus 0.1ex}%下方的空行
+{}%主体内容，可在此修改内容字体
+{}%首行缩进
+{\bfseries }%定理头部字体
+{}%定理头部后的标点
+{0.5em}%定理头部后的空格
+{\thmname{#1}\thmnumber{#2}\thmnote{（#3）\!\!}.}%定理头部的说明
+\makeatother
+%1和2换过来之后，}之后加~，否则交换无效%%
+%设置定理-----------------------------------------------------
+\theoremstyle{mythm}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\newtheorem{claim}[theorem]{断言}
+\theoremstyle{mydefn}
+\newtheorem{definition}[theorem]{定义}
+\newtheorem{remark}[theorem]{评注}
+\newtheorem{example}[theorem]{示例}
+\newtheorem{exercise}[theorem]{习题}
+\newtheorem{convention}[theorem]{约定}
+\newtheorem{notation}[theorem]{记号}
+%\newtheorem{thesis}[theorem]{论题}
+%\newtheorem{conjecture}[theorem]{猜想}
+%\newtheorem{problem}[theorem]{问题}
+%\newtheorem{axiom}[theorem]{公理}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%中文证明环境%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewenvironment{proof}[1][\proofname]{\par
+\pushQED{\qed}%
+\normalfont \topsep0\p@\@plus0\p@\relax   %证明环境前后行距
+\trivlist 
+\item[\hskip\labelsep % 首行缩进则加\indent 
+\bfseries 
+#1\@addpunct{：}]\ignorespaces  %：为证明后的冒号
+}{%
+\popQED\endtrivlist\@endpefalse
+}
+\renewcommand{\proofname}{证明} %Proof的名称换为证明
+\makeatother
+%证明结束符修改-----------------------------------------------
+\renewcommand{\qedsymbol}{\ensuremath\boxtimes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

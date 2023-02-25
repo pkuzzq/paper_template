@@ -1,0 +1,161 @@
+\documentclass{article}
+\usepackage[a4paper,top=2.1cm,bottom=2.1cm,left=3.9cm,right=3.9cm, heightrounded, marginparwidth=2.5cm, marginparsep=0.38cm]{geometry}
+\usepackage{lipsum,color}
+\definecolor{pkured}{RGB}{126,0,13}%这时R/G/B的定义域就在[0-255]。
+\linespread{1.2}
+
+%%%使某些字线重统一%%%%%%%%%%%%%%%%%%%%
+\usepackage[full]{textcomp}
+%%%英文字体及公式字体%%%%%%%%%%%%%%%%%%
+%\usepackage{mathrsfs,amssymb}%when using no fonts
+
+%\usepackage{newtxtext}
+%\usepackage{newtxmath}
+%\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+\usepackage[sups]{fbb} % osf (or tosf) for text, not math
+\usepackage{newtxmath} % 
+\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%\usepackage[sups]{Baskervaldx} % osf for text, not math
+%\usepackage[baskervaldx]{newtxmath} % bk mathfont
+%\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%%%添加带编号的remak%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{marginnote}
+%\renewcommand*{\raggedrightmarginnote}{\centering}
+\usepackage[textsize=tiny,draft]{todonotes}
+\newcounter{todocounter}
+\newcommand{\mynote}[2][]{\stepcounter{todocounter}\todo[linecolor=blue!50,bordercolor=blue!50,backgroundcolor=blue!5]{{\color{blue!70}\bfseries Chao's Remark {\thetodocounter: }}#2}}
+\newcommand{\lmynote}[2][]{{
+		\let\marginpar\marginnote
+		\reversemarginpar
+		\stepcounter{todocounter}\todo[linecolor=blue!50,bordercolor=blue!50,backgroundcolor=blue!5]{{\color{blue!70}\bfseries Chao's Remark {\thetodocounter: }}#2}}}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%节标题加色%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0.5em}
+{\color{pkured}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%中文证明环境%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\openbox\relax
+\usepackage{amsthm}
+%%%修改证明结束符%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\qedsymbol}{\ensuremath\boxtimes}
+
+
+%%%解决表格标题与下方表格过近---------------
+\usepackage{caption}
+%%%合并行-------------------------------
+%\usepackage{multirow}
+%%%图表标题与前后文字间距------------------
+\setlength{\abovecaptionskip}{0.3\baselineskip} 
+\setlength{\belowcaptionskip}{0.3\baselineskip}
+%%%指定列宽需要--------------------------
+\usepackage{array}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%文档标注宏包%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+%%%设置页眉页脚%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                正文                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\bfseries COURSEWORK 1}
+\author{
+	Murray\\
+	20190820003\\
+	Oxford University\\
+	\texttt{murray@126.com}
+	\and
+	Nadal\\
+	20190820002\\
+	Stanford University\\
+	\texttt{nadal@126.com}
+	\and
+	Federer\\
+	20190820001\\
+	Harvard University\\
+	\texttt{Federer@126.com}
+}%姓名请按音序排列
+\begin{document}
+\noindent\includegraphics[height=1cm]{pku.png}\hfill{\raisebox{.41\baselineskip}{\textcolor{pkured}{\bfseries\scshape Mathematical Logic in 2018 Fall}}}
+{\let\newpage\relax\maketitle}
+
+
+
+%%%设置页码格式%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{fancy}
+\fancyhead{}
+\fancyfoot[c]{\small\thepage~{\itshape of}~\pageref{MC001}}
+
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[c]{\small\thepage~{\itshape of}~\pageref{MC001}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%贡献说明%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[h]
+\renewcommand\arraystretch{1.3}
+\caption*{\bfseries\color{pkured} CONTRIBUTIONS}
+\centering
+\color{pkured}
+\begin{tabular}{p{2cm}<{\centering}p{2cm}<{\centering}p{2cm}<{\centering}|p{3cm}<{\centering}}
+\hline
+Murray & Nadal & Federer & \LaTeX{} Editing\\\hline
+30\% & 30\% & 40\% & Murray \\\hline
+\end{tabular}
+\end{table}
+
+\par\vskip 30pt 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Warm-up}
+\begin{proof}[{\upshape\bfseries Exercise 1.1}\quad Solution]
+Details.
+\end{proof}
+
+\begin{proof}[{\upshape\bfseries Exercise 1.2}\quad Proof]
+Details.
+\end{proof}
+
+Hello, world! 
+\par The soul is really joined\mynote{Details.\endgraf\qquad Treated as 0.}~to the whole body.\mynote{Details.}
+\par For the body is a unity which is in a sense indivisible because of the arrangement of its organs, these being so related to one another that the removal of any one of them renders the whole body \lmynote{Details.}defective.
+\begin{quote}
+The soul is really joined to the whole body, and ... we cannot properly say that it exists in one part of the body to the exclusion of the others. For the body is a unity which is in a sense indivisible because of the arrangement of its organs, these being so related to one another that the removal\tikzmark{M001}\marginnote{\tikz[remember picture ,overlay ,baseline=0pt] \draw[->] (-.5em,-.3em) to []%bend right
+	([shift={(-1.5em,-.3em)}]pic cs:M001);What? Why?} of any one of them renders the whole body defective. And the soul ... is related solely to the whole assemblage of the body's organs.
+\par \hfill Rene Descartes\mynote{Thanks very much!}
+\end{quote}
+
+\section*{Medium}
+In this way we can show that you are the first one
+\[\phi=\psi(x)\wedge\theta(x).\]
+\par So we have the following equation:
+\[
+\tikzmark{a} e^{ i \pi/2} = i
+\]
+This\tikz[remember picture ,overlay ,baseline=0pt] \draw[->] (0,1em) to [bend left]
+([shift={(-1ex,1ex)}]pic cs:a); is an important equation.
+
+\section*{Advanced}
+In this way we can show that you are the first one\mynote{Why? Please give the proof.}
+\[\phi=\psi(x)\wedge\theta(x).\]
+
+\label{MC001}
+\end{document}

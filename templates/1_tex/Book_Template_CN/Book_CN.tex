@@ -1,0 +1,110 @@
+\documentclass[zihao=5]{ctexbook}
+\usepackage[papersize={18.5cm,26.0cm},top=3cm,bottom=2.1cm,left=2.3cm,right=2.3cm]{geometry}%16开纸张
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs}
+\usepackage{float}%允许figure、table命令使用[H]
+
+%%%画图设置%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz,tikz-cd} %tikz-cd可以兼容xy宏包画出的图
+\tikzset{>=stealth}%tikz宏包的箭头结尾处改为实心箭头
+\tikzcdset{arrow style=tikz}%tikzcd宏包的箭头结尾处改为实心箭头
+%%%可以使用basedescript环境%%%%%%%%%%%%%%%%
+\usepackage{mdwlist}%可以设置description标签的统一长度等
+\usepackage[g]{esvect}%可使用\vv,，可以试试\vv{x}与\overline{x}的区别
+\usepackage{comment}
+
+%%%调入structure总格式设置%%%%%%%%%%%%%%%%%%%
+\input{structure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%enumerate编号加括号%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\labelenumi}{(\theenumi)} %\labelenumii (2级enumerate item)
+%%%align断行%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\allowdisplaybreaks
+%%%中文强调环境%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\myemph[1]{{\kai #1}}%修改强调中文字体
+%%%中文引用环境%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{myquote}
+{\begin{quotation}\kai}
+	{\end{quotation}\ignorespacesafterend}
+%%%定义nbvspace命令（封面设置需要）%%%%%%%%%%%%
+\newcommand\nbvspace[1][3]{\vspace*{\stretch{#1}}}
+%%%定义新diamond符号%%%%%%%%%%%%%%%%%%%%%
+\usepackage{pict2e}
+\renewcommand{\Diamond}{\mathbin{%
+		\begingroup
+		\setlength{\unitlength}{\fontcharht\font`T}%
+		\begin{picture}(1,1)
+		\polygon(.5,0)(1,.5)(.5,1)(0,.5)
+		\end{picture}%
+		\endgroup}}
+%%%新符号和新算子%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\pow}{\scalerel*{\wp}{X}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%文档内容%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%\maketitle
+%\cleardoublepage
+%%%设置封面%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\oldthepage\thepage
+\renewcommand{\thepage}{}
+
+\begin{center}
+\nbvspace[1]
+{\ziju{0.05}\Huge\bfseries 模态逻辑}
+\nbvspace[1]
+\\{\normalsize 作者\quad 著}
+\nbvspace[9]
+
+
+{中国北京}
+\nbvspace[1]
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+%%%添加序言%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{序\quad 言}%中文两字标题一般在中间加一个字空格
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+\mainmatter
+%%%全文页眉页脚格式%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancypagestyle{plain}{
+\pagestyle{fancy}
+}
+%%%设置新的页眉页脚格式%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\fancyhf{}
+\fancyhead[LE,RO]{\kai\small\thepage} 
+\fancyhead[RE,LO]{\kai\small\rightmark}
+
+\chapter{语\quad 法}
+
+
+
+\small
+%%%打印参考文献%%%%%%%%%%%%%%%%%%%%%%%
+\printbibliography[title = {参考文献}, heading = bibintoc]
+\nocite{*}%未被引用的文献也编译到PDF：若不用加到[]中，在这行把其取消注释就行
+%若出现未被引用文献编号不出现的问题，删除Aux文件再执行一套编译方式即可
+%bibintoc 把参考文献加入目录中; bibnumbered 参考文献列表参与章节编号(同时加入目录)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%显示符号索引%%%%%%%%%%%%%%%%%%%%%%%
+{\setindexprenote{\noindent {\bfseries 说明：}关于符号排序，(1) 首先将符号转换成汉语读法的拼音，其中的英语字母不作转换、希腊字母转换为其对应英文单词，如将$a\in A$转换为a shu yu A，将$\phi\vee\psi$转换为phi he qu psi，将$\bigcup$转换为da bing，(2) 然后根据转换后的拼音按左字典序排列。}
+\printindex[symbol]}
+%%%显示人名索引%%%%%%%%%%%%%%%%%%%%%%%
+{\setindexprenote{\noindent {\bfseries 说明：}名称主要包括本书涉及的国际国内的人物、地点、学派、学校、研究院等各类专名。}	
+\printindex[name]}
+%%%显示术语索引%%%%%%%%%%%%%%%%%%%%%%%
+\printindex
+\end{document}

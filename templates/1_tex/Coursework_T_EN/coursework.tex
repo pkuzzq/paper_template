@@ -1,0 +1,241 @@
+%\RequirePackage[no-math]{fontspec} %解决ctex与mathspec冲突
+\documentclass[12pt]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{amsmath,amsfonts}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{indentfirst}   %首行缩进宏包
+\usepackage[f]{esvect}         %可使用\vv
+\usepackage{color}
+%\definecolor{ColorName}{rgb}{r,g,b} %这时r/g/b的定义域就在[0-1]。
+\definecolor{pkured}{RGB}{126,0,13}%这时R/G/B的定义域就在[0-255]。
+\linespread{1.5}
+\setlength{\parskip}{0.2\baselineskip plus 0.2ex minus 0.1ex}%段落间的距离
+
+%%%使某些字线重统一%%%%%%%%%%%%%%%%%%%%
+\usepackage[full]{textcomp}
+
+\usepackage[sups]{fbb} %
+\usepackage{newtxmath} % libertine couled be removed
+\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%\usepackage[sups]{Baskervaldx} %
+%\usepackage[baskervaldx]{newtxmath} % bk mathfont
+%\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%\usepackage{newtxtext}
+%\usepackage{newtxmath}
+%\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%\usepackage[sb]{libertine}
+%\usepackage[libertine,bigdelims]{newtxmath} % 
+%\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%\usepackage{newpxtext} %
+%\usepackage[bigdelims]{newpxmath} % 
+%\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%\usepackage[scaled=.95]{heuristica} %
+%\usepackage[utopia,bigdelims]{newtxmath} %
+%\usepackage[cal=cm,bb=ams,scr=rsfs]{mathalfa}
+
+%\usepackage[oldstylenums]{kpfonts}
+
+
+%\usepackage{ebgaramond}
+%\usepackage{newtxmath}
+%\usepackage{mathrsfs,amssymb}%when using no fonts
+
+%%与documentclass前一行代码同注同存-------
+%\usepackage{mathspec}%在amsmath之后
+%\setallmainfonts{Ocean Sans MT Light} %
+%\setmainfont[ItalicFont={Ocean Sans MT Light Italic}, BoldFont={Ocean Sans MT}]{Ocean Sans MT Light} %
+%\usepackage{mathrsfs,amssymb}%when using no fonts
+
+%%%adobe-garamond字体数学符号配置方案%%%%%%%
+%\usepackage[adobe-garamond]{mathdesign}
+%\usepackage[T1]{fontenc}
+%%%%math(bf,it,cal,scr)------------------
+%\makeatletter
+%%%%urw-garamond时，把mdpgd换为mdugm------
+%%%%\let\mathbf\undefined%adobe时得注释掉
+%\DeclareMathAlphabet{\mathbf}{OT1}{mdpgd}{b}{n}
+%%%%\let\mathit\undefined%adobe时得注释掉
+%\DeclareMathAlphabet{\mathit}{OT1}{mdpgd}{m}{it}
+%%---------------------------------------
+%\DeclareSymbolFont{xsymbols}{OMS}{cmsy}{m}{n}
+%\DeclareSymbolFontAlphabet{\mathcal}{xsymbols} 
+%\DeclareSymbolFont{xmathscript}{U}{rsfs}{m}{n}
+%\DeclareSymbolFontAlphabet{\mathscr}{xmathscript}
+%\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%define new fonts%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{fontspec}
+%\newcommand{\eclight}{\fontspec{Ethnocentric-Light}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%节标题加色%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec}
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0.5em}
+{\color{pkured}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%list编号相关%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%enumerate item编号-------------------
+\renewcommand{\labelenumi}{(\theenumi)} %\labelenumi (1级e-item)
+\renewcommand{\labelenumii}{({\it\theenumii})}%\labelenumii (2级e-item)
+%%%编号左边距----------------------------
+\setlength{\leftmargini}{2em}%一级编号顶格
+\setlength{\leftmarginii}{2em}%二级编号缩进1.5格
+\setlength{\leftmarginiii}{2em}%三级编号缩进1.1格
+\renewcommand{\labelitemi}{$\bullet$}      %修改itemize二级编号
+\renewcommand{\labelitemii}{$\circ$}      %修改itemize二级编号
+\renewcommand{\labelitemiii}{$\diamond$}      %修改itemize二级编号
+%%%设置item间距-------------------------
+\usepackage{enumitem}
+\setenumerate[1,2,3]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
+\setitemize[1,2,3]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
+\setdescription{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
+
+%%%画线%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xhfill}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%解决amsthm中openbox与xhill冲突问题%%%%%%
+\let\openbox\relax
+%%%设置定理环境%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem*{claim*}{Claim}
+\newtheorem{exercise}[theorem]{Exercise}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{notation}[theorem]{Notation}
+%%%习题编号改为x.%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\thetheorem{1.\arabic{theorem}}%roman,Roman,alph,Alph
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%设置页眉页脚%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{\bfseries COURSEWORK 1%Weekly Coursework
+}
+\author{G. Hilbert%Assitant Professor Conden Chao
+%\\ School of Philosophy, Renmin University of China
+}
+\date{\bf Deadline: 4/4/2018}
+\begin{document}
+\noindent\includegraphics[height=1cm]{pku.png}\hfill{\raisebox{.38\baselineskip}{\textcolor{pkured}{\bfseries\scshape Mathematical Logic in 2018 Fall}}}
+\vskip -22pt
+{\let\newpage\relax\maketitle}
+
+%%%设置页码格式%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{fancy}
+\cfoot{\small\thepage$/$\pageref{CC001}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%设置页码格式%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\cfoot{\small\thepage~\textit{of}~\pageref{CC001}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\xrfill{1pt}[pkured]
+~\textcolor{pkured}{\bfseries INSTRUCTIONS}~
+\xrfill{1pt}[pkured]  
+\textcolor{pkured}{
+\begin{itemize}
+\item Write your name and student ID clearly on the papers;
+\item Submit your coursework to the assistant before the deadline;
+\item Copy is forbidden, otherwise the score for the coursework would be 0 this time;
+\item Typewriting with \LaTeX{} is encouraged that 1 more score will be awarded this time.
+\end{itemize}
+}
+\noindent\xrfill{1pt}[pkured] 
+\par\vskip 12pt 
+
+\section*{Warm-up}
+\begin{exercise}
+The	same thing is $f(x)=g(x)=\mathbf{S}=\mathrm{Ox}$.
+\end{exercise}
+
+\begin{exercise}
+	The	same thing is 
+	\[\prod_{x=y=0}^{6,9}f(x,y)=g(x,y)=2x^2+y+2018.\]
+\end{exercise}
+
+\section*{Medium}
+\begin{definition}
+	Suppose $M$ is a non-empty set and $P\subseteq M$.
+	\begin{enumerate}
+		\item $X$ is definable over $(M,\in)$ from parameters in $P$ if there is an $\mathscr{L}_\in$ formula $\varphi(x,\vv{y})$ and some $\vv{b}$ from $P$ such that
+		\[
+		X=\{a\in M\mid (M,\in)\vDash \varphi(x,\vv{y})[a,\vv{b}]\}.
+		\]
+		\item $D(M)=\{X\subseteq M\mid X\text{ is definable over }(M,\in)\text{ from parameters in }M\}$.
+		\item In particular, $D(\varnothing)=\{\varnothing\}$.
+	\end{enumerate}
+\end{definition}
+
+\begin{definition}[$\mathsf{ZF}$-$\mathsf{P}$, G\"odel]
+	By transfinite recursion on $\alpha\in\mathsf{ON}$, 
+	define $L_\alpha$ by
+	\begin{equation*}
+	\begin{array}{rcll}
+	L_\alpha&=&\varnothing,&\alpha=0,\\
+	L_{\alpha}&=&D(L_\delta),&\alpha=\delta+1,\\
+	L_\alpha&=&\bigcup_{\delta<\alpha}L_\delta,&\alpha\text{ is a limit}.
+	\end{array}
+	\end{equation*}
+	And set $L=\bigcup_{\alpha\in\mathsf{ON}}L_\alpha$, and we call $L$ the constructible universe.
+\end{definition}
+
+\section*{Advanced}
+\begin{definition}
+	$X$ is transitive if any element of $X$ is a subset (or subclass) of $X$.
+\end{definition}
+
+\begin{lemma}
+	For any ordinals $\zeta,\xi$,
+	\begin{enumerate}
+		\item $L_\zeta\subseteq V_\zeta$.
+		\item $L_\zeta$ is transitive.
+		\item if $\zeta<\xi$, then $L_\zeta\subseteq L_\xi$.
+		\item if $\zeta<\xi$, then $L_\zeta\in L_\xi$.
+		\item $L_\zeta\cap\mathsf{ON}=\zeta$.
+		\item $L$ is transitive.
+		\item $L$ is a proper class.
+	\end{enumerate}
+\end{lemma}
+$\mathbf{A,B,C,D,S,O,P,u,v,w,x,y,z}$
+\clearpage
+
+$\mathsf{EA}$, the theory of so-called elementary arithmetic,
+which is what you get by taking $\mathsf{Q}$ and adding $\Delta_0$-induction plus the axiom which says that $2^n$ is a total function.
+
+
+
+\label{CC001}
+%{\setlength{\LTleft}{0pt} \setlength{\LTright}{0pt} \small
+%%表格与页面左右边缘之间的矩离均为０%%%%%%%%
+%\begin{longtable}{@{\extracolsep{\fill}}r|l|r|l|r|l}
+%%@{\extracolsep{\fill}}设置使得后面所有列间距可以伸展到预定义的表格宽度。
+%\hline
+%Number&19870820&Title&Mathematical Logic&Attributes& Professional Required Course\\\hline
+%Semester&2018 Fall&Level&Undergraduate&College&School of Philosophy\\\hline
+%Teacher&Asst. Prof. Conden Chao&Phone&18001166719&Email&zhaoxy00@126.com\\\hline
+%Assistant&&Phone&&Email&\\\hline
+%\end{longtable}
+%}
+\end{document}

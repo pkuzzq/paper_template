@@ -1,0 +1,183 @@
+\documentclass[10pt,notheorems]{ctexbeamer}
+%notheorem解决显示theorem已定义的问题
+\usetheme{Warsaw}%Antibes,Berlin,Copenhagen,Warsaw
+%%%define new colors%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{color}
+\definecolor{darkblue}{RGB}{25,25,89}%这时R/G/B的定义域就在[0-255]
+\definecolor{pkured}{RGB}{126,0,13}
+\setbeamercolor{structure}{fg=pkured}%red!56!black
+\setbeamertemplate{navigation symbols}{}%delte bottom buttons
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath,amsfonts,amssymb,comment,lipsum}
+\usepackage{sansmath}\sansmath
+\usepackage{graphicx} %insert images
+
+%%%中文字体%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setCJKmainfont[ItalicFont={FZKai-Z03S},BoldFont={FZYouHeiS 509R}]{FZYouHeiS 506L} %中文衬线字体，调用命令\itshape, \bfseries, \rmfamily
+\setCJKsansfont{FZYouHeiS 506L} %中文非衬线字体，调用命令，\sffamily
+\setCJKmonofont{FZFangSong-Z02S} %中文等距字体，调用命令，\ttfamily
+
+%定义新字体---------------------------------------------------
+\setCJKfamilyfont{kaiti}{FZKai-Z03S} %方正新楷体
+\newcommand{\kai}{\CJKfamily{kaiti}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%设置定理环境%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{amsthm}
+%中文定理与定义格式-------------------------------
+%\theoremstyle{theorem}
+\newtheorem{theorem}{定理}
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\newtheorem{proposition}[theorem]{命题}
+\newtheorem{exercise}[theorem]{习题}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{定义}
+\theoremstyle{example}
+\newtheorem{remark}[theorem]{评注}
+\newtheorem{example}[theorem]{示例}
+
+%定理等编号-----------------------------------------
+\makeatletter
+%把备注的括号改为中文的且定理编号------------------
+\setbeamertemplate{theorem begin}
+{%
+%\normalfont%此处会使后面定理主体字体设置失效
+\begin{\inserttheoremblockenv}
+{%
+\inserttheoremname
+\inserttheoremnumber\hspace{-.72em}
+\ifx\inserttheoremaddition\@empty\else\ （\!\inserttheoremaddition\!）\fi%
+}%
+}
+%证明后面的.改为：%也可去掉-----------------------
+\renewenvironment<>{proof}[1][\proofname]{%
+	\par
+	\pushQED{\qed}
+	\def\insertproofname{#1\@addpunct{：}}%：为证明后的冒号
+	\usebeamertemplate{proof begin}#2}
+{\popQED\usebeamertemplate{proof end}}
+\makeatother
+
+\makeatletter
+%定理正文字体改为楷体以使英文非斜体----------------
+\def\th@plain{%
+	\thm@notefont{}% same as heading font
+	\kai % body font
+}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%参考文献总设置%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[backend = biber, style = caspervector-ay, utf8,
+maxbibnames=999,maxcitenames=999,%引用和列表的文献作者全显示
+sortcites=false,%引用显示按照输入顺序
+sorting = cenyt%列表显示按照cenyt
+]{biblatex}
+\addbibresource{myref.bib}
+%%%参考文献格式修改%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+%列表文献标题设置--------------------------
+\renewcommand*{\bbx@cepunct}[2]{#2}
+\DeclareFieldFormat*{title}{\bbx@cetext{《{#1}》}{\mkbibemph{#1}}}
+\DeclareFieldFormat*{booktitle}{\bbx@cetext{《{#1}》}{\mkbibemph{#1}}}
+\DeclareFieldFormat*{journaltitle}{\bbx@cetext{《{#1}》}{\mkbibemph{#1}}}
+\DeclareFieldFormat[inbook, inproceedings, incollection, article]
+{title}{\bbx@cetext{《{#1}》}{{#1}}}%\mkbibquote可使此类title加双引号
+\DeclareFieldFormat*{volume}{{#1}}%卷号不再斜体；\mkbibbold可加粗
+%\DeclareFieldFormat*{type}{\mkbibbrackets{\mkbibemph{#1}}}%文献类型C,M,J斜体
+%列表中2个以上作者时，中文后2个加‘和’，英文后2个加‘and’
+\renewcommand*{\finallistdelim}{\bbx@cetext{{和}}{\addspace\bibstring{and}\space}}
+\renewcommand*{\finalnamedelim}{\bbx@cetext{{和}}{\addspace\bibstring{and}\space}}
+%去掉英文文献两个以上作者时最后两个作者之间加的and
+%\renewcommand*{\finallistdelim}{\bbx@cecomma}
+%\renewcommand*{\finalnamedelim}{\bbx@cecomma}%国标
+%列表中姓名显示姓在前-----------------------
+\DeclareNameAlias{author}{last-first}
+\DeclareNameAlias{editor}{last-first}
+\DeclareNameAlias{translator}{last-first}
+%%引用显示和列表显示，作者和年份之间加英文逗号和英文空格
+%\DeclareDelimFormat*{nameyeardelim}{\addcomma\space}
+%引用显示加括号----------------------------
+\renewcommand{\cite}{\Parencite}
+%引用显示括号为中括号-----------------------
+\AtEveryCite{%
+	\let\bibopenparen=\bibopenbracket%
+	\let\bibcloseparen=\bibclosebracket}
+%引用显示顿号改为英文逗号+英文空格------------
+\renewcommand{\bbx@cnbcomma}{\addcomma\space}
+\makeatother
+%去掉列表中年份的括号并在年份前加英文逗号和空格
+\usepackage{xpatch}
+\xpatchbibmacro{date+extradate}{%
+	\printtext[parens]%
+}{%
+	\setunit*{\addcomma\space}%
+	\printtext%
+}{}{}
+%%%让\cite带[]%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\cite}{\Parencite}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%画图工具%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz,tikz-cd} %draw pictures
+\usetikzlibrary{shapes.geometric,arrows.meta,decorations.markings}
+\tikzset{>=stealth}            %tikz宏包的箭头结尾处改为实心箭头
+\tikzcdset{arrow style=tikz}   %tikz-cd宏包的箭头结尾处改为实心箭头
+
+
+%%%linespread%%%%%%%%%%%%%%%%%%%%%
+\linespread{1.2}
+%%%两端对齐%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{ragged2e}
+\renewcommand{\raggedright}{\leftskip=0pt \rightskip=0pt plus 0cm}
+\raggedright
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[这是一个中文幻灯片模板]{\bfseries 这是一个中文幻灯片模板}
+\author[报告人]{报告人}
+\date{2019年9月15日}
+\institute[北京大学]{\includegraphics[width=3.7cm]{pku}}
+%[]内显示的都是slides边框上引用的内容
+\begin{document}
+\frame{\titlepage}
+
+
+		
+\begin{frame}\frametitle{目~录}
+\tableofcontents
+\end{frame}
+
+\section{测试内容}
+\frame{\frametitle{测试内容}
+\par 至少命题逻辑在探讨论证有效性问题上，通过定义严格的语法语义概念将有效性问题严谨化的方法和思路，是值得我们学习的。
+
+\begin{definition}
+	先定义一个常用公式：
+	\[
+	\phi\triangleq \exists x\left[\bigwedge_{i=1}^I(r_i-s_i<x)\bigwedge_{j=1}^J(x<t_j-u_j)\bigwedge_{k=1}^K(x\equiv_{m_k}v_k-w_k)\right].
+	\]
+	公式$\phi$的特点是：$x$的系数为1且不含不等式。Hence it follows that you are right.
+\end{definition}
+}
+
+
+\section*{}
+\begin{frame}%[allowframebreaks]
+	\frametitle{参考文献}
+	\renewcommand*{\bibfont}{\small}
+	\renewcommand{\refname}{参考文献}
+	\printbibliography%[heading = bibnumbered]
+\end{frame}
+
+\section*{}
+\begin{frame}\frametitle{}
+\begin{center}
+%{\prehuge THANKS!}
+{\Huge\kai 感谢！}
+\end{center}
+\end{frame}
+\end{document}
