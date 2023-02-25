@@ -1,0 +1,418 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.12.20)  25 FEB 2023 23:58
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**structure.tex
+(./structure.tex
+./structure.tex:2: Undefined control sequence.
+l.2 \setCJKmainfont
+                   [ItalicFont={FZKai-Z03S}, BoldFont={FZHei-B01S}]{FZShuSon...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:3: Undefined control sequence.
+l.3 \setCJKsansfont
+                   {FZHei-B01S} %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:4: Undefined control sequence.
+l.4 \setCJKmonofont
+                   {FZFangSong-Z02S} %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:6: Undefined control sequence.
+l.6 \setCJKfamilyfont
+                     {kaiti}{FZKai-Z03S} 			%‰ΩøÁî®Ê•∑‰Ωì
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:7: Undefined control sequence.
+l.7 \newcommand
+               {\kai}{\CJKfamily{kaiti}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:7: Undefined control sequence.
+l.7 \newcommand{\kai
+                    }{\CJKfamily{kaiti}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:7: Undefined control sequence.
+l.7 \newcommand{\kai}{\CJKfamily
+                                {kaiti}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (31.35394pt too wide) in paragraph at lines 2--9
+[]\tenrm [ItalicFont=FZKai-Z03S, BoldFont=FZHei-B01S]FZShuSong-Z01S FZHei-B01S FZFangSong-Z02S kaitiFZKai-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm [
+.\tenrm I
+.\tenrm t
+.\tenrm a
+.etc.
+
+./structure.tex:11: Undefined control sequence.
+l.11 \renewcommand
+                  {\contentsname}{ÁõÆ\hspace{1em}ÂΩï}	%ÊääÁõÆÂΩï‰∏≠Èó¥Âä†Á©∫Ê†º
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:11: Undefined control sequence.
+l.11 \renewcommand{\contentsname
+                                }{ÁõÆ\hspace{1em}ÂΩï}	%ÊääÁõÆÂΩï‰∏≠Èó¥Âä†Á©∫Ê†º
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Á in font cmr10!
+Missing character: There is no õ in font cmr10!
+Missing character: There is no Æ in font cmr10!
+./structure.tex:11: Undefined control sequence.
+l.11 \renewcommand{\contentsname}{ÁõÆ\hspace
+                                            {1em}ÂΩï}	%ÊääÁõÆÂΩï‰∏≠Èó¥Âä†Á©∫Ê†º
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Â in font cmr10!
+Missing character: There is no Ω in font cmr10!
+Missing character: There is no ï in font cmr10!
+./structure.tex:15: Undefined control sequence.
+l.15 \usepackage
+                {titlesec}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:17: Undefined control sequence.
+l.17 \CTEXsetup
+               [name={Á¨¨~ ,~Á´†},number={\arabic{chapter}}]{chapter}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Á in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+Missing character: There is no Á in font cmr10!
+Missing character: There is no ´ in font cmr10!
+Missing character: There is no † in font cmr10!
+./structure.tex:17: Undefined control sequence.
+l.17 \CTEXsetup[name={Á¨¨~ ,~Á´†},number={\arabic
+                                                 {chapter}}]{chapter}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Undefined control sequence.
+l.18 \titleformat
+                 {\chapter}{}{\centering\bfseries\huge Á¨¨~{\bfseries\thecha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Undefined control sequence.
+l.18 \titleformat{\chapter
+                          }{}{\centering\bfseries\huge Á¨¨~{\bfseries\thecha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Undefined control sequence.
+l.18 \titleformat{\chapter}{}{\centering\bfseries
+                                                 \huge Á¨¨~{\bfseries\thecha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Undefined control sequence.
+l.18 ...ormat{\chapter}{}{\centering\bfseries\huge
+                                                   Á¨¨~{\bfseries\thechapter...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Missing number, treated as zero.
+<to be read again> 
+                   Á
+l.18 ...mat{\chapter}{}{\centering\bfseries\huge Á
+                                                  ¨¨~{\bfseries\thechapter}~...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./structure.tex:18: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   Á
+l.18 ...mat{\chapter}{}{\centering\bfseries\huge Á
+                                                  ¨¨~{\bfseries\thechapter}~...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no Á in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+./structure.tex:18: Undefined control sequence.
+l.18 ...{}{\centering\bfseries\huge Á¨¨~{\bfseries
+                                                  \thechapter}~Á´†}{1em}{\ce...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Undefined control sequence.
+l.18 ...ng\bfseries\huge Á¨¨~{\bfseries\thechapter
+                                                  }~Á´†}{1em}{\centering\hug...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Á in font cmr10!
+Missing character: There is no ´ in font cmr10!
+Missing character: There is no † in font cmr10!
+./structure.tex:18: Undefined control sequence.
+l.18 ...ries\thechapter}~Á´†}{1em}{\centering\huge
+                                                  \bfseries}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Undefined control sequence.
+l.18 ...hapter}~Á´†}{1em}{\centering\huge\bfseries
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:18: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.18 ...apter}~Á´†}{1em}{\centering\huge\bfseries}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./structure.tex:18: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.18 ...apter}~Á´†}{1em}{\centering\huge\bfseries}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./structure.tex:28: Undefined control sequence.
+l.28 \makeatletter
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:29: Undefined control sequence.
+l.29 \renewcommand
+                  {\cleardoublepage}{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:29: Undefined control sequence.
+l.29 \renewcommand{\cleardoublepage
+                                   }{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:30: Undefined control sequence.
+l.30 \clearpage
+               \ifodd\c@page\else
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:30: Missing number, treated as zero.
+<to be read again> 
+                   {
+\c #1->{
+        \setbox \z@ \hbox {#1}\ifdim \ht \z@ =1ex\accent 24 #1\else \ooalign...
+l.30 \clearpage\ifodd\c@
+                        page\else
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./structure.tex:32: Undefined control sequence.
+l.32 \vspace
+            *{\fill}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:32: Undefined control sequence.
+l.32 \vspace*{\fill
+                   }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:33: Undefined control sequence.
+l.33 \thispagestyle
+                   {empty}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:34: Undefined control sequence.
+l.34 \begin
+           {center}\nbvspace[1]\textit{\normalsize Ê≠§È°µÊúâÊÑèÁïôÁôΩ}\nbvsp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:34: Undefined control sequence.
+l.34 \begin{center}\nbvspace
+                            [1]\textit{\normalsize Ê≠§È°µÊúâÊÑèÁïôÁôΩ}\nbvsp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:34: Undefined control sequence.
+l.34 \begin{center}\nbvspace[1]\textit
+                                      {\normalsize Ê≠§È°µÊúâÊÑèÁïôÁôΩ}\nbvsp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./structure.tex:34: Undefined control sequence.
+l.34 \begin{center}\nbvspace[1]\textit{\normalsize
+                                                   Ê≠§È°µÊúâÊÑèÁïôÁôΩ}\nbvsp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no Ê in font cmr10!
+Missing character: There is no ≠ in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no È in font cmr10!
+Missing character: There is no ° in font cmr10!
+Missing character: There is no µ in font cmr10!
+Missing character: There is no Ê in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no Ê in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no è in font cmr10!
+Missing character: There is no Á in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Á in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Ω in font cmr10!
+./structure.tex:34: Undefined control sequence.
+l.34 ...t{\normalsize Ê≠§È°µÊúâÊÑèÁïôÁôΩ}\nbvspace
+                                                  [4]\end{center}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 29 ({)
+### bottom level
+(\end occurred when \ifodd on line 30 was incomplete)</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on /Users/zhouzhengqing/Desktop/paper_template/templates/1_tex/Book_Template_CN/.texpadtmp/structure.pdf (1 page, 17704 bytes).
+PDF statistics:
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
