@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  11 JUN 2023 18:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  11 JUN 2023 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1515,7 +1515,7 @@ Missing character: There is no • ("2022) in font ecrm1200!
 Missing character: There is no • ("2022) in font ecrm1200!
 ) [2] (./sub/1rq.tex) [3] (./sub/2introduction.tex) [4] (./.sub/3data_methods.tex) [5] (./.sub/4strategy.tex) [6] (./.sub/5results.tex) [7] (./sub/6conclusion.tex) [8] (./sub/7appendix.tex) [9]
 
-LaTeX Warning: Empty bibliography on input line 124.
+LaTeX Warning: Empty bibliography on input line 116.
 
 \Changes@OutFile=\write8
 \openout8 = `main_paper-en.soc'.

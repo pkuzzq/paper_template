@@ -47,6 +47,7 @@
       \field{title}{{Agency Costs, Net Worth, and Business Fluctuations: A Computable General Equilibrium Analysis}}
       \field{type}{Journal Article}
       \field{year}{1997}
+      \true{nocite}
       \field{pages}{893\bibrangedash 910}
       \range{pages}{18}
     \endentry
@@ -72,6 +73,7 @@
       \field{title}{{所有制、制度环境与信贷资金配置}}
       \field{type}{Journal Article}
       \field{year}{2007}
+      \true{nocite}
       \field{pages}{82\bibrangedash 92}
       \range{pages}{11}
     \endentry
@@ -111,6 +113,7 @@
       \field{title}{{The Mechanism and Effectiveness of Credit Scoring of P2P Lending Platform: Evidence from Renrendai.com}}
       \field{volume}{8}
       \field{year}{2018}
+      \true{nocite}
       \field{pages}{256\bibrangedash 274}
       \range{pages}{19}
     \endentry
