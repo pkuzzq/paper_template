@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  26 JAN 2023 20:07
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  11 JUN 2023 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1339,7 +1339,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 LaTeX Warning: Unused global option(s):
     [cite].
 
-(/Users/zhouzhengqing/Desktop/Parental_Influences_on_PA_2023/products/paper_en/.texpadtmp/main_paper-en.aux)
+(/Users/zhouzhengqing/Desktop/【项目】products/paper_en/.texpadtmp/main_paper-en.aux)
 \openout1 = `main_paper-en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -1373,7 +1373,7 @@ File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 50.
 Package hyperref Info: Link coloring ON on input line 50.
- (/Users/zhouzhengqing/Desktop/Parental_Influences_on_PA_2023/products/paper_en/.texpadtmp/main_paper-en.out) (/Users/zhouzhengqing/Desktop/Parental_Influences_on_PA_2023/products/paper_en/.texpadtmp/main_paper-en.out)
+ (/Users/zhouzhengqing/Desktop/【项目】products/paper_en/.texpadtmp/main_paper-en.out) (/Users/zhouzhengqing/Desktop/【项目】products/paper_en/.texpadtmp/main_paper-en.out)
 \@outlinefile=\write6
 \openout6 = `main_paper-en.out'.
 
@@ -1429,7 +1429,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main_paper-en.bbl' found.
- (/Users/zhouzhengqing/Desktop/Parental_Influences_on_PA_2023/products/paper_en/.texpadtmp/main_paper-en.bbl)
+ (/Users/zhouzhengqing/Desktop/【项目】products/paper_en/.texpadtmp/main_paper-en.bbl)
 Package biblatex Info: Reference section=0 on input line 50.
 Package biblatex Info: Reference segment=0 on input line 50.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/footmisc/footmisc.sty
@@ -1502,22 +1502,20 @@ LaTeX Font Warning: Font shape `TU/cmr/m/n' undefined
 [1
 
 
-] [2] (/Users/zhouzhengqing/Desktop/Parental_Influences_on_PA_2023/products/paper_en/.texpadtmp/main_paper-en.toc
+] (/Users/zhouzhengqing/Desktop/【项目】products/paper_en/.texpadtmp/main_paper-en.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 1.
 )
 \tf@toc=\write7
 \openout7 = `main_paper-en.toc'.
 
- [1] (./sub/notes.tex
+ [1] (./sub/0notes.tex
 Missing character: There is no • ("2022) in font ecrm1200!
 Missing character: There is no • ("2022) in font ecrm1200!
 Missing character: There is no • ("2022) in font ecrm1200!
-) [2] (./sub/rq.tex) [3] [4] (./sub/introduction.tex [5]) [6] (./.sub/data_methods.tex [7] [8] [9]) [10] (./.sub/strategy.tex [11] [12] [13]
-Missing character: There is no ① ("2460) in font ecrm1200!
-[14]) [15] (./.sub/results.tex) [16] (./sub/conclusion.tex) [17] (./sub/appendix.tex) [18]
+) [2] (./sub/1rq.tex) [3] (./sub/2introduction.tex) [4] (./.sub/3data_methods.tex) [5] (./.sub/4strategy.tex) [6] (./.sub/5results.tex) [7] (./sub/6conclusion.tex) [8] (./sub/7appendix.tex) [9]
 
-LaTeX Warning: Empty bibliography on input line 122.
+LaTeX Warning: Empty bibliography on input line 124.
 
 \Changes@OutFile=\write8
 \openout8 = `main_paper-en.soc'.
@@ -1525,23 +1523,23 @@ LaTeX Warning: Empty bibliography on input line 122.
 \tf@loc=\write9
 \openout9 = `main_paper-en.loc'.
 
-(/Users/zhouzhengqing/Desktop/Parental_Influences_on_PA_2023/products/paper_en/.texpadtmp/main_paper-en.aux)
+(/Users/zhouzhengqing/Desktop/【项目】products/paper_en/.texpadtmp/main_paper-en.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main_paper-en.out' has not changed.
-(rerunfilecheck)             Checksum: C3E8D1CB866B0F460FE96C7AEB04F42F;2497.
+(rerunfilecheck)             Checksum: F20ED590DE53C23D26C9B3D3180BBA4F;932.
 Package logreq Info: Writing requests to 'main_paper-en.run.xml'.
 \openout1 = `main_paper-en.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45953 strings out of 476778
- 943864 string characters out of 5805974
- 1880979 words of memory out of 5000000
- 65296 multiletter control sequences out of 15000+600000
- 598086 words of font info for 135 fonts, out of 8000000 for 9000
+ 45521 strings out of 476778
+ 912995 string characters out of 5805974
+ 1850979 words of memory out of 5000000
+ 64870 multiletter control sequences out of 15000+600000
+ 587276 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,11n,109p,1664b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,11n,109p,1138b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/zhouzhengqing/Desktop/Parental_Influences_on_PA_2023/products/paper_en/.texpadtmp/main_paper-en.pdf (20 pages).
+Output written on /Users/zhouzhengqing/Desktop/【项目】products/paper_en/.texpadtmp/main_paper-en.pdf (10 pages).
