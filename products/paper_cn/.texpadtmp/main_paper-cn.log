@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  11 JUN 2023 19:06
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.20)  15 JUN 2023 00:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,7 +1286,7 @@ Package csquotes Warning: No multilingual support.
 
 
 LaTeX Warning: Unused global option(s):
-    [18pt].
+    [22pt].
 
 (/Users/zhouzhengqing/Desktop/【项目】products/paper_cn/.texpadtmp/main_paper-cn.aux)
 \openout1 = `main_paper-cn.aux'.
@@ -1421,32 +1421,35 @@ LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
 \tf@toc=\write7
 \openout7 = `main_paper-cn.toc'.
 
- [1] (./sub/0raw.tex) [2] (./sub/1rq.tex) [3] (./sub/2introduction.tex) [4] (./sub/3review.tex) [5] (./sub/4data_methods.tex) [6] (./sub/5sample.tex) [7] (./sub/6results.tex) [8] (./sub/7conclusion.tex) [9]
+ [1] (./sub/0raw.tex
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 1.
+ [2]) [3] (./sub/1rq.tex) [4] (./sub/2introduction.tex) [5] (./sub/3review.tex) [6] (./sub/4data_methods.tex) [7] (./sub/5sample.tex) [8] (./sub/6results.tex) [9] (./sub/7conclusion.tex) [10]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 108.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/sc' will be
 (Font)              scaled to size 8.0pt on input line 108.
- [10] (./sub/appendix.tex)
+ [11] (./sub/appendix.tex)
 \Changes@OutFile=\write8
 \openout8 = `main_paper-cn.soc'.
 
 \tf@loc=\write9
 \openout9 = `main_paper-cn.loc'.
 
- [11] (/Users/zhouzhengqing/Desktop/【项目】products/paper_cn/.texpadtmp/main_paper-cn.aux)
+ [12] (/Users/zhouzhengqing/Desktop/【项目】products/paper_cn/.texpadtmp/main_paper-cn.aux)
 Package rerunfilecheck Info: File `main_paper-cn.out' has not changed.
-(rerunfilecheck)             Checksum: 290E1D976B4137244327124CE2754AF8;815.
+(rerunfilecheck)             Checksum: 8511D74C9E80904A04F8D38C3ED374BF;1062.
 Package logreq Info: Writing requests to 'main_paper-cn.run.xml'.
 \openout1 = `main_paper-cn.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42522 strings out of 476778
- 885420 string characters out of 5805974
- 1854979 words of memory out of 5000000
- 61875 multiletter control sequences out of 15000+600000
- 526653 words of font info for 129 fonts, out of 8000000 for 9000
+ 42625 strings out of 476778
+ 892122 string characters out of 5805974
+ 1866979 words of memory out of 5000000
+ 61976 multiletter control sequences out of 15000+600000
+ 526669 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 118i,11n,119p,1138b,4784s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 118i,12n,119p,1138b,4784s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/zhouzhengqing/Desktop/【项目】products/paper_cn/.texpadtmp/main_paper-cn.pdf (12 pages).
+Output written on /Users/zhouzhengqing/Desktop/【项目】products/paper_cn/.texpadtmp/main_paper-cn.pdf (13 pages).
