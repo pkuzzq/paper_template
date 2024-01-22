@@ -1,0 +1,122 @@
+---
+title: "Slidy Teaching Slides"
+author: "Apoorva Lal"
+date: "5/3/2018"
+output:
+  slidy_presentation:
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+####################################################
+rm(list = ls())
+library(LalRUtils)
+libreq(data.table, magrittr, tidyverse, janitor, stargazer2, knitr)
+theme_set(lal_plot_theme())
+set.seed(42)
+options(repr.plot.width = 15, repr.plot.height=12)
+####################################################
+```
+
+# Intro
+
+> - DML is cool
+> - how cool?
+> - this cool
+
+
+```{r}
+ggplot(mtcars, aes(wt, mpg)) + geom_point()
+```
+
+-------
+
+# DML in Partially Linear Model
+
+\begin{eqnarray}\label{eq: PL1}
+ &  Y = D\theta_0 + g_0(X) + \zeta,  &  E[\zeta \mid D,X]= 0,\\
+  & D = m_0(X) +  V,   &  E[V \mid X] = 0, \label{eq: PL3}
+\end{eqnarray}
+
+where $Y$ is the outcome variable and $D$ is the policy variable of
+interest. The high-dimensional vector $$X = (X_1,..., X_{p})$$
+consists of other confounding covariates, and $\zeta$ and $V$ are
+stochastic errors. The first equation is the equation of interest, and
+$\theta_0$ is the main regression coefficient that we would like to
+infer.   If $D$ is conditionally exogenous (randomly assigned
+conditional on $X$), $\theta_0$ has the interpretation of a structural
+or causal parameter.  The second equation keeps track of confounding,
+namely the dependence of $D$ on covariates/controls.  The
+characteristics $X$ affect the policy variable $D$ via the function
+$m_0(X)$ and the outcome variable via the function $g_0(X)$.   The
+partially linear model generalizes both linear regression models,
+where functions $g_0$ and $m_0$ are linear with respect to a
+dictionary of basis functions with respect to $X$, and approximately
+linear models.
+
+-------
+
+## Residualized Form
+
+The PLR model above can be rewritten in the following residualized form:
+\begin{eqnarray}\label{eq: PL}
+ &&  W = V \theta_0 + \zeta,   \quad  E[\zeta \mid D,X]= 0,\\
+  && W = (Y- \ell_0(X)),  \quad \ell_0(X) = E [Y \mid X], \\
+  && V= (D - m_0(X)), \quad m_0(X) = E[D \mid X].
+  \end{eqnarray}
+  The variables above represent original variables after taking out or partialling out"
+  the effect of $X$. Note that $\theta_0$ is identified from this equation if $V$ has
+a non-zero variance.
+
+
+-------
+
+# DML's Principle
+
+Given identification, DML  proceeds
+as follows
+
+  1.  Estimate $\ell_0$ and $m_0$ by $\hat{\ell}_0$ and $\hat{m}_0$, which amounts to
+solving the two problems of predicting $Y$ and $D$ using $X$, using any generic
+ML method, giving us estimated residuals
+
+$$\hat{W}= Y - \hat{\ell}_0(X) \text{ and } \hat{V} = D - \hat{m}_0(X).$$The estimates should be of a cross-fitted form, i.e. using sample spliting, as explained in the algorithm below.
+
+2.   Estimate $\theta_0$ by regressing the residual $\hat{W}$ on $\hat{V}$.  Use the conventional inference for this regression estimator, ignoring the estimation error in these residuals
+
+The reason we work with this residualized form is that it eliminates the bias
+arising when solving the prediction problems in stage 1.  The estimates $\hat \ell_0$ and $\hat m_0$
+carry a regularization bias due to having to solve prediction problems well in high-dimensions.
+However the nature of the estimating equation for $\theta_0$ are such that these biases are eliminated to the first order, as this is explained below.  The estimator is adaptive, in the sense that the first stage estimation errors do not affect the second  stage errors.
+
+# DML1  for PLM
+
+```{r dml1, echo=TRUE}
+
+DML1.for.PLM <- function(x, d, y, dreg, yreg, nfold=2) {
+  # this implements DML1 algorithm, where there moments are estimated via DML, before constructing
+  # the pooled estimate of theta  randomly split data into folds
+  nobs <- nrow(x)
+  foldid <- rep.int(1:nfold, times = ceiling(nobs/nfold))[sample.int(nobs)] #fold IDs
+  I <- split(1:nobs, foldid)
+  # create residualized objects to fill
+  ytil <- dtil <- rep(NA, nobs)
+  coef.est <- rep(NA, length(I))
+  # obtain cross-fitted residuals
+  cat("fold: ")
+  for(b in 1:length(I)){
+  dfit <- dreg(x[-I[[b]],], d[-I[[b]]])
+  yfit <- yreg(x[-I[[b]],], y[-I[[b]]])
+  dhat <- predict(dfit, x[I[[b]],], type="response")
+  yhat <- predict(yfit, x[I[[b]],], type="response")
+  dtil[I[[b]]] <- (d[I[[b]]] - dhat)
+  ytil[I[[b]]] <- (y[I[[b]]] - yhat)
+  coef.est[b]<- mean(dtil[I[[b]]]*ytil[I[[b]]])/mean(dtil[I[[b]]]*dtil[I[[b]]])
+  cat(b," ")}
+  coef.est <- mean(coef.est)
+  se <- sqrt(mean((ytil-coef.est*dtil)^2*dtil^2)/(mean(dtil^2)^2))/sqrt(length(dtil)-1)
+  cat(sprintf("\ncoef (se) = %g (%g)\n",coef.est, se))
+  return( list(coef.est=coef.est, se=se, dtil=dtil, ytil=ytil) )
+}
+```
