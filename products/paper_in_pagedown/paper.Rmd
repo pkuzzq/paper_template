@@ -40,7 +40,7 @@ rinline <- function(code){
 \newpage
 # Why reproducible research (in R)?
 Some arguments...
-
+阿斯蒂芬
 * **Access**: Research is normally funded by taxpayers (researchers are also taxpayers). Hence, it should be freely accessible to everyone without any barriers, e.g., without requiring commercial software. Importantly, researchers from developing countries are even more dependent on free access to knowledge [@Kirsop2005-ro].
 
 * **Reproducability**: Even if you have written a study and analyzed the data yourself you will forget what you did after a few months. A fully reproducible setup will help you to trace back your own steps. Obviously, the same is true for other researchers who may want to understand your work and built on it. It may sound like a joke but why not aim for a document that can be used to reproduce your findings in 500 years. 
